@@ -1,0 +1,1001 @@
+customer_id,customer_age,customer_gender,customer_location,customer_membership,customer_engagement_score,order_id,order_date,order_value,order_frequency,payment_method,discount_applied,return_status,product_id,product_category,product_price,product_rating,inventory_status,source,recommendation_score
+CUST00001,56,Male,Kolkata,Regular,29,ORD000001,2023-01-01,4744.43,2,Credit Card,7,Yes,PROD00001,Groceries,9994.33,5.0,Out of Stock,Google Ads,5
+CUST00002,46,Female,Chennai,Regular,83,ORD000002,2023-01-02,2121.02,4,UPI,36,No,PROD00002,Clothing,8456.78,2.1,In Stock,Google Ads,4
+CUST00003,32,Male,Bangalore,Silver,19,ORD000003,2023-01-03,3959.83,8,Credit Card,26,Yes,PROD00003,Electronics,3917.54,3.3,In Stock,Google Ads,10
+CUST00004,60,Female,Kolkata,Gold,66,ORD000004,2023-01-04,1476.46,8,UPI,27,No,PROD00004,Groceries,6742.92,3.8,In Stock,Social Media,10
+CUST00005,25,Female,Mumbai,Regular,41,ORD000005,2023-01-05,4953.6,9,UPI,39,No,PROD00005,Groceries,14581.36,1.7,In Stock,Email Marketing,10
+CUST00006,38,Female,Hyderabad,Regular,45,ORD000006,2023-01-06,323.69,5,UPI,33,No,PROD00006,Groceries,13418.22,1.6,In Stock,Word of Mouth,10
+CUST00007,56,Male,Pune,Regular,15,ORD000007,2023-01-07,3096.94,7,Wallet,31,No,PROD00007,Electronics,1529.11,2.8,Out of Stock,Word of Mouth,6
+CUST00008,36,Male,Bangalore,Regular,3,ORD000008,2023-01-08,3365.63,3,UPI,14,No,PROD00008,Electronics,14971.58,2.5,Out of Stock,Social Media,1
+CUST00009,40,Male,Pune,Silver,11,ORD000009,2023-01-09,3502.62,4,Net Banking,43,No,PROD00009,Electronics,1155.61,3.9,In Stock,Email Marketing,5
+CUST00010,28,Female,Bangalore,Regular,53,ORD000010,2023-01-10,777.86,9,Credit Card,16,Yes,PROD00010,Clothing,10904.24,1.3,In Stock,Email Marketing,4
+CUST00011,28,Female,Chennai,Regular,46,ORD000011,2023-01-11,4704.94,1,Wallet,32,Yes,PROD00011,Groceries,5275.25,4.9,In Stock,Social Media,4
+CUST00012,41,Other,Bangalore,Regular,30,ORD000012,2023-01-12,1069.68,2,Credit Card,46,No,PROD00012,Accessories,11795.03,1.1,In Stock,Google Ads,7
+CUST00013,53,Male,Mumbai,Silver,57,ORD000013,2023-01-13,3189.22,5,Wallet,45,No,PROD00013,Accessories,5300.44,3.4,In Stock,Email Marketing,9
+CUST00014,57,Female,Mumbai,Silver,18,ORD000014,2023-01-14,1268.85,3,Net Banking,15,Yes,PROD00014,Groceries,19700.66,3.3,In Stock,Word of Mouth,8
+CUST00015,41,Female,Delhi,Gold,51,ORD000015,2023-01-15,1674.64,2,Wallet,28,No,PROD00015,Accessories,6263.59,1.5,Out of Stock,Social Media,8
+CUST00016,20,Male,Mumbai,Regular,48,ORD000016,2023-01-16,2823.0,1,Wallet,8,No,PROD00016,Clothing,4915.02,1.6,In Stock,Word of Mouth,5
+CUST00017,39,Male,Kolkata,Gold,66,ORD000017,2023-01-17,2202.53,3,Wallet,32,No,PROD00017,Clothing,5641.46,4.2,In Stock,Google Ads,6
+CUST00018,19,Female,Bangalore,Gold,96,ORD000018,2023-01-18,969.08,1,Credit Card,48,No,PROD00018,Electronics,17939.81,4.6,In Stock,Social Media,2
+CUST00019,41,Female,Mumbai,Regular,8,ORD000019,2023-01-19,1020.49,1,UPI,28,No,PROD00019,Electronics,12760.75,2.1,In Stock,Word of Mouth,3
+CUST00020,61,Female,Chennai,Regular,22,ORD000020,2023-01-20,2207.09,1,Credit Card,12,Yes,PROD00020,Electronics,14640.61,2.8,Out of Stock,Word of Mouth,5
+CUST00021,47,Male,Pune,Regular,6,ORD000021,2023-01-21,3834.96,8,UPI,20,No,PROD00021,Electronics,18368.41,2.4,In Stock,Google Ads,2
+CUST00022,55,Female,Pune,Regular,76,ORD000022,2023-01-22,4510.23,3,Credit Card,20,No,PROD00022,Electronics,18246.26,1.3,In Stock,Social Media,3
+CUST00023,19,Male,Delhi,Regular,57,ORD000023,2023-01-23,603.81,1,Net Banking,4,No,PROD00023,Accessories,14805.02,3.7,In Stock,Email Marketing,4
+CUST00024,38,Male,Pune,Regular,36,ORD000024,2023-01-24,2086.9,7,Net Banking,9,No,PROD00024,Accessories,4036.71,4.3,In Stock,Email Marketing,6
+CUST00025,50,Male,Bangalore,Regular,79,ORD000025,2023-01-25,681.18,3,Wallet,5,No,PROD00025,Electronics,16883.13,2.2,In Stock,Word of Mouth,5
+CUST00026,29,Female,Delhi,Gold,92,ORD000026,2023-01-26,279.64,8,Net Banking,12,No,PROD00026,Clothing,4155.14,5.0,In Stock,Google Ads,10
+CUST00027,39,Female,Bangalore,Regular,57,ORD000027,2023-01-27,3376.25,4,Wallet,0,No,PROD00027,Accessories,14883.69,1.3,In Stock,Word of Mouth,4
+CUST00028,61,Female,Chennai,Gold,49,ORD000028,2023-01-28,3091.76,4,UPI,19,No,PROD00028,Clothing,13743.5,3.6,In Stock,Google Ads,2
+CUST00029,42,Male,Delhi,Silver,45,ORD000029,2023-01-29,982.49,5,Net Banking,46,No,PROD00029,Clothing,15201.89,2.8,In Stock,Email Marketing,5
+CUST00030,44,Female,Hyderabad,Gold,82,ORD000030,2023-01-30,1322.3,6,UPI,45,No,PROD00030,Groceries,10700.45,2.8,In Stock,Word of Mouth,5
+CUST00031,59,Male,Kolkata,Silver,66,ORD000031,2023-01-31,313.8,7,Credit Card,7,No,PROD00031,Groceries,12810.65,2.8,In Stock,Word of Mouth,7
+CUST00032,45,Female,Kolkata,Regular,77,ORD000032,2023-02-01,4207.75,4,UPI,9,No,PROD00032,Electronics,19071.07,2.0,In Stock,Google Ads,1
+CUST00033,33,Male,Bangalore,Silver,45,ORD000033,2023-02-02,4878.51,8,Credit Card,8,No,PROD00033,Clothing,2111.66,3.9,Out of Stock,Social Media,4
+CUST00034,32,Male,Pune,Regular,79,ORD000034,2023-02-03,850.21,6,UPI,48,No,PROD00034,Accessories,6246.06,3.9,In Stock,Google Ads,5
+CUST00035,64,Male,Hyderabad,Regular,20,ORD000035,2023-02-04,1311.08,1,UPI,40,No,PROD00035,Groceries,12266.0,2.1,In Stock,Social Media,8
+CUST00036,61,Male,Delhi,Gold,64,ORD000036,2023-02-05,4368.37,1,Net Banking,2,No,PROD00036,Groceries,19284.68,4.3,In Stock,Email Marketing,8
+CUST00037,20,Female,Hyderabad,Regular,93,ORD000037,2023-02-06,4647.03,9,UPI,10,Yes,PROD00037,Clothing,2001.93,2.3,In Stock,Word of Mouth,1
+CUST00038,54,Female,Hyderabad,Regular,93,ORD000038,2023-02-07,2214.21,6,Net Banking,11,Yes,PROD00038,Groceries,548.73,3.9,In Stock,Word of Mouth,5
+CUST00039,24,Male,Pune,Silver,67,ORD000039,2023-02-08,442.99,8,Net Banking,9,No,PROD00039,Groceries,1209.42,1.5,Out of Stock,Google Ads,10
+CUST00040,38,Female,Delhi,Gold,83,ORD000040,2023-02-09,389.08,7,Wallet,24,No,PROD00040,Accessories,1142.87,1.7,In Stock,Google Ads,1
+CUST00041,26,Male,Chennai,Silver,3,ORD000041,2023-02-10,2954.96,6,Wallet,48,No,PROD00041,Clothing,18165.54,2.3,In Stock,Email Marketing,1
+CUST00042,56,Female,Pune,Regular,54,ORD000042,2023-02-11,2085.9,4,Credit Card,48,No,PROD00042,Groceries,14453.03,3.4,In Stock,Email Marketing,2
+CUST00043,35,Female,Hyderabad,Silver,78,ORD000043,2023-02-12,337.53,7,UPI,24,No,PROD00043,Clothing,13574.42,3.6,Out of Stock,Social Media,2
+CUST00044,21,Female,Hyderabad,Regular,64,ORD000044,2023-02-13,2999.61,9,Credit Card,10,No,PROD00044,Groceries,10499.2,2.6,In Stock,Email Marketing,9
+CUST00045,42,Male,Chennai,Silver,40,ORD000045,2023-02-14,254.25,7,UPI,35,No,PROD00045,Accessories,15660.86,1.3,In Stock,Email Marketing,4
+CUST00046,31,Female,Hyderabad,Platinum,59,ORD000046,2023-02-15,3979.39,1,Wallet,38,Yes,PROD00046,Clothing,3197.4,2.5,Out of Stock,Email Marketing,3
+CUST00047,26,Female,Hyderabad,Silver,55,ORD000047,2023-02-16,1670.88,9,Wallet,25,No,PROD00047,Groceries,7899.63,3.8,In Stock,Email Marketing,1
+CUST00048,43,Male,Hyderabad,Gold,62,ORD000048,2023-02-17,393.24,4,UPI,13,No,PROD00048,Accessories,9851.08,3.7,In Stock,Social Media,2
+CUST00049,19,Male,Kolkata,Regular,4,ORD000049,2023-02-18,3024.09,3,UPI,38,No,PROD00049,Groceries,2297.15,1.6,In Stock,Email Marketing,6
+CUST00050,37,Female,Pune,Silver,60,ORD000050,2023-02-19,2108.89,4,Wallet,39,No,PROD00050,Clothing,8448.32,1.0,In Stock,Social Media,9
+CUST00051,45,Female,Mumbai,Gold,75,ORD000051,2023-02-20,4874.24,4,Wallet,0,No,PROD00051,Groceries,6398.39,4.0,In Stock,Google Ads,5
+CUST00052,64,Female,Pune,Regular,95,ORD000052,2023-02-21,2812.15,2,Credit Card,3,No,PROD00052,Clothing,808.08,1.4,In Stock,Word of Mouth,4
+CUST00053,24,Female,Chennai,Gold,96,ORD000053,2023-02-22,1521.15,1,Wallet,29,No,PROD00053,Clothing,2821.03,1.3,In Stock,Google Ads,5
+CUST00054,61,Female,Hyderabad,Regular,91,ORD000054,2023-02-23,3605.31,1,UPI,11,Yes,PROD00054,Groceries,15304.33,1.0,Out of Stock,Email Marketing,9
+CUST00055,25,Male,Pune,Silver,30,ORD000055,2023-02-24,1503.16,8,Credit Card,34,No,PROD00055,Accessories,458.95,2.7,Out of Stock,Word of Mouth,7
+CUST00056,64,Male,Kolkata,Gold,2,ORD000056,2023-02-25,4540.37,2,UPI,12,No,PROD00056,Electronics,18691.64,3.0,In Stock,Email Marketing,8
+CUST00057,52,Male,Chennai,Silver,62,ORD000057,2023-02-26,1998.67,5,Net Banking,30,No,PROD00057,Accessories,1819.85,3.6,In Stock,Email Marketing,4
+CUST00058,31,Female,Bangalore,Regular,49,ORD000058,2023-02-27,2839.37,4,Credit Card,37,No,PROD00058,Accessories,16004.84,2.2,In Stock,Google Ads,8
+CUST00059,34,Male,Pune,Silver,9,ORD000059,2023-02-28,442.75,8,UPI,42,No,PROD00059,Groceries,17982.47,3.8,In Stock,Email Marketing,6
+CUST00060,53,Female,Bangalore,Silver,92,ORD000060,2023-03-01,2245.38,2,Wallet,22,No,PROD00060,Accessories,18828.6,1.7,In Stock,Google Ads,5
+CUST00061,57,Female,Hyderabad,Gold,31,ORD000061,2023-03-02,4195.34,9,Net Banking,3,No,PROD00061,Accessories,17362.79,4.3,In Stock,Email Marketing,7
+CUST00062,21,Female,Kolkata,Regular,98,ORD000062,2023-03-03,4067.11,7,UPI,15,No,PROD00062,Electronics,5822.25,3.3,In Stock,Social Media,6
+CUST00063,19,Male,Kolkata,Regular,61,ORD000063,2023-03-04,1276.73,7,Credit Card,6,No,PROD00063,Accessories,6728.43,3.3,In Stock,Word of Mouth,3
+CUST00064,23,Female,Pune,Silver,79,ORD000064,2023-03-05,1285.18,1,UPI,21,No,PROD00064,Electronics,8588.26,1.8,In Stock,Google Ads,5
+CUST00065,59,Male,Chennai,Regular,48,ORD000065,2023-03-06,4123.07,2,Net Banking,28,No,PROD00065,Groceries,2872.0,1.3,In Stock,Google Ads,9
+CUST00066,21,Female,Chennai,Silver,25,ORD000066,2023-03-07,4665.91,4,Credit Card,10,No,PROD00066,Electronics,543.22,2.9,In Stock,Word of Mouth,7
+CUST00067,46,Male,Kolkata,Silver,36,ORD000067,2023-03-08,657.73,4,Net Banking,32,No,PROD00067,Clothing,17395.52,3.5,In Stock,Google Ads,4
+CUST00068,35,Male,Chennai,Gold,8,ORD000068,2023-03-09,2360.28,3,UPI,28,No,PROD00068,Clothing,11127.16,1.4,In Stock,Word of Mouth,7
+CUST00069,43,Female,Kolkata,Silver,73,ORD000069,2023-03-10,1819.78,7,Wallet,38,No,PROD00069,Electronics,12213.59,4.8,In Stock,Social Media,5
+CUST00070,61,Male,Pune,Silver,58,ORD000070,2023-03-11,4379.3,8,Wallet,11,No,PROD00070,Clothing,18547.07,4.9,In Stock,Email Marketing,2
+CUST00071,51,Male,Mumbai,Regular,45,ORD000071,2023-03-12,600.92,2,UPI,6,No,PROD00071,Groceries,13335.89,3.2,In Stock,Social Media,6
+CUST00072,27,Female,Kolkata,Regular,62,ORD000072,2023-03-13,1213.4,4,UPI,38,No,PROD00072,Clothing,13847.98,4.8,In Stock,Email Marketing,7
+CUST00073,53,Female,Bangalore,Regular,39,ORD000073,2023-03-14,3811.85,3,UPI,41,No,PROD00073,Electronics,15760.68,1.7,In Stock,Word of Mouth,8
+CUST00074,31,Female,Chennai,Regular,96,ORD000074,2023-03-15,446.21,2,Credit Card,47,No,PROD00074,Groceries,2415.33,1.1,Out of Stock,Social Media,6
+CUST00075,48,Female,Kolkata,Silver,58,ORD000075,2023-03-16,2564.17,6,Net Banking,25,Yes,PROD00075,Clothing,7267.23,1.2,In Stock,Email Marketing,8
+CUST00076,32,Female,Kolkata,Silver,81,ORD000076,2023-03-17,2322.11,4,Net Banking,39,No,PROD00076,Groceries,19367.34,3.4,In Stock,Word of Mouth,7
+CUST00077,25,Male,Pune,Silver,99,ORD000077,2023-03-18,1805.13,6,Net Banking,8,No,PROD00077,Electronics,18466.31,1.2,In Stock,Email Marketing,2
+CUST00078,31,Male,Chennai,Gold,83,ORD000078,2023-03-19,2093.95,2,UPI,40,Yes,PROD00078,Clothing,17693.1,4.8,Out of Stock,Google Ads,6
+CUST00079,40,Male,Mumbai,Platinum,64,ORD000079,2023-03-20,2743.71,4,Net Banking,33,No,PROD00079,Groceries,9096.56,1.6,In Stock,Google Ads,9
+CUST00080,57,Female,Pune,Gold,44,ORD000080,2023-03-21,974.56,6,UPI,44,No,PROD00080,Groceries,17158.14,2.2,In Stock,Word of Mouth,6
+CUST00081,38,Female,Mumbai,Silver,29,ORD000081,2023-03-22,2945.58,5,Credit Card,12,No,PROD00081,Clothing,1063.08,4.3,In Stock,Email Marketing,4
+CUST00082,33,Male,Pune,Silver,59,ORD000082,2023-03-23,4066.08,3,Wallet,35,Yes,PROD00082,Groceries,3055.5,1.9,In Stock,Google Ads,7
+CUST00083,62,Male,Chennai,Regular,71,ORD000083,2023-03-24,3848.77,8,UPI,24,Yes,PROD00083,Groceries,8337.96,2.0,In Stock,Social Media,3
+CUST00084,35,Female,Delhi,Regular,92,ORD000084,2023-03-25,938.72,7,UPI,23,No,PROD00084,Electronics,9719.5,3.6,In Stock,Email Marketing,5
+CUST00085,64,Male,Chennai,Regular,9,ORD000085,2023-03-26,916.4,3,Wallet,43,Yes,PROD00085,Electronics,5343.79,2.1,Out of Stock,Email Marketing,1
+CUST00086,41,Female,Chennai,Gold,92,ORD000086,2023-03-27,1487.24,6,Wallet,16,No,PROD00086,Electronics,7193.89,1.9,In Stock,Google Ads,10
+CUST00087,43,Female,Mumbai,Gold,6,ORD000087,2023-03-28,1933.16,4,Credit Card,1,No,PROD00087,Electronics,3339.24,2.0,Out of Stock,Google Ads,3
+CUST00088,42,Female,Mumbai,Regular,29,ORD000088,2023-03-29,2160.59,5,Net Banking,12,No,PROD00088,Electronics,9833.77,3.0,In Stock,Word of Mouth,8
+CUST00089,62,Male,Chennai,Regular,58,ORD000089,2023-03-30,3462.55,5,UPI,30,No,PROD00089,Electronics,15897.48,4.9,Out of Stock,Email Marketing,9
+CUST00090,58,Female,Chennai,Gold,17,ORD000090,2023-03-31,472.07,7,Net Banking,28,No,PROD00090,Clothing,13261.07,4.3,In Stock,Social Media,9
+CUST00091,46,Female,Chennai,Regular,16,ORD000091,2023-04-01,366.43,5,UPI,49,No,PROD00091,Electronics,2245.07,2.1,In Stock,Google Ads,10
+CUST00092,32,Female,Mumbai,Regular,87,ORD000092,2023-04-02,2081.17,3,Credit Card,27,No,PROD00092,Groceries,9802.87,2.5,Out of Stock,Email Marketing,2
+CUST00093,62,Female,Chennai,Gold,95,ORD000093,2023-04-03,3546.39,5,Wallet,26,Yes,PROD00093,Clothing,13983.16,2.9,Out of Stock,Google Ads,4
+CUST00094,18,Female,Chennai,Regular,3,ORD000094,2023-04-04,1128.49,7,Credit Card,14,No,PROD00094,Groceries,10644.92,4.9,In Stock,Word of Mouth,5
+CUST00095,42,Female,Hyderabad,Regular,21,ORD000095,2023-04-05,3279.22,5,Wallet,30,No,PROD00095,Electronics,7894.34,1.7,In Stock,Email Marketing,3
+CUST00096,24,Male,Delhi,Silver,64,ORD000096,2023-04-06,1447.18,5,Net Banking,39,Yes,PROD00096,Electronics,12476.1,2.4,Out of Stock,Email Marketing,1
+CUST00097,26,Female,Bangalore,Gold,90,ORD000097,2023-04-07,4453.21,9,Net Banking,14,Yes,PROD00097,Groceries,19375.91,3.9,In Stock,Word of Mouth,6
+CUST00098,41,Female,Delhi,Silver,36,ORD000098,2023-04-08,4499.31,3,Credit Card,32,No,PROD00098,Groceries,1988.67,4.9,In Stock,Social Media,10
+CUST00099,18,Male,Hyderabad,Regular,86,ORD000099,2023-04-09,1626.98,6,Wallet,19,No,PROD00099,Groceries,7861.32,1.6,Out of Stock,Google Ads,2
+CUST00100,61,Female,Bangalore,Regular,62,ORD000100,2023-04-10,1303.97,1,Credit Card,41,No,PROD00100,Accessories,8191.46,1.9,In Stock,Word of Mouth,9
+CUST00101,25,Female,Pune,Regular,42,ORD000101,2023-04-11,2174.26,5,Wallet,11,No,PROD00101,Accessories,11581.65,1.9,In Stock,Email Marketing,1
+CUST00102,41,Female,Chennai,Silver,76,ORD000102,2023-04-12,1354.55,8,Wallet,36,No,PROD00102,Accessories,3128.27,1.1,In Stock,Word of Mouth,9
+CUST00103,28,Male,Hyderabad,Silver,42,ORD000103,2023-04-13,3427.44,5,Net Banking,8,No,PROD00103,Accessories,3615.2,3.4,In Stock,Email Marketing,7
+CUST00104,34,Male,Pune,Regular,61,ORD000104,2023-04-14,4165.11,9,Net Banking,22,No,PROD00104,Clothing,5778.69,3.7,In Stock,Word of Mouth,10
+CUST00105,25,Other,Chennai,Gold,13,ORD000105,2023-04-15,3430.84,6,Wallet,7,No,PROD00105,Electronics,19121.81,3.4,Out of Stock,Social Media,2
+CUST00106,52,Female,Mumbai,Regular,11,ORD000106,2023-04-16,4156.88,8,Wallet,31,No,PROD00106,Groceries,14708.76,1.3,In Stock,Email Marketing,6
+CUST00107,52,Male,Kolkata,Regular,54,ORD000107,2023-04-17,2105.56,8,Wallet,47,No,PROD00107,Electronics,13267.7,1.3,Out of Stock,Word of Mouth,8
+CUST00108,50,Female,Hyderabad,Regular,16,ORD000108,2023-04-18,950.32,3,Net Banking,13,No,PROD00108,Groceries,16357.46,1.8,Out of Stock,Social Media,2
+CUST00109,22,Female,Mumbai,Regular,8,ORD000109,2023-04-19,3742.16,7,Net Banking,26,No,PROD00109,Electronics,2638.77,2.2,In Stock,Social Media,5
+CUST00110,59,Female,Hyderabad,Silver,59,ORD000110,2023-04-20,1930.28,7,UPI,24,Yes,PROD00110,Clothing,17200.72,4.1,In Stock,Google Ads,6
+CUST00111,56,Female,Hyderabad,Silver,57,ORD000111,2023-04-21,3422.1,6,Wallet,12,No,PROD00111,Accessories,11937.17,1.6,In Stock,Email Marketing,3
+CUST00112,58,Male,Mumbai,Regular,40,ORD000112,2023-04-22,1499.09,7,UPI,20,Yes,PROD00112,Electronics,6773.05,1.2,In Stock,Google Ads,2
+CUST00113,45,Male,Bangalore,Silver,59,ORD000113,2023-04-23,589.9,2,Wallet,44,No,PROD00113,Groceries,16335.52,2.6,In Stock,Social Media,6
+CUST00114,24,Male,Delhi,Regular,2,ORD000114,2023-04-24,4964.39,9,Net Banking,30,No,PROD00114,Electronics,16071.03,2.7,In Stock,Google Ads,3
+CUST00115,26,Female,Chennai,Silver,94,ORD000115,2023-04-25,949.77,1,UPI,36,No,PROD00115,Clothing,16929.6,2.8,In Stock,Google Ads,2
+CUST00116,25,Male,Hyderabad,Gold,94,ORD000116,2023-04-26,4944.42,1,UPI,47,Yes,PROD00116,Clothing,2398.81,4.3,In Stock,Word of Mouth,1
+CUST00117,29,Male,Chennai,Regular,76,ORD000117,2023-04-27,4890.94,3,Credit Card,42,No,PROD00117,Electronics,19390.29,1.4,In Stock,Google Ads,8
+CUST00118,51,Male,Kolkata,Silver,10,ORD000118,2023-04-28,4010.33,3,Wallet,4,No,PROD00118,Accessories,19196.56,3.8,In Stock,Social Media,1
+CUST00119,50,Female,Mumbai,Regular,44,ORD000119,2023-04-29,3365.23,1,Net Banking,12,No,PROD00119,Groceries,7213.65,2.4,In Stock,Google Ads,5
+CUST00120,40,Female,Chennai,Regular,11,ORD000120,2023-04-30,2973.47,7,Credit Card,27,No,PROD00120,Clothing,1411.29,2.2,In Stock,Email Marketing,6
+CUST00121,41,Male,Mumbai,Regular,79,ORD000121,2023-05-01,4357.29,4,Credit Card,42,No,PROD00121,Clothing,3424.41,4.7,In Stock,Word of Mouth,3
+CUST00122,54,Male,Chennai,Silver,80,ORD000122,2023-05-02,1589.31,2,Wallet,24,No,PROD00122,Electronics,19857.33,2.0,In Stock,Social Media,7
+CUST00123,52,Female,Delhi,Silver,81,ORD000123,2023-05-03,2444.87,5,Credit Card,34,No,PROD00123,Clothing,11303.96,3.6,In Stock,Google Ads,2
+CUST00124,61,Male,Delhi,Regular,90,ORD000124,2023-05-04,3173.07,6,Wallet,46,No,PROD00124,Clothing,7196.77,2.1,In Stock,Email Marketing,7
+CUST00125,57,Male,Delhi,Gold,2,ORD000125,2023-05-05,2173.71,9,Credit Card,38,No,PROD00125,Groceries,5835.23,3.0,In Stock,Social Media,2
+CUST00126,39,Male,Delhi,Silver,50,ORD000126,2023-05-06,2251.93,4,Wallet,6,No,PROD00126,Accessories,5214.14,4.1,In Stock,Google Ads,5
+CUST00127,44,Male,Delhi,Gold,12,ORD000127,2023-05-07,1785.37,2,Net Banking,37,No,PROD00127,Groceries,13316.64,4.5,In Stock,Word of Mouth,7
+CUST00128,52,Male,Delhi,Silver,90,ORD000128,2023-05-08,2908.31,5,Wallet,31,Yes,PROD00128,Accessories,8445.82,4.4,In Stock,Google Ads,3
+CUST00129,18,Female,Mumbai,Silver,23,ORD000129,2023-05-09,4282.76,3,Wallet,2,No,PROD00129,Groceries,19311.67,3.3,In Stock,Social Media,4
+CUST00130,52,Male,Hyderabad,Regular,18,ORD000130,2023-05-10,1167.34,2,UPI,44,No,PROD00130,Electronics,13708.48,2.0,Out of Stock,Social Media,1
+CUST00131,54,Female,Chennai,Regular,62,ORD000131,2023-05-11,4685.28,1,Net Banking,38,No,PROD00131,Clothing,15861.69,3.6,In Stock,Social Media,3
+CUST00132,64,Male,Delhi,Platinum,96,ORD000132,2023-05-12,3507.62,2,Net Banking,36,No,PROD00132,Accessories,5925.56,3.8,Out of Stock,Email Marketing,9
+CUST00133,31,Female,Mumbai,Regular,62,ORD000133,2023-05-13,4151.71,6,Net Banking,49,No,PROD00133,Electronics,1675.81,1.0,In Stock,Google Ads,10
+CUST00134,20,Female,Mumbai,Platinum,38,ORD000134,2023-05-14,2869.72,8,Credit Card,21,No,PROD00134,Clothing,9807.67,2.8,In Stock,Google Ads,5
+CUST00135,18,Male,Mumbai,Silver,67,ORD000135,2023-05-15,3941.68,3,UPI,7,No,PROD00135,Clothing,6360.17,4.4,In Stock,Google Ads,8
+CUST00136,22,Female,Hyderabad,Regular,38,ORD000136,2023-05-16,277.76,9,Net Banking,16,No,PROD00136,Clothing,4121.45,3.0,In Stock,Word of Mouth,2
+CUST00137,43,Male,Chennai,Regular,67,ORD000137,2023-05-17,4128.23,9,Credit Card,26,No,PROD00137,Groceries,19057.58,2.2,In Stock,Email Marketing,3
+CUST00138,31,Other,Hyderabad,Regular,94,ORD000138,2023-05-18,392.67,2,Credit Card,32,Yes,PROD00138,Electronics,8935.37,4.5,In Stock,Email Marketing,7
+CUST00139,56,Male,Bangalore,Gold,61,ORD000139,2023-05-19,4471.58,8,Credit Card,45,Yes,PROD00139,Electronics,3576.7,1.6,In Stock,Word of Mouth,10
+CUST00140,44,Male,Pune,Regular,1,ORD000140,2023-05-20,4961.42,5,UPI,16,No,PROD00140,Clothing,4053.15,1.8,In Stock,Email Marketing,4
+CUST00141,26,Male,Mumbai,Regular,94,ORD000141,2023-05-21,1611.52,4,Credit Card,41,No,PROD00141,Accessories,5686.12,3.7,In Stock,Word of Mouth,9
+CUST00142,32,Other,Bangalore,Regular,45,ORD000142,2023-05-22,1209.53,5,UPI,11,No,PROD00142,Electronics,19986.39,2.4,In Stock,Social Media,7
+CUST00143,32,Female,Kolkata,Regular,96,ORD000143,2023-05-23,3873.74,4,Wallet,47,Yes,PROD00143,Groceries,5433.43,3.9,In Stock,Social Media,1
+CUST00144,43,Female,Delhi,Regular,28,ORD000144,2023-05-24,1414.53,8,Credit Card,45,No,PROD00144,Accessories,6643.16,1.6,In Stock,Email Marketing,4
+CUST00145,59,Male,Pune,Regular,21,ORD000145,2023-05-25,4354.7,4,Net Banking,26,No,PROD00145,Accessories,13220.63,2.0,Out of Stock,Social Media,10
+CUST00146,30,Female,Delhi,Gold,13,ORD000146,2023-05-26,693.64,6,Credit Card,47,No,PROD00146,Accessories,5949.83,1.6,In Stock,Social Media,6
+CUST00147,49,Male,Hyderabad,Regular,27,ORD000147,2023-05-27,804.58,2,Wallet,7,Yes,PROD00147,Accessories,4394.5,4.8,In Stock,Social Media,6
+CUST00148,56,Female,Pune,Regular,100,ORD000148,2023-05-28,4899.93,5,Wallet,22,No,PROD00148,Electronics,3256.88,2.6,In Stock,Google Ads,10
+CUST00149,49,Male,Chennai,Regular,7,ORD000149,2023-05-29,3434.43,6,Credit Card,41,No,PROD00149,Clothing,6322.39,2.3,Out of Stock,Social Media,6
+CUST00150,21,Male,Bangalore,Regular,22,ORD000150,2023-05-30,4265.06,5,Wallet,48,No,PROD00150,Accessories,2207.72,1.1,In Stock,Google Ads,5
+CUST00151,47,Male,Chennai,Platinum,74,ORD000151,2023-05-31,1756.78,2,UPI,28,No,PROD00151,Groceries,471.07,1.6,In Stock,Word of Mouth,3
+CUST00152,54,Male,Hyderabad,Silver,53,ORD000152,2023-06-01,3447.12,7,UPI,49,Yes,PROD00152,Groceries,16112.37,2.7,In Stock,Word of Mouth,2
+CUST00153,40,Female,Delhi,Regular,79,ORD000153,2023-06-02,3052.36,4,Credit Card,19,No,PROD00153,Clothing,2844.11,1.3,In Stock,Word of Mouth,3
+CUST00154,56,Male,Pune,Silver,79,ORD000154,2023-06-03,3095.12,8,UPI,15,No,PROD00154,Electronics,15541.94,3.0,In Stock,Word of Mouth,9
+CUST00155,62,Female,Chennai,Regular,4,ORD000155,2023-06-04,3476.16,7,UPI,16,No,PROD00155,Clothing,15971.1,2.8,In Stock,Word of Mouth,3
+CUST00156,32,Male,Chennai,Regular,96,ORD000156,2023-06-05,2961.72,7,Net Banking,15,Yes,PROD00156,Accessories,10804.6,4.1,Out of Stock,Social Media,3
+CUST00157,60,Female,Delhi,Platinum,23,ORD000157,2023-06-06,2259.5,9,Credit Card,18,No,PROD00157,Electronics,6262.67,3.6,In Stock,Social Media,1
+CUST00158,46,Male,Pune,Silver,70,ORD000158,2023-06-07,1524.43,1,Wallet,7,No,PROD00158,Electronics,2986.15,2.8,In Stock,Social Media,2
+CUST00159,53,Male,Bangalore,Platinum,88,ORD000159,2023-06-08,3889.19,6,Credit Card,37,No,PROD00159,Accessories,14762.42,1.9,In Stock,Word of Mouth,3
+CUST00160,30,Female,Delhi,Regular,84,ORD000160,2023-06-09,1286.11,6,UPI,37,No,PROD00160,Groceries,12067.6,3.9,In Stock,Word of Mouth,2
+CUST00161,49,Male,Chennai,Silver,84,ORD000161,2023-06-10,3523.3,6,Net Banking,28,Yes,PROD00161,Accessories,13143.52,3.8,In Stock,Google Ads,8
+CUST00162,24,Male,Bangalore,Regular,76,ORD000162,2023-06-11,1320.0,6,Credit Card,40,No,PROD00162,Clothing,272.51,1.6,In Stock,Email Marketing,6
+CUST00163,39,Female,Bangalore,Regular,33,ORD000163,2023-06-12,3201.58,7,Credit Card,35,No,PROD00163,Accessories,18557.59,4.7,In Stock,Social Media,7
+CUST00164,45,Female,Delhi,Gold,28,ORD000164,2023-06-13,3785.98,6,UPI,25,No,PROD00164,Groceries,1419.17,1.3,In Stock,Email Marketing,1
+CUST00165,19,Male,Chennai,Regular,8,ORD000165,2023-06-14,1249.83,1,UPI,30,No,PROD00165,Accessories,7399.44,1.2,In Stock,Word of Mouth,6
+CUST00166,59,Male,Hyderabad,Gold,1,ORD000166,2023-06-15,487.73,3,Credit Card,43,No,PROD00166,Clothing,8113.96,1.7,In Stock,Word of Mouth,2
+CUST00167,62,Female,Chennai,Silver,37,ORD000167,2023-06-16,828.67,2,UPI,11,No,PROD00167,Clothing,126.97,4.6,In Stock,Word of Mouth,6
+CUST00168,23,Male,Mumbai,Regular,63,ORD000168,2023-06-17,3108.79,6,UPI,16,No,PROD00168,Groceries,9992.08,3.1,In Stock,Email Marketing,3
+CUST00169,45,Male,Pune,Silver,22,ORD000169,2023-06-18,4277.34,8,UPI,14,No,PROD00169,Clothing,15080.9,4.2,Out of Stock,Google Ads,7
+CUST00170,45,Male,Kolkata,Silver,70,ORD000170,2023-06-19,415.98,3,UPI,8,No,PROD00170,Clothing,16483.05,1.9,In Stock,Word of Mouth,3
+CUST00171,61,Female,Hyderabad,Regular,21,ORD000171,2023-06-20,3723.93,8,UPI,38,No,PROD00171,Accessories,17600.0,3.0,In Stock,Google Ads,9
+CUST00172,61,Female,Bangalore,Gold,96,ORD000172,2023-06-21,1838.33,8,Net Banking,41,No,PROD00172,Electronics,9805.61,2.4,Out of Stock,Google Ads,3
+CUST00173,37,Male,Hyderabad,Silver,35,ORD000173,2023-06-22,2496.94,5,UPI,47,No,PROD00173,Clothing,12649.66,4.3,In Stock,Social Media,7
+CUST00174,47,Male,Pune,Regular,79,ORD000174,2023-06-23,4658.53,8,Wallet,11,No,PROD00174,Clothing,1682.44,1.1,Out of Stock,Email Marketing,4
+CUST00175,28,Male,Bangalore,Silver,5,ORD000175,2023-06-24,1793.46,6,Credit Card,31,No,PROD00175,Groceries,9811.96,2.0,In Stock,Word of Mouth,8
+CUST00176,45,Female,Pune,Platinum,60,ORD000176,2023-06-25,2433.62,5,Net Banking,24,No,PROD00176,Groceries,3180.83,1.6,In Stock,Google Ads,2
+CUST00177,42,Male,Bangalore,Regular,46,ORD000177,2023-06-26,265.68,9,Net Banking,38,No,PROD00177,Accessories,7455.9,4.4,In Stock,Email Marketing,8
+CUST00178,56,Male,Hyderabad,Gold,50,ORD000178,2023-06-27,591.67,7,UPI,17,No,PROD00178,Accessories,6653.18,2.9,Out of Stock,Email Marketing,9
+CUST00179,50,Female,Bangalore,Regular,48,ORD000179,2023-06-28,1441.24,8,Credit Card,14,Yes,PROD00179,Clothing,8528.46,2.6,In Stock,Word of Mouth,8
+CUST00180,18,Male,Bangalore,Silver,6,ORD000180,2023-06-29,333.69,1,Wallet,31,No,PROD00180,Electronics,11475.57,2.8,Out of Stock,Social Media,6
+CUST00181,44,Female,Mumbai,Silver,89,ORD000181,2023-06-30,3230.6,2,UPI,5,No,PROD00181,Electronics,18067.25,4.9,In Stock,Social Media,10
+CUST00182,30,Male,Chennai,Regular,56,ORD000182,2023-07-01,2246.71,8,Credit Card,43,No,PROD00182,Accessories,7950.24,4.4,Out of Stock,Google Ads,1
+CUST00183,58,Male,Chennai,Regular,59,ORD000183,2023-07-02,2831.1,9,UPI,42,No,PROD00183,Groceries,19624.51,3.8,In Stock,Social Media,7
+CUST00184,20,Male,Kolkata,Silver,29,ORD000184,2023-07-03,1038.31,4,UPI,34,No,PROD00184,Clothing,15204.66,2.2,In Stock,Social Media,1
+CUST00185,56,Female,Kolkata,Regular,71,ORD000185,2023-07-04,1620.47,9,UPI,33,Yes,PROD00185,Clothing,10278.47,1.7,Out of Stock,Social Media,7
+CUST00186,23,Female,Mumbai,Silver,77,ORD000186,2023-07-05,3386.36,4,UPI,37,No,PROD00186,Electronics,12916.13,4.7,Out of Stock,Email Marketing,2
+CUST00187,25,Female,Kolkata,Regular,18,ORD000187,2023-07-06,4833.45,9,UPI,4,Yes,PROD00187,Accessories,2134.26,2.7,In Stock,Word of Mouth,8
+CUST00188,44,Male,Pune,Gold,2,ORD000188,2023-07-07,442.0,7,UPI,17,No,PROD00188,Electronics,16905.98,2.1,In Stock,Email Marketing,2
+CUST00189,26,Female,Hyderabad,Silver,8,ORD000189,2023-07-08,4473.84,2,UPI,15,No,PROD00189,Electronics,11688.91,2.9,In Stock,Email Marketing,3
+CUST00190,54,Male,Delhi,Gold,75,ORD000190,2023-07-09,2969.03,9,Wallet,7,No,PROD00190,Accessories,19722.74,4.7,In Stock,Word of Mouth,3
+CUST00191,50,Male,Pune,Regular,97,ORD000191,2023-07-10,2906.81,4,Net Banking,24,No,PROD00191,Groceries,12764.93,2.5,In Stock,Email Marketing,1
+CUST00192,59,Female,Delhi,Silver,54,ORD000192,2023-07-11,2601.34,8,Wallet,31,Yes,PROD00192,Clothing,16698.82,3.3,In Stock,Google Ads,5
+CUST00193,61,Male,Delhi,Silver,38,ORD000193,2023-07-12,533.09,7,UPI,25,No,PROD00193,Groceries,16015.28,4.2,In Stock,Google Ads,5
+CUST00194,41,Male,Mumbai,Regular,48,ORD000194,2023-07-13,631.41,7,UPI,21,Yes,PROD00194,Accessories,6974.68,2.7,In Stock,Email Marketing,10
+CUST00195,32,Male,Pune,Regular,27,ORD000195,2023-07-14,3084.38,8,Wallet,30,No,PROD00195,Accessories,5266.25,1.9,In Stock,Social Media,5
+CUST00196,49,Male,Mumbai,Regular,20,ORD000196,2023-07-15,1836.6,1,Wallet,42,No,PROD00196,Clothing,8666.82,5.0,In Stock,Email Marketing,9
+CUST00197,49,Male,Bangalore,Silver,12,ORD000197,2023-07-16,4602.89,5,Net Banking,9,No,PROD00197,Groceries,9398.1,4.8,In Stock,Social Media,6
+CUST00198,41,Female,Delhi,Silver,43,ORD000198,2023-07-17,2151.63,2,Wallet,11,No,PROD00198,Clothing,4877.69,4.4,In Stock,Email Marketing,6
+CUST00199,58,Male,Hyderabad,Regular,61,ORD000199,2023-07-18,887.75,2,Net Banking,27,No,PROD00199,Electronics,17902.5,3.8,In Stock,Google Ads,3
+CUST00200,29,Female,Kolkata,Silver,31,ORD000200,2023-07-19,3630.65,1,UPI,5,No,PROD00200,Electronics,10896.7,2.2,In Stock,Social Media,5
+CUST00201,56,Female,Hyderabad,Regular,91,ORD000201,2023-07-20,1608.1,5,Credit Card,19,No,PROD00201,Electronics,19571.04,4.7,In Stock,Google Ads,10
+CUST00202,19,Male,Kolkata,Regular,96,ORD000202,2023-07-21,2722.26,2,Credit Card,4,Yes,PROD00202,Groceries,16219.35,2.1,Out of Stock,Email Marketing,7
+CUST00203,20,Male,Delhi,Platinum,61,ORD000203,2023-07-22,3549.6,4,Credit Card,22,No,PROD00203,Electronics,11158.53,4.2,In Stock,Word of Mouth,3
+CUST00204,54,Male,Delhi,Gold,74,ORD000204,2023-07-23,4521.27,3,Credit Card,8,No,PROD00204,Clothing,18946.1,4.7,Out of Stock,Social Media,2
+CUST00205,34,Female,Delhi,Silver,67,ORD000205,2023-07-24,4002.52,3,UPI,28,No,PROD00205,Groceries,10147.01,3.4,In Stock,Social Media,5
+CUST00206,19,Male,Mumbai,Regular,91,ORD000206,2023-07-25,3446.53,2,Credit Card,15,No,PROD00206,Clothing,17753.42,4.2,In Stock,Email Marketing,3
+CUST00207,19,Female,Pune,Silver,35,ORD000207,2023-07-26,3462.24,6,Wallet,45,No,PROD00207,Accessories,7227.08,4.2,In Stock,Email Marketing,5
+CUST00208,45,Male,Kolkata,Regular,95,ORD000208,2023-07-27,4740.44,2,Wallet,21,No,PROD00208,Groceries,7634.98,1.8,In Stock,Social Media,9
+CUST00209,40,Female,Pune,Regular,15,ORD000209,2023-07-28,1619.96,8,Credit Card,7,No,PROD00209,Clothing,8420.8,3.7,In Stock,Word of Mouth,10
+CUST00210,54,Male,Mumbai,Regular,16,ORD000210,2023-07-29,205.34,8,Wallet,19,No,PROD00210,Clothing,10977.85,1.4,In Stock,Email Marketing,1
+CUST00211,49,Male,Mumbai,Silver,13,ORD000211,2023-07-30,1505.38,5,Net Banking,13,Yes,PROD00211,Groceries,11114.46,3.0,In Stock,Email Marketing,4
+CUST00212,50,Female,Chennai,Silver,35,ORD000212,2023-07-31,1245.88,7,UPI,38,No,PROD00212,Accessories,9978.34,1.6,In Stock,Email Marketing,10
+CUST00213,18,Female,Hyderabad,Regular,75,ORD000213,2023-08-01,3376.81,4,Credit Card,36,No,PROD00213,Groceries,6189.42,2.7,In Stock,Word of Mouth,5
+CUST00214,36,Male,Hyderabad,Silver,59,ORD000214,2023-08-02,3241.82,1,Credit Card,49,No,PROD00214,Electronics,18551.41,4.3,In Stock,Social Media,2
+CUST00215,19,Female,Bangalore,Gold,21,ORD000215,2023-08-03,3048.61,2,UPI,33,No,PROD00215,Electronics,11812.86,4.9,In Stock,Google Ads,2
+CUST00216,61,Female,Mumbai,Regular,54,ORD000216,2023-08-04,277.97,4,Wallet,10,Yes,PROD00216,Accessories,8214.01,2.3,Out of Stock,Email Marketing,1
+CUST00217,43,Female,Kolkata,Silver,75,ORD000217,2023-08-05,3698.13,1,UPI,39,No,PROD00217,Clothing,13058.42,3.1,In Stock,Word of Mouth,8
+CUST00218,49,Female,Chennai,Gold,30,ORD000218,2023-08-06,1752.95,8,UPI,32,No,PROD00218,Clothing,15382.54,3.0,In Stock,Social Media,2
+CUST00219,23,Male,Chennai,Regular,48,ORD000219,2023-08-07,3392.27,9,Wallet,30,No,PROD00219,Clothing,19218.49,4.8,In Stock,Social Media,3
+CUST00220,49,Male,Pune,Regular,35,ORD000220,2023-08-08,2871.58,4,UPI,43,No,PROD00220,Groceries,10041.03,2.9,Out of Stock,Word of Mouth,2
+CUST00221,21,Male,Hyderabad,Silver,86,ORD000221,2023-08-09,1845.11,3,Wallet,33,No,PROD00221,Groceries,2330.76,3.8,In Stock,Email Marketing,4
+CUST00222,28,Female,Mumbai,Silver,38,ORD000222,2023-08-10,845.97,2,Wallet,49,No,PROD00222,Accessories,8871.24,4.7,In Stock,Google Ads,1
+CUST00223,34,Female,Bangalore,Gold,31,ORD000223,2023-08-11,653.21,5,UPI,6,No,PROD00223,Electronics,9631.51,2.5,In Stock,Email Marketing,3
+CUST00224,55,Male,Mumbai,Regular,78,ORD000224,2023-08-12,4191.29,3,Net Banking,48,No,PROD00224,Clothing,17950.18,4.6,In Stock,Social Media,5
+CUST00225,41,Male,Pune,Platinum,24,ORD000225,2023-08-13,4608.31,7,Wallet,22,No,PROD00225,Electronics,7956.54,4.7,In Stock,Google Ads,10
+CUST00226,22,Female,Delhi,Regular,49,ORD000226,2023-08-14,3318.98,6,UPI,45,No,PROD00226,Groceries,19071.15,4.7,In Stock,Email Marketing,1
+CUST00227,51,Other,Mumbai,Regular,96,ORD000227,2023-08-15,696.48,1,Wallet,6,No,PROD00227,Groceries,9754.12,2.1,Out of Stock,Google Ads,4
+CUST00228,23,Female,Pune,Silver,100,ORD000228,2023-08-16,2129.73,8,Net Banking,24,Yes,PROD00228,Groceries,19478.23,2.6,In Stock,Word of Mouth,6
+CUST00229,39,Male,Delhi,Regular,32,ORD000229,2023-08-17,3698.91,2,Net Banking,2,No,PROD00229,Electronics,263.15,4.5,In Stock,Email Marketing,4
+CUST00230,28,Male,Delhi,Regular,55,ORD000230,2023-08-18,3943.14,5,Credit Card,37,No,PROD00230,Accessories,17986.43,2.4,In Stock,Social Media,7
+CUST00231,33,Male,Bangalore,Regular,79,ORD000231,2023-08-19,767.45,9,Wallet,19,No,PROD00231,Accessories,18629.3,3.4,In Stock,Social Media,7
+CUST00232,50,Female,Kolkata,Regular,58,ORD000232,2023-08-20,200.15,8,Wallet,33,No,PROD00232,Groceries,19224.32,1.5,In Stock,Google Ads,6
+CUST00233,26,Male,Hyderabad,Regular,99,ORD000233,2023-08-21,3618.26,2,UPI,48,No,PROD00233,Clothing,360.22,1.2,In Stock,Word of Mouth,9
+CUST00234,23,Female,Mumbai,Platinum,3,ORD000234,2023-08-22,1911.66,9,Wallet,43,Yes,PROD00234,Electronics,3516.85,2.6,In Stock,Email Marketing,2
+CUST00235,33,Male,Delhi,Regular,80,ORD000235,2023-08-23,1421.51,5,Credit Card,43,No,PROD00235,Groceries,13109.91,3.3,In Stock,Word of Mouth,10
+CUST00236,46,Female,Mumbai,Silver,69,ORD000236,2023-08-24,261.91,6,Net Banking,29,No,PROD00236,Electronics,606.91,2.6,In Stock,Word of Mouth,8
+CUST00237,20,Female,Kolkata,Silver,85,ORD000237,2023-08-25,2793.44,3,Net Banking,16,No,PROD00237,Electronics,1365.82,3.3,In Stock,Google Ads,8
+CUST00238,37,Female,Hyderabad,Gold,10,ORD000238,2023-08-26,4285.52,3,Credit Card,9,No,PROD00238,Accessories,4499.47,3.1,In Stock,Google Ads,10
+CUST00239,53,Male,Kolkata,Regular,83,ORD000239,2023-08-27,4796.63,8,Wallet,34,No,PROD00239,Groceries,10297.55,3.7,In Stock,Email Marketing,4
+CUST00240,36,Male,Hyderabad,Gold,25,ORD000240,2023-08-28,2915.58,2,Wallet,19,No,PROD00240,Accessories,10963.46,3.6,In Stock,Social Media,6
+CUST00241,43,Male,Chennai,Silver,68,ORD000241,2023-08-29,2669.41,2,Credit Card,17,No,PROD00241,Groceries,781.8,2.7,In Stock,Email Marketing,6
+CUST00242,20,Female,Hyderabad,Silver,61,ORD000242,2023-08-30,608.27,5,UPI,44,Yes,PROD00242,Electronics,3490.31,2.7,In Stock,Word of Mouth,5
+CUST00243,36,Female,Bangalore,Silver,29,ORD000243,2023-08-31,2834.59,6,Net Banking,43,No,PROD00243,Accessories,10044.14,1.6,In Stock,Google Ads,1
+CUST00244,37,Female,Kolkata,Gold,19,ORD000244,2023-09-01,2023.9,2,Credit Card,26,No,PROD00244,Electronics,11919.42,3.1,In Stock,Word of Mouth,3
+CUST00245,49,Female,Delhi,Regular,43,ORD000245,2023-09-02,3114.25,5,Credit Card,48,No,PROD00245,Groceries,3053.19,3.3,In Stock,Google Ads,7
+CUST00246,24,Female,Chennai,Silver,66,ORD000246,2023-09-03,2065.89,7,Wallet,35,No,PROD00246,Clothing,8036.94,2.9,Out of Stock,Social Media,8
+CUST00247,58,Male,Bangalore,Silver,74,ORD000247,2023-09-04,1353.44,8,Net Banking,22,No,PROD00247,Accessories,18097.59,2.3,In Stock,Word of Mouth,2
+CUST00248,50,Female,Mumbai,Silver,61,ORD000248,2023-09-05,655.83,7,Wallet,31,No,PROD00248,Accessories,19978.1,3.9,In Stock,Google Ads,3
+CUST00249,57,Male,Kolkata,Platinum,43,ORD000249,2023-09-06,1711.61,8,Credit Card,9,Yes,PROD00249,Electronics,19745.57,1.3,In Stock,Email Marketing,4
+CUST00250,56,Male,Pune,Regular,25,ORD000250,2023-09-07,663.9,9,UPI,10,No,PROD00250,Electronics,17645.32,4.7,In Stock,Email Marketing,5
+CUST00251,35,Female,Pune,Platinum,20,ORD000251,2023-09-08,1049.11,5,Net Banking,37,No,PROD00251,Clothing,7953.74,1.1,Out of Stock,Email Marketing,3
+CUST00252,57,Male,Delhi,Regular,48,ORD000252,2023-09-09,4939.21,5,Credit Card,5,No,PROD00252,Accessories,13762.83,4.8,In Stock,Word of Mouth,5
+CUST00253,18,Male,Hyderabad,Regular,83,ORD000253,2023-09-10,2331.7,4,Credit Card,40,No,PROD00253,Groceries,8390.19,2.8,In Stock,Google Ads,8
+CUST00254,28,Female,Delhi,Regular,87,ORD000254,2023-09-11,2752.98,9,UPI,46,No,PROD00254,Groceries,13005.69,2.7,In Stock,Google Ads,8
+CUST00255,45,Male,Pune,Regular,24,ORD000255,2023-09-12,4393.37,5,Credit Card,33,Yes,PROD00255,Accessories,6257.71,2.0,Out of Stock,Google Ads,2
+CUST00256,42,Female,Mumbai,Silver,11,ORD000256,2023-09-13,4978.73,2,Credit Card,35,No,PROD00256,Accessories,12163.42,1.0,In Stock,Word of Mouth,6
+CUST00257,40,Male,Chennai,Regular,98,ORD000257,2023-09-14,2997.03,8,Net Banking,36,No,PROD00257,Accessories,10522.79,2.1,Out of Stock,Google Ads,4
+CUST00258,48,Male,Chennai,Regular,55,ORD000258,2023-09-15,4099.87,7,Net Banking,16,Yes,PROD00258,Clothing,587.16,1.4,In Stock,Social Media,9
+CUST00259,47,Male,Kolkata,Gold,28,ORD000259,2023-09-16,1769.32,8,Net Banking,39,No,PROD00259,Groceries,15834.99,3.6,In Stock,Word of Mouth,10
+CUST00260,59,Male,Chennai,Gold,69,ORD000260,2023-09-17,1667.57,3,Wallet,39,No,PROD00260,Groceries,336.77,2.3,In Stock,Social Media,2
+CUST00261,52,Female,Kolkata,Gold,63,ORD000261,2023-09-18,2132.98,4,UPI,11,No,PROD00261,Electronics,5933.8,4.1,Out of Stock,Social Media,8
+CUST00262,24,Male,Kolkata,Gold,59,ORD000262,2023-09-19,3428.03,5,Net Banking,20,No,PROD00262,Electronics,217.89,1.8,Out of Stock,Email Marketing,1
+CUST00263,33,Female,Kolkata,Silver,5,ORD000263,2023-09-20,3474.52,6,Wallet,39,No,PROD00263,Accessories,7586.41,4.6,In Stock,Word of Mouth,6
+CUST00264,43,Male,Pune,Regular,51,ORD000264,2023-09-21,1713.15,1,Wallet,18,No,PROD00264,Electronics,1356.89,3.1,In Stock,Google Ads,10
+CUST00265,19,Female,Pune,Regular,21,ORD000265,2023-09-22,839.41,4,UPI,2,No,PROD00265,Clothing,18278.87,1.5,In Stock,Social Media,1
+CUST00266,18,Female,Hyderabad,Silver,12,ORD000266,2023-09-23,3235.5,5,UPI,17,No,PROD00266,Groceries,8372.02,2.6,In Stock,Word of Mouth,2
+CUST00267,29,Female,Bangalore,Regular,50,ORD000267,2023-09-24,815.96,7,Credit Card,18,No,PROD00267,Groceries,9243.97,1.8,In Stock,Google Ads,3
+CUST00268,22,Male,Kolkata,Silver,4,ORD000268,2023-09-25,2976.76,5,Wallet,46,No,PROD00268,Electronics,7062.02,1.8,In Stock,Email Marketing,9
+CUST00269,54,Male,Kolkata,Regular,42,ORD000269,2023-09-26,3528.43,1,Net Banking,5,No,PROD00269,Accessories,12587.37,3.0,In Stock,Word of Mouth,5
+CUST00270,49,Male,Bangalore,Regular,84,ORD000270,2023-09-27,3562.94,7,UPI,15,Yes,PROD00270,Electronics,15709.72,3.7,In Stock,Word of Mouth,10
+CUST00271,26,Female,Delhi,Silver,38,ORD000271,2023-09-28,3816.67,8,Wallet,7,No,PROD00271,Accessories,12998.12,4.6,In Stock,Word of Mouth,10
+CUST00272,58,Male,Kolkata,Silver,25,ORD000272,2023-09-29,4389.73,7,Net Banking,47,No,PROD00272,Clothing,14989.32,3.0,In Stock,Google Ads,2
+CUST00273,52,Female,Hyderabad,Silver,14,ORD000273,2023-09-30,2599.8,4,Wallet,17,No,PROD00273,Groceries,18128.88,4.9,Out of Stock,Social Media,10
+CUST00274,36,Female,Chennai,Silver,75,ORD000274,2023-10-01,3705.2,8,UPI,47,No,PROD00274,Clothing,17284.58,4.8,In Stock,Social Media,5
+CUST00275,33,Male,Chennai,Regular,32,ORD000275,2023-10-02,3172.03,5,Credit Card,42,No,PROD00275,Groceries,13513.76,4.5,In Stock,Word of Mouth,5
+CUST00276,20,Female,Mumbai,Regular,11,ORD000276,2023-10-03,1095.87,9,Wallet,38,No,PROD00276,Clothing,4371.3,3.0,In Stock,Word of Mouth,1
+CUST00277,37,Male,Mumbai,Gold,61,ORD000277,2023-10-04,323.31,5,Net Banking,48,No,PROD00277,Electronics,12790.29,1.6,In Stock,Google Ads,3
+CUST00278,41,Male,Chennai,Silver,18,ORD000278,2023-10-05,1565.8,1,UPI,48,No,PROD00278,Clothing,10171.05,1.9,In Stock,Email Marketing,5
+CUST00279,50,Female,Chennai,Regular,27,ORD000279,2023-10-06,2326.56,9,Credit Card,11,No,PROD00279,Clothing,14372.66,3.6,In Stock,Word of Mouth,9
+CUST00280,41,Female,Pune,Gold,55,ORD000280,2023-10-07,3162.11,5,Net Banking,44,Yes,PROD00280,Electronics,16675.34,2.7,In Stock,Word of Mouth,10
+CUST00281,28,Female,Hyderabad,Regular,54,ORD000281,2023-10-08,4279.8,6,Net Banking,9,No,PROD00281,Groceries,14880.16,1.6,Out of Stock,Email Marketing,1
+CUST00282,25,Male,Bangalore,Regular,82,ORD000282,2023-10-09,1141.98,4,Net Banking,6,No,PROD00282,Groceries,16946.57,2.9,In Stock,Word of Mouth,8
+CUST00283,53,Male,Mumbai,Regular,87,ORD000283,2023-10-10,802.64,6,Wallet,45,Yes,PROD00283,Electronics,1370.94,1.1,In Stock,Social Media,1
+CUST00284,55,Female,Pune,Silver,75,ORD000284,2023-10-11,4824.7,8,UPI,0,Yes,PROD00284,Clothing,729.24,3.9,Out of Stock,Word of Mouth,9
+CUST00285,57,Female,Pune,Silver,21,ORD000285,2023-10-12,718.61,3,Net Banking,48,Yes,PROD00285,Clothing,5244.16,1.3,In Stock,Social Media,6
+CUST00286,37,Female,Bangalore,Regular,44,ORD000286,2023-10-13,2496.76,5,Wallet,35,Yes,PROD00286,Clothing,18023.26,3.5,In Stock,Google Ads,1
+CUST00287,52,Male,Pune,Gold,5,ORD000287,2023-10-14,3010.71,2,UPI,20,No,PROD00287,Accessories,16490.82,4.2,Out of Stock,Google Ads,8
+CUST00288,42,Female,Hyderabad,Regular,87,ORD000288,2023-10-15,2798.6,2,UPI,36,No,PROD00288,Groceries,13686.27,1.5,In Stock,Social Media,5
+CUST00289,52,Male,Chennai,Regular,41,ORD000289,2023-10-16,612.95,7,Wallet,23,No,PROD00289,Clothing,14045.1,3.1,In Stock,Social Media,7
+CUST00290,42,Male,Kolkata,Regular,59,ORD000290,2023-10-17,473.73,6,Wallet,24,No,PROD00290,Groceries,14560.74,4.1,Out of Stock,Email Marketing,7
+CUST00291,46,Female,Bangalore,Regular,89,ORD000291,2023-10-18,706.32,4,Net Banking,6,No,PROD00291,Clothing,18857.79,2.0,In Stock,Social Media,7
+CUST00292,35,Male,Chennai,Regular,54,ORD000292,2023-10-19,3010.82,5,UPI,41,No,PROD00292,Electronics,16660.6,1.7,Out of Stock,Social Media,6
+CUST00293,63,Female,Chennai,Silver,74,ORD000293,2023-10-20,2812.86,1,Credit Card,16,No,PROD00293,Electronics,12505.47,2.3,In Stock,Word of Mouth,8
+CUST00294,35,Male,Delhi,Gold,22,ORD000294,2023-10-21,1321.96,7,Wallet,28,No,PROD00294,Groceries,13347.74,3.2,In Stock,Email Marketing,9
+CUST00295,19,Male,Bangalore,Silver,83,ORD000295,2023-10-22,3261.32,8,UPI,29,No,PROD00295,Groceries,4353.43,3.3,In Stock,Social Media,2
+CUST00296,52,Female,Pune,Regular,65,ORD000296,2023-10-23,4136.32,9,UPI,6,No,PROD00296,Electronics,13180.64,1.5,Out of Stock,Social Media,7
+CUST00297,33,Female,Kolkata,Regular,64,ORD000297,2023-10-24,399.58,8,Net Banking,32,No,PROD00297,Accessories,8551.11,2.8,In Stock,Social Media,2
+CUST00298,58,Female,Bangalore,Regular,71,ORD000298,2023-10-25,2591.02,5,Credit Card,6,Yes,PROD00298,Electronics,3143.94,2.1,In Stock,Word of Mouth,6
+CUST00299,53,Female,Pune,Regular,4,ORD000299,2023-10-26,3508.69,3,Net Banking,23,No,PROD00299,Clothing,16147.42,4.4,In Stock,Word of Mouth,2
+CUST00300,50,Female,Chennai,Silver,65,ORD000300,2023-10-27,1411.1,9,Credit Card,10,No,PROD00300,Accessories,10253.92,2.3,In Stock,Word of Mouth,10
+CUST00301,21,Female,Kolkata,Regular,15,ORD000301,2023-10-28,1677.3,6,Credit Card,8,No,PROD00301,Electronics,19550.76,4.4,In Stock,Google Ads,6
+CUST00302,50,Female,Pune,Silver,76,ORD000302,2023-10-29,3145.46,5,Wallet,11,No,PROD00302,Accessories,5705.42,2.7,Out of Stock,Word of Mouth,2
+CUST00303,31,Male,Hyderabad,Gold,22,ORD000303,2023-10-30,4510.09,3,UPI,34,Yes,PROD00303,Accessories,9665.34,3.9,In Stock,Social Media,1
+CUST00304,38,Female,Pune,Regular,86,ORD000304,2023-10-31,4087.64,6,UPI,3,No,PROD00304,Accessories,9015.11,3.0,In Stock,Word of Mouth,7
+CUST00305,37,Male,Delhi,Gold,47,ORD000305,2023-11-01,2999.03,3,UPI,35,No,PROD00305,Groceries,2503.51,3.5,In Stock,Word of Mouth,3
+CUST00306,25,Other,Chennai,Silver,81,ORD000306,2023-11-02,3705.06,6,Credit Card,27,No,PROD00306,Electronics,8579.69,2.6,In Stock,Email Marketing,4
+CUST00307,24,Female,Pune,Silver,93,ORD000307,2023-11-03,1951.15,4,UPI,12,No,PROD00307,Groceries,5822.31,4.1,In Stock,Social Media,6
+CUST00308,20,Male,Mumbai,Silver,46,ORD000308,2023-11-04,3276.63,2,Wallet,22,No,PROD00308,Groceries,3290.38,2.7,In Stock,Word of Mouth,5
+CUST00309,34,Female,Mumbai,Regular,14,ORD000309,2023-11-05,2437.67,8,Credit Card,18,Yes,PROD00309,Clothing,5714.9,2.8,In Stock,Google Ads,4
+CUST00310,50,Female,Delhi,Regular,50,ORD000310,2023-11-06,1111.69,4,Credit Card,41,No,PROD00310,Clothing,4741.71,3.1,In Stock,Email Marketing,9
+CUST00311,29,Male,Hyderabad,Regular,20,ORD000311,2023-11-07,3568.34,9,Credit Card,36,No,PROD00311,Accessories,14708.06,4.3,In Stock,Word of Mouth,6
+CUST00312,39,Female,Chennai,Regular,50,ORD000312,2023-11-08,2871.03,7,Credit Card,38,No,PROD00312,Accessories,712.43,3.6,In Stock,Email Marketing,6
+CUST00313,39,Female,Bangalore,Silver,33,ORD000313,2023-11-09,1921.38,2,Wallet,23,Yes,PROD00313,Clothing,12387.51,2.4,In Stock,Email Marketing,2
+CUST00314,63,Male,Delhi,Regular,59,ORD000314,2023-11-10,4574.43,4,UPI,15,No,PROD00314,Clothing,15237.16,3.7,Out of Stock,Google Ads,6
+CUST00315,47,Female,Hyderabad,Gold,43,ORD000315,2023-11-11,300.48,5,Wallet,32,No,PROD00315,Electronics,9666.4,3.6,In Stock,Google Ads,7
+CUST00316,55,Male,Bangalore,Silver,79,ORD000316,2023-11-12,1715.71,3,UPI,11,No,PROD00316,Accessories,18638.14,4.7,In Stock,Google Ads,8
+CUST00317,55,Female,Mumbai,Regular,12,ORD000317,2023-11-13,473.03,9,Wallet,33,No,PROD00317,Accessories,14186.83,4.4,In Stock,Social Media,8
+CUST00318,62,Other,Mumbai,Regular,40,ORD000318,2023-11-14,3879.33,5,Net Banking,6,No,PROD00318,Clothing,14983.68,3.6,In Stock,Email Marketing,9
+CUST00319,25,Female,Bangalore,Gold,20,ORD000319,2023-11-15,3570.12,2,Net Banking,10,No,PROD00319,Electronics,4018.98,2.4,In Stock,Word of Mouth,10
+CUST00320,44,Male,Delhi,Gold,94,ORD000320,2023-11-16,1790.49,3,Net Banking,30,No,PROD00320,Clothing,15568.18,4.1,In Stock,Google Ads,3
+CUST00321,44,Female,Mumbai,Silver,38,ORD000321,2023-11-17,3443.18,9,Net Banking,28,No,PROD00321,Clothing,16658.69,3.3,In Stock,Google Ads,10
+CUST00322,51,Female,Chennai,Regular,3,ORD000322,2023-11-18,2100.5,7,Credit Card,12,No,PROD00322,Groceries,7289.2,4.9,In Stock,Email Marketing,7
+CUST00323,38,Male,Kolkata,Regular,28,ORD000323,2023-11-19,3830.02,2,Credit Card,30,No,PROD00323,Accessories,4345.93,2.0,In Stock,Email Marketing,7
+CUST00324,47,Female,Pune,Regular,56,ORD000324,2023-11-20,2380.08,9,Wallet,1,No,PROD00324,Electronics,7762.51,1.3,In Stock,Email Marketing,1
+CUST00325,50,Male,Bangalore,Regular,90,ORD000325,2023-11-21,2178.94,4,Wallet,38,No,PROD00325,Groceries,14818.2,1.3,In Stock,Word of Mouth,8
+CUST00326,45,Female,Bangalore,Silver,94,ORD000326,2023-11-22,4686.7,9,Net Banking,14,No,PROD00326,Accessories,8411.02,3.6,In Stock,Social Media,4
+CUST00327,64,Male,Mumbai,Silver,13,ORD000327,2023-11-23,1404.22,2,UPI,10,No,PROD00327,Clothing,14759.37,4.8,In Stock,Social Media,5
+CUST00328,50,Male,Delhi,Silver,77,ORD000328,2023-11-24,778.15,4,Net Banking,33,No,PROD00328,Electronics,2359.93,1.0,Out of Stock,Google Ads,6
+CUST00329,22,Male,Chennai,Gold,66,ORD000329,2023-11-25,3005.81,5,Wallet,38,No,PROD00329,Accessories,16139.63,3.9,Out of Stock,Social Media,3
+CUST00330,36,Female,Delhi,Silver,37,ORD000330,2023-11-26,4852.74,2,Net Banking,3,No,PROD00330,Clothing,5138.83,3.6,In Stock,Word of Mouth,5
+CUST00331,21,Male,Hyderabad,Regular,49,ORD000331,2023-11-27,2013.63,1,Wallet,10,No,PROD00331,Groceries,5053.69,3.9,In Stock,Social Media,10
+CUST00332,52,Female,Hyderabad,Regular,66,ORD000332,2023-11-28,497.78,7,Net Banking,28,No,PROD00332,Electronics,11848.58,2.4,In Stock,Word of Mouth,5
+CUST00333,34,Male,Kolkata,Gold,36,ORD000333,2023-11-29,1828.67,1,UPI,1,Yes,PROD00333,Accessories,1495.35,4.3,In Stock,Google Ads,1
+CUST00334,61,Male,Mumbai,Regular,54,ORD000334,2023-11-30,2628.47,8,Net Banking,15,Yes,PROD00334,Groceries,623.32,1.2,In Stock,Email Marketing,3
+CUST00335,45,Female,Mumbai,Gold,26,ORD000335,2023-12-01,977.23,3,UPI,38,No,PROD00335,Clothing,5294.47,4.0,Out of Stock,Word of Mouth,3
+CUST00336,47,Female,Mumbai,Gold,75,ORD000336,2023-12-02,3358.89,6,UPI,12,No,PROD00336,Clothing,10807.54,2.1,In Stock,Email Marketing,1
+CUST00337,46,Male,Kolkata,Regular,72,ORD000337,2023-12-03,4989.2,7,Wallet,36,No,PROD00337,Accessories,18161.57,2.9,Out of Stock,Google Ads,7
+CUST00338,63,Female,Hyderabad,Silver,40,ORD000338,2023-12-04,2368.35,1,UPI,16,Yes,PROD00338,Clothing,16944.06,4.3,In Stock,Word of Mouth,1
+CUST00339,23,Female,Delhi,Gold,43,ORD000339,2023-12-05,1902.7,6,Credit Card,20,Yes,PROD00339,Electronics,9859.88,2.1,In Stock,Word of Mouth,7
+CUST00340,52,Female,Kolkata,Silver,22,ORD000340,2023-12-06,2123.38,7,Credit Card,43,Yes,PROD00340,Accessories,837.33,1.7,In Stock,Social Media,4
+CUST00341,58,Male,Kolkata,Gold,20,ORD000341,2023-12-07,752.7,6,Credit Card,18,Yes,PROD00341,Groceries,10751.53,3.7,Out of Stock,Word of Mouth,9
+CUST00342,54,Male,Delhi,Gold,8,ORD000342,2023-12-08,4439.71,4,Wallet,6,Yes,PROD00342,Accessories,14125.43,3.1,In Stock,Google Ads,7
+CUST00343,41,Female,Mumbai,Regular,29,ORD000343,2023-12-09,2191.16,1,Credit Card,37,No,PROD00343,Accessories,6849.37,3.1,In Stock,Email Marketing,5
+CUST00344,46,Male,Chennai,Regular,40,ORD000344,2023-12-10,2058.92,9,Wallet,7,No,PROD00344,Groceries,2310.16,2.0,Out of Stock,Word of Mouth,7
+CUST00345,63,Female,Delhi,Gold,90,ORD000345,2023-12-11,3366.51,4,Wallet,12,No,PROD00345,Clothing,5643.5,1.1,In Stock,Google Ads,9
+CUST00346,48,Female,Hyderabad,Silver,30,ORD000346,2023-12-12,2321.76,7,Credit Card,36,No,PROD00346,Groceries,15454.62,2.6,In Stock,Google Ads,10
+CUST00347,52,Female,Bangalore,Regular,81,ORD000347,2023-12-13,3311.52,7,UPI,1,No,PROD00347,Electronics,7089.75,1.4,In Stock,Word of Mouth,6
+CUST00348,50,Female,Bangalore,Regular,84,ORD000348,2023-12-14,494.94,2,Net Banking,40,Yes,PROD00348,Clothing,16258.43,4.6,In Stock,Social Media,1
+CUST00349,38,Other,Pune,Silver,55,ORD000349,2023-12-15,4105.87,1,Wallet,10,Yes,PROD00349,Accessories,6458.48,1.2,In Stock,Word of Mouth,6
+CUST00350,49,Male,Pune,Gold,16,ORD000350,2023-12-16,4714.42,8,Credit Card,23,No,PROD00350,Clothing,3354.75,2.7,In Stock,Word of Mouth,1
+CUST00351,40,Female,Kolkata,Gold,46,ORD000351,2023-12-17,3314.07,8,Wallet,5,No,PROD00351,Clothing,8773.38,1.2,In Stock,Social Media,4
+CUST00352,50,Male,Bangalore,Silver,62,ORD000352,2023-12-18,4781.92,7,UPI,25,No,PROD00352,Electronics,9100.26,1.4,In Stock,Google Ads,8
+CUST00353,20,Male,Chennai,Regular,7,ORD000353,2023-12-19,926.88,8,UPI,6,No,PROD00353,Clothing,420.55,3.6,In Stock,Word of Mouth,5
+CUST00354,35,Female,Mumbai,Regular,80,ORD000354,2023-12-20,2491.6,3,Credit Card,38,No,PROD00354,Clothing,2429.2,3.6,In Stock,Social Media,5
+CUST00355,42,Female,Hyderabad,Gold,45,ORD000355,2023-12-21,3088.67,2,Wallet,18,No,PROD00355,Clothing,3780.03,1.1,Out of Stock,Email Marketing,10
+CUST00356,59,Other,Pune,Regular,59,ORD000356,2023-12-22,2992.34,7,Net Banking,5,No,PROD00356,Accessories,2360.39,1.0,Out of Stock,Email Marketing,8
+CUST00357,48,Female,Chennai,Regular,56,ORD000357,2023-12-23,2127.02,8,Net Banking,42,No,PROD00357,Clothing,6896.37,1.3,In Stock,Social Media,8
+CUST00358,20,Male,Hyderabad,Regular,48,ORD000358,2023-12-24,1822.81,1,Wallet,28,No,PROD00358,Groceries,19295.99,4.1,In Stock,Google Ads,1
+CUST00359,57,Male,Hyderabad,Silver,27,ORD000359,2023-12-25,808.76,9,Wallet,42,No,PROD00359,Clothing,10233.53,3.3,In Stock,Social Media,5
+CUST00360,63,Female,Mumbai,Gold,53,ORD000360,2023-12-26,2080.36,4,Wallet,38,Yes,PROD00360,Electronics,12588.36,1.2,In Stock,Google Ads,5
+CUST00361,41,Male,Kolkata,Regular,87,ORD000361,2023-12-27,980.77,4,Credit Card,1,No,PROD00361,Clothing,7192.09,3.0,In Stock,Email Marketing,8
+CUST00362,49,Male,Bangalore,Regular,88,ORD000362,2023-12-28,3724.96,3,UPI,18,No,PROD00362,Clothing,6537.41,3.8,In Stock,Word of Mouth,1
+CUST00363,64,Male,Mumbai,Silver,73,ORD000363,2023-12-29,1202.39,6,Net Banking,3,No,PROD00363,Accessories,560.62,4.5,In Stock,Social Media,7
+CUST00364,39,Male,Chennai,Platinum,35,ORD000364,2023-12-30,481.11,1,Credit Card,5,No,PROD00364,Groceries,10056.64,4.7,In Stock,Email Marketing,7
+CUST00365,40,Male,Kolkata,Regular,51,ORD000365,2023-12-31,2851.36,6,Wallet,48,No,PROD00365,Clothing,9723.82,2.3,In Stock,Word of Mouth,9
+CUST00366,19,Male,Chennai,Regular,84,ORD000366,2024-01-01,3057.1,2,Wallet,36,No,PROD00366,Groceries,3240.83,1.5,In Stock,Email Marketing,2
+CUST00367,44,Male,Kolkata,Regular,37,ORD000367,2024-01-02,4385.18,9,UPI,27,No,PROD00367,Electronics,15310.05,1.9,In Stock,Social Media,3
+CUST00368,59,Male,Pune,Gold,81,ORD000368,2024-01-03,2969.51,2,Wallet,29,No,PROD00368,Accessories,9904.22,4.1,In Stock,Social Media,4
+CUST00369,19,Other,Chennai,Regular,95,ORD000369,2024-01-04,1858.31,7,Credit Card,6,No,PROD00369,Groceries,6845.98,4.9,In Stock,Word of Mouth,1
+CUST00370,43,Male,Mumbai,Regular,57,ORD000370,2024-01-05,4054.46,1,Credit Card,8,No,PROD00370,Accessories,3023.49,2.9,Out of Stock,Social Media,7
+CUST00371,34,Male,Kolkata,Silver,8,ORD000371,2024-01-06,2793.34,7,UPI,24,No,PROD00371,Clothing,11088.0,2.2,In Stock,Email Marketing,10
+CUST00372,57,Female,Kolkata,Silver,79,ORD000372,2024-01-07,580.55,5,Credit Card,32,Yes,PROD00372,Electronics,15081.06,2.7,In Stock,Word of Mouth,3
+CUST00373,50,Male,Hyderabad,Regular,95,ORD000373,2024-01-08,2916.08,8,Net Banking,0,No,PROD00373,Accessories,5711.79,2.2,In Stock,Word of Mouth,3
+CUST00374,26,Female,Hyderabad,Gold,94,ORD000374,2024-01-09,4558.49,4,Credit Card,5,No,PROD00374,Clothing,4454.01,2.0,In Stock,Email Marketing,3
+CUST00375,60,Female,Delhi,Regular,20,ORD000375,2024-01-10,2102.3,7,Credit Card,17,No,PROD00375,Groceries,10486.51,3.4,In Stock,Google Ads,8
+CUST00376,56,Male,Chennai,Silver,53,ORD000376,2024-01-11,1622.36,6,Credit Card,9,No,PROD00376,Electronics,3191.33,1.1,In Stock,Word of Mouth,9
+CUST00377,46,Male,Hyderabad,Regular,12,ORD000377,2024-01-12,888.65,5,Net Banking,27,No,PROD00377,Electronics,13365.61,2.0,In Stock,Google Ads,10
+CUST00378,59,Female,Delhi,Silver,49,ORD000378,2024-01-13,926.94,4,Wallet,10,No,PROD00378,Groceries,12146.34,3.6,In Stock,Email Marketing,2
+CUST00379,43,Female,Pune,Regular,17,ORD000379,2024-01-14,2277.3,7,Credit Card,32,No,PROD00379,Groceries,1832.93,1.1,In Stock,Email Marketing,10
+CUST00380,52,Male,Pune,Gold,64,ORD000380,2024-01-15,3059.26,5,UPI,0,No,PROD00380,Electronics,826.76,1.3,In Stock,Word of Mouth,10
+CUST00381,42,Female,Hyderabad,Silver,42,ORD000381,2024-01-16,586.95,5,Net Banking,12,Yes,PROD00381,Accessories,12443.74,2.2,In Stock,Social Media,1
+CUST00382,41,Male,Chennai,Silver,94,ORD000382,2024-01-17,4709.93,1,UPI,36,No,PROD00382,Electronics,5956.45,4.5,Out of Stock,Word of Mouth,9
+CUST00383,30,Other,Kolkata,Silver,29,ORD000383,2024-01-18,3824.64,2,Credit Card,19,No,PROD00383,Groceries,1820.27,4.1,In Stock,Social Media,6
+CUST00384,24,Male,Bangalore,Silver,19,ORD000384,2024-01-19,3015.79,5,UPI,0,No,PROD00384,Accessories,15212.63,1.1,In Stock,Google Ads,9
+CUST00385,53,Female,Chennai,Regular,11,ORD000385,2024-01-20,4176.51,3,Credit Card,2,Yes,PROD00385,Clothing,6349.48,3.0,In Stock,Social Media,6
+CUST00386,62,Female,Mumbai,Regular,98,ORD000386,2024-01-21,584.9,2,Net Banking,17,No,PROD00386,Electronics,9246.03,2.1,In Stock,Word of Mouth,2
+CUST00387,37,Female,Pune,Gold,50,ORD000387,2024-01-22,2488.83,4,UPI,40,No,PROD00387,Groceries,4812.58,3.6,In Stock,Social Media,1
+CUST00388,18,Female,Hyderabad,Regular,71,ORD000388,2024-01-23,3224.45,4,UPI,13,No,PROD00388,Clothing,12583.61,3.9,In Stock,Email Marketing,8
+CUST00389,25,Male,Hyderabad,Silver,58,ORD000389,2024-01-24,4177.53,4,Credit Card,30,No,PROD00389,Electronics,6099.62,4.5,In Stock,Google Ads,3
+CUST00390,63,Male,Kolkata,Platinum,34,ORD000390,2024-01-25,3960.65,4,Credit Card,26,No,PROD00390,Electronics,19363.62,2.9,In Stock,Email Marketing,1
+CUST00391,33,Male,Mumbai,Regular,20,ORD000391,2024-01-26,1529.93,3,Wallet,16,No,PROD00391,Accessories,14088.66,5.0,Out of Stock,Email Marketing,8
+CUST00392,31,Male,Kolkata,Silver,50,ORD000392,2024-01-27,4716.22,7,Credit Card,45,No,PROD00392,Groceries,2820.77,4.9,In Stock,Email Marketing,1
+CUST00393,29,Female,Mumbai,Regular,88,ORD000393,2024-01-28,796.86,9,Credit Card,28,No,PROD00393,Clothing,8392.23,4.5,In Stock,Email Marketing,8
+CUST00394,40,Male,Bangalore,Silver,10,ORD000394,2024-01-29,4400.64,5,Wallet,35,No,PROD00394,Electronics,7769.88,3.3,In Stock,Social Media,1
+CUST00395,32,Male,Pune,Regular,32,ORD000395,2024-01-30,4860.51,4,Credit Card,36,No,PROD00395,Accessories,10731.52,2.6,In Stock,Email Marketing,9
+CUST00396,45,Other,Hyderabad,Regular,52,ORD000396,2024-01-31,1050.34,2,Credit Card,25,Yes,PROD00396,Clothing,16854.42,2.5,In Stock,Social Media,9
+CUST00397,51,Female,Hyderabad,Silver,15,ORD000397,2024-02-01,3665.92,2,Wallet,16,No,PROD00397,Clothing,11710.1,1.0,Out of Stock,Email Marketing,9
+CUST00398,19,Female,Bangalore,Gold,84,ORD000398,2024-02-02,393.37,5,Net Banking,21,No,PROD00398,Electronics,1324.98,2.0,In Stock,Word of Mouth,3
+CUST00399,49,Other,Delhi,Silver,3,ORD000399,2024-02-03,2146.03,7,Net Banking,24,No,PROD00399,Clothing,13142.77,3.9,In Stock,Email Marketing,4
+CUST00400,40,Male,Pune,Silver,37,ORD000400,2024-02-04,2678.16,9,Credit Card,1,Yes,PROD00400,Electronics,264.48,3.4,Out of Stock,Word of Mouth,5
+CUST00401,39,Male,Kolkata,Regular,40,ORD000401,2024-02-05,2987.1,7,Credit Card,21,Yes,PROD00401,Accessories,15621.21,4.7,In Stock,Social Media,6
+CUST00402,42,Female,Bangalore,Silver,72,ORD000402,2024-02-06,4692.5,5,Wallet,4,No,PROD00402,Accessories,13366.06,1.2,In Stock,Google Ads,9
+CUST00403,39,Female,Kolkata,Regular,40,ORD000403,2024-02-07,3426.8,6,Wallet,3,No,PROD00403,Clothing,6244.83,1.6,In Stock,Social Media,4
+CUST00404,39,Male,Chennai,Gold,56,ORD000404,2024-02-08,2510.13,3,Net Banking,35,No,PROD00404,Electronics,5919.59,4.2,In Stock,Google Ads,6
+CUST00405,59,Female,Hyderabad,Gold,23,ORD000405,2024-02-09,4086.44,5,UPI,5,No,PROD00405,Groceries,15985.63,2.4,In Stock,Google Ads,1
+CUST00406,23,Male,Kolkata,Silver,11,ORD000406,2024-02-10,4762.56,8,Credit Card,20,No,PROD00406,Accessories,15688.4,1.5,In Stock,Email Marketing,2
+CUST00407,32,Male,Mumbai,Gold,64,ORD000407,2024-02-11,305.92,1,UPI,12,Yes,PROD00407,Electronics,7110.82,5.0,In Stock,Google Ads,8
+CUST00408,60,Female,Kolkata,Regular,8,ORD000408,2024-02-12,4916.1,1,UPI,36,No,PROD00408,Electronics,6049.06,4.1,In Stock,Social Media,4
+CUST00409,54,Female,Chennai,Silver,93,ORD000409,2024-02-13,613.43,7,Wallet,24,No,PROD00409,Electronics,11240.51,2.6,In Stock,Email Marketing,10
+CUST00410,50,Female,Pune,Regular,94,ORD000410,2024-02-14,4109.06,5,Credit Card,25,No,PROD00410,Clothing,266.48,4.3,In Stock,Google Ads,7
+CUST00411,25,Male,Hyderabad,Gold,56,ORD000411,2024-02-15,1545.61,5,Credit Card,38,No,PROD00411,Groceries,1745.07,3.7,In Stock,Social Media,4
+CUST00412,61,Female,Bangalore,Regular,60,ORD000412,2024-02-16,834.46,1,Wallet,19,Yes,PROD00412,Clothing,2610.77,4.2,In Stock,Google Ads,9
+CUST00413,61,Male,Chennai,Silver,10,ORD000413,2024-02-17,2311.31,9,UPI,32,Yes,PROD00413,Accessories,3789.7,4.3,In Stock,Google Ads,9
+CUST00414,22,Male,Hyderabad,Gold,39,ORD000414,2024-02-18,3290.99,1,Wallet,13,No,PROD00414,Clothing,10289.16,1.3,In Stock,Email Marketing,4
+CUST00415,56,Female,Kolkata,Regular,28,ORD000415,2024-02-19,2028.57,5,Net Banking,35,No,PROD00415,Electronics,19845.61,3.5,In Stock,Email Marketing,8
+CUST00416,21,Female,Pune,Regular,49,ORD000416,2024-02-20,461.91,9,Credit Card,16,No,PROD00416,Clothing,13087.01,1.0,Out of Stock,Social Media,6
+CUST00417,23,Female,Delhi,Silver,36,ORD000417,2024-02-21,3077.41,4,Net Banking,20,No,PROD00417,Electronics,1319.85,1.2,In Stock,Email Marketing,1
+CUST00418,62,Female,Pune,Regular,13,ORD000418,2024-02-22,4531.54,8,Wallet,45,No,PROD00418,Groceries,10559.03,4.6,In Stock,Email Marketing,7
+CUST00419,49,Female,Delhi,Regular,96,ORD000419,2024-02-23,2039.43,6,Credit Card,15,Yes,PROD00419,Clothing,9983.24,3.1,Out of Stock,Word of Mouth,1
+CUST00420,47,Female,Mumbai,Regular,36,ORD000420,2024-02-24,1238.4,3,Net Banking,45,No,PROD00420,Clothing,2968.94,3.9,In Stock,Word of Mouth,3
+CUST00421,64,Male,Pune,Regular,26,ORD000421,2024-02-25,2324.37,4,Net Banking,15,No,PROD00421,Clothing,18413.42,4.4,In Stock,Social Media,8
+CUST00422,52,Male,Hyderabad,Gold,86,ORD000422,2024-02-26,432.14,2,UPI,19,Yes,PROD00422,Electronics,8871.23,4.8,In Stock,Email Marketing,9
+CUST00423,57,Male,Delhi,Silver,4,ORD000423,2024-02-27,4138.34,1,Credit Card,28,No,PROD00423,Electronics,19891.73,4.5,In Stock,Social Media,3
+CUST00424,33,Male,Bangalore,Regular,95,ORD000424,2024-02-28,4166.44,8,Net Banking,27,No,PROD00424,Clothing,8459.44,2.9,In Stock,Word of Mouth,1
+CUST00425,30,Female,Hyderabad,Regular,82,ORD000425,2024-02-29,3022.4,1,Net Banking,7,No,PROD00425,Clothing,12198.36,2.3,In Stock,Word of Mouth,1
+CUST00426,59,Female,Bangalore,Regular,64,ORD000426,2024-03-01,1894.89,1,UPI,23,No,PROD00426,Groceries,2184.77,1.6,In Stock,Word of Mouth,7
+CUST00427,47,Male,Pune,Regular,38,ORD000427,2024-03-02,4038.96,4,Net Banking,2,No,PROD00427,Groceries,9139.13,2.6,In Stock,Social Media,5
+CUST00428,36,Male,Bangalore,Regular,88,ORD000428,2024-03-03,2862.5,6,Net Banking,24,No,PROD00428,Accessories,4851.44,2.5,In Stock,Email Marketing,1
+CUST00429,34,Female,Delhi,Regular,87,ORD000429,2024-03-04,4164.48,9,Net Banking,18,No,PROD00429,Groceries,16727.74,3.2,In Stock,Google Ads,6
+CUST00430,36,Male,Hyderabad,Regular,22,ORD000430,2024-03-05,3231.0,1,UPI,32,No,PROD00430,Groceries,15700.0,3.7,In Stock,Email Marketing,6
+CUST00431,45,Female,Kolkata,Silver,2,ORD000431,2024-03-06,3965.15,7,Net Banking,1,No,PROD00431,Groceries,16501.18,4.9,In Stock,Social Media,4
+CUST00432,43,Female,Chennai,Regular,31,ORD000432,2024-03-07,3073.1,5,Net Banking,14,No,PROD00432,Electronics,14499.83,3.9,Out of Stock,Word of Mouth,7
+CUST00433,54,Female,Delhi,Silver,11,ORD000433,2024-03-08,2187.88,8,Credit Card,21,No,PROD00433,Groceries,16670.4,3.6,In Stock,Google Ads,7
+CUST00434,43,Female,Delhi,Silver,92,ORD000434,2024-03-09,4798.14,7,Credit Card,9,No,PROD00434,Groceries,4096.49,2.3,In Stock,Social Media,9
+CUST00435,40,Female,Kolkata,Silver,46,ORD000435,2024-03-10,2797.35,4,UPI,17,No,PROD00435,Clothing,9095.67,1.1,In Stock,Word of Mouth,1
+CUST00436,26,Male,Hyderabad,Silver,96,ORD000436,2024-03-11,3104.43,4,Wallet,21,Yes,PROD00436,Electronics,13867.75,2.2,Out of Stock,Social Media,5
+CUST00437,29,Female,Hyderabad,Silver,62,ORD000437,2024-03-12,1258.34,6,Credit Card,45,No,PROD00437,Accessories,12784.11,4.1,In Stock,Google Ads,10
+CUST00438,18,Female,Pune,Gold,69,ORD000438,2024-03-13,3203.12,6,UPI,48,No,PROD00438,Accessories,14355.45,1.8,In Stock,Word of Mouth,3
+CUST00439,18,Male,Bangalore,Silver,64,ORD000439,2024-03-14,2943.72,9,Net Banking,26,No,PROD00439,Groceries,4562.74,3.8,Out of Stock,Email Marketing,7
+CUST00440,64,Female,Pune,Silver,10,ORD000440,2024-03-15,1087.22,5,Net Banking,12,No,PROD00440,Accessories,2058.85,3.3,Out of Stock,Social Media,4
+CUST00441,51,Female,Kolkata,Gold,40,ORD000441,2024-03-16,486.02,8,UPI,32,No,PROD00441,Accessories,18344.45,1.7,In Stock,Google Ads,4
+CUST00442,49,Female,Pune,Silver,24,ORD000442,2024-03-17,3100.92,5,Net Banking,4,No,PROD00442,Accessories,11247.42,2.0,In Stock,Email Marketing,1
+CUST00443,42,Female,Kolkata,Regular,99,ORD000443,2024-03-18,3865.72,2,Net Banking,25,No,PROD00443,Groceries,3161.14,3.0,In Stock,Google Ads,1
+CUST00444,57,Female,Hyderabad,Regular,44,ORD000444,2024-03-19,2712.33,6,Wallet,12,No,PROD00444,Accessories,15889.39,2.7,Out of Stock,Social Media,10
+CUST00445,62,Female,Bangalore,Regular,60,ORD000445,2024-03-20,1288.51,9,Net Banking,26,No,PROD00445,Groceries,18307.11,4.1,In Stock,Google Ads,2
+CUST00446,18,Female,Pune,Gold,62,ORD000446,2024-03-21,3399.31,3,Credit Card,13,No,PROD00446,Clothing,3474.31,3.9,Out of Stock,Word of Mouth,2
+CUST00447,33,Female,Delhi,Silver,87,ORD000447,2024-03-22,584.51,1,Net Banking,23,No,PROD00447,Clothing,16366.51,3.3,In Stock,Google Ads,1
+CUST00448,56,Female,Mumbai,Gold,17,ORD000448,2024-03-23,2320.8,1,UPI,2,No,PROD00448,Accessories,18671.18,4.3,In Stock,Social Media,8
+CUST00449,22,Female,Chennai,Silver,65,ORD000449,2024-03-24,984.16,3,Wallet,46,No,PROD00449,Clothing,18773.4,3.3,In Stock,Word of Mouth,6
+CUST00450,39,Female,Delhi,Regular,95,ORD000450,2024-03-25,1085.4,5,Net Banking,48,No,PROD00450,Groceries,18291.71,4.9,In Stock,Google Ads,6
+CUST00451,46,Male,Hyderabad,Regular,95,ORD000451,2024-03-26,1171.01,3,UPI,29,No,PROD00451,Clothing,10973.78,1.9,In Stock,Google Ads,10
+CUST00452,20,Female,Chennai,Silver,57,ORD000452,2024-03-27,2056.19,9,Credit Card,34,No,PROD00452,Accessories,7188.61,3.9,In Stock,Word of Mouth,10
+CUST00453,29,Female,Mumbai,Silver,55,ORD000453,2024-03-28,445.52,8,Net Banking,47,No,PROD00453,Groceries,244.73,2.5,In Stock,Email Marketing,9
+CUST00454,43,Male,Mumbai,Platinum,53,ORD000454,2024-03-29,2109.41,3,Wallet,13,No,PROD00454,Electronics,1312.15,2.1,In Stock,Email Marketing,5
+CUST00455,33,Female,Bangalore,Regular,56,ORD000455,2024-03-30,2656.2,9,Net Banking,11,Yes,PROD00455,Groceries,8633.9,1.7,In Stock,Word of Mouth,4
+CUST00456,54,Male,Chennai,Silver,98,ORD000456,2024-03-31,2519.81,6,UPI,27,No,PROD00456,Clothing,8046.59,3.2,In Stock,Google Ads,6
+CUST00457,39,Male,Bangalore,Silver,9,ORD000457,2024-04-01,2037.36,7,Wallet,43,No,PROD00457,Electronics,3775.81,1.9,In Stock,Email Marketing,8
+CUST00458,46,Female,Delhi,Silver,22,ORD000458,2024-04-02,4227.9,4,Net Banking,28,Yes,PROD00458,Groceries,7970.05,1.8,In Stock,Word of Mouth,1
+CUST00459,31,Male,Kolkata,Silver,13,ORD000459,2024-04-03,897.57,4,Credit Card,42,No,PROD00459,Electronics,3575.54,5.0,In Stock,Social Media,7
+CUST00460,45,Female,Kolkata,Silver,89,ORD000460,2024-04-04,2627.34,2,Wallet,16,No,PROD00460,Electronics,16990.95,4.2,Out of Stock,Google Ads,8
+CUST00461,22,Female,Kolkata,Regular,48,ORD000461,2024-04-05,497.8,5,Credit Card,39,No,PROD00461,Electronics,6034.08,4.0,In Stock,Social Media,9
+CUST00462,64,Female,Chennai,Silver,18,ORD000462,2024-04-06,541.55,8,UPI,48,No,PROD00462,Groceries,12011.43,4.2,In Stock,Google Ads,8
+CUST00463,47,Male,Kolkata,Silver,76,ORD000463,2024-04-07,2954.56,7,Net Banking,20,No,PROD00463,Clothing,10106.58,4.9,In Stock,Email Marketing,7
+CUST00464,63,Male,Delhi,Gold,40,ORD000464,2024-04-08,2916.89,7,Credit Card,22,Yes,PROD00464,Groceries,1132.45,3.3,In Stock,Social Media,3
+CUST00465,22,Female,Bangalore,Gold,17,ORD000465,2024-04-09,4414.56,6,UPI,19,Yes,PROD00465,Clothing,18850.45,1.9,In Stock,Social Media,2
+CUST00466,29,Other,Chennai,Regular,15,ORD000466,2024-04-10,2877.79,3,Net Banking,10,No,PROD00466,Groceries,10591.8,4.4,Out of Stock,Word of Mouth,3
+CUST00467,33,Female,Bangalore,Regular,15,ORD000467,2024-04-11,4807.0,5,UPI,33,No,PROD00467,Groceries,6568.65,4.0,Out of Stock,Email Marketing,4
+CUST00468,43,Male,Chennai,Platinum,79,ORD000468,2024-04-12,433.74,1,Credit Card,9,No,PROD00468,Groceries,3246.72,2.7,In Stock,Email Marketing,4
+CUST00469,43,Female,Bangalore,Silver,63,ORD000469,2024-04-13,670.44,7,UPI,9,No,PROD00469,Clothing,6836.68,2.9,In Stock,Google Ads,6
+CUST00470,38,Female,Mumbai,Gold,39,ORD000470,2024-04-14,411.52,9,Wallet,42,No,PROD00470,Groceries,508.18,2.6,In Stock,Word of Mouth,7
+CUST00471,56,Female,Bangalore,Regular,13,ORD000471,2024-04-15,1089.33,1,Net Banking,5,No,PROD00471,Electronics,7334.81,4.7,In Stock,Word of Mouth,4
+CUST00472,53,Male,Kolkata,Silver,81,ORD000472,2024-04-16,2798.1,2,UPI,35,No,PROD00472,Groceries,10676.57,2.4,In Stock,Google Ads,10
+CUST00473,50,Female,Mumbai,Gold,32,ORD000473,2024-04-17,3298.75,3,Credit Card,23,No,PROD00473,Electronics,17450.14,4.9,In Stock,Social Media,6
+CUST00474,47,Female,Bangalore,Gold,9,ORD000474,2024-04-18,418.81,3,Net Banking,11,No,PROD00474,Accessories,13778.75,4.6,In Stock,Google Ads,9
+CUST00475,54,Other,Chennai,Regular,40,ORD000475,2024-04-19,4740.66,8,Wallet,42,No,PROD00475,Accessories,2320.49,3.5,Out of Stock,Google Ads,6
+CUST00476,40,Male,Chennai,Silver,20,ORD000476,2024-04-20,4242.39,7,Net Banking,22,Yes,PROD00476,Clothing,3040.15,3.3,In Stock,Google Ads,3
+CUST00477,27,Female,Chennai,Silver,90,ORD000477,2024-04-21,1623.74,6,Wallet,26,Yes,PROD00477,Clothing,8619.66,2.5,In Stock,Word of Mouth,1
+CUST00478,22,Female,Hyderabad,Regular,91,ORD000478,2024-04-22,570.5,4,Net Banking,44,No,PROD00478,Accessories,3994.58,1.1,In Stock,Google Ads,10
+CUST00479,53,Male,Delhi,Silver,85,ORD000479,2024-04-23,1015.46,9,UPI,36,No,PROD00479,Groceries,654.21,1.5,Out of Stock,Google Ads,10
+CUST00480,51,Female,Chennai,Silver,82,ORD000480,2024-04-24,809.33,1,UPI,5,No,PROD00480,Groceries,16119.8,4.0,In Stock,Google Ads,5
+CUST00481,48,Female,Mumbai,Gold,77,ORD000481,2024-04-25,791.76,2,Credit Card,0,No,PROD00481,Groceries,488.5,2.9,In Stock,Email Marketing,10
+CUST00482,27,Male,Chennai,Regular,80,ORD000482,2024-04-26,2689.1,4,Wallet,5,No,PROD00482,Accessories,16630.72,1.6,In Stock,Social Media,10
+CUST00483,36,Male,Hyderabad,Regular,73,ORD000483,2024-04-27,1380.07,3,Credit Card,49,No,PROD00483,Electronics,2967.67,2.1,In Stock,Social Media,3
+CUST00484,49,Female,Kolkata,Regular,63,ORD000484,2024-04-28,1919.07,1,UPI,21,No,PROD00484,Clothing,19496.1,4.8,In Stock,Social Media,8
+CUST00485,18,Male,Mumbai,Regular,76,ORD000485,2024-04-29,4949.63,5,Wallet,40,No,PROD00485,Electronics,12117.09,2.5,In Stock,Social Media,10
+CUST00486,22,Female,Hyderabad,Regular,44,ORD000486,2024-04-30,3484.71,7,Credit Card,23,Yes,PROD00486,Accessories,14726.16,4.6,In Stock,Word of Mouth,1
+CUST00487,62,Male,Kolkata,Silver,38,ORD000487,2024-05-01,4755.11,2,Credit Card,24,No,PROD00487,Electronics,2298.62,2.2,In Stock,Word of Mouth,2
+CUST00488,21,Female,Pune,Regular,83,ORD000488,2024-05-02,884.27,5,Credit Card,14,No,PROD00488,Groceries,17255.87,3.2,Out of Stock,Google Ads,3
+CUST00489,33,Male,Pune,Gold,60,ORD000489,2024-05-03,2034.27,6,Credit Card,25,No,PROD00489,Groceries,16799.93,1.1,In Stock,Word of Mouth,3
+CUST00490,41,Female,Mumbai,Platinum,71,ORD000490,2024-05-04,2862.71,7,Credit Card,7,No,PROD00490,Electronics,13094.56,3.1,In Stock,Social Media,8
+CUST00491,33,Other,Bangalore,Silver,99,ORD000491,2024-05-05,568.44,1,Wallet,23,Yes,PROD00491,Accessories,10095.27,3.5,In Stock,Email Marketing,5
+CUST00492,19,Other,Delhi,Gold,48,ORD000492,2024-05-06,220.1,7,Credit Card,47,No,PROD00492,Electronics,14457.63,1.9,In Stock,Google Ads,8
+CUST00493,45,Female,Delhi,Silver,18,ORD000493,2024-05-07,3418.08,4,Wallet,37,No,PROD00493,Groceries,217.97,3.3,In Stock,Google Ads,6
+CUST00494,49,Male,Hyderabad,Silver,16,ORD000494,2024-05-08,3280.73,8,Credit Card,5,No,PROD00494,Groceries,11889.57,3.6,Out of Stock,Social Media,2
+CUST00495,44,Female,Kolkata,Regular,55,ORD000495,2024-05-09,2171.79,4,UPI,34,Yes,PROD00495,Accessories,16963.38,3.7,Out of Stock,Social Media,4
+CUST00496,37,Male,Delhi,Regular,39,ORD000496,2024-05-10,2550.29,6,UPI,41,No,PROD00496,Electronics,7202.31,4.1,In Stock,Social Media,9
+CUST00497,41,Male,Kolkata,Silver,68,ORD000497,2024-05-11,2194.13,9,Credit Card,0,No,PROD00497,Groceries,2254.96,2.2,In Stock,Word of Mouth,4
+CUST00498,29,Male,Kolkata,Gold,59,ORD000498,2024-05-12,315.22,5,Net Banking,45,No,PROD00498,Groceries,8475.46,3.3,In Stock,Google Ads,5
+CUST00499,52,Female,Hyderabad,Regular,89,ORD000499,2024-05-13,1809.78,4,UPI,35,No,PROD00499,Electronics,14569.38,4.9,In Stock,Social Media,5
+CUST00500,50,Female,Hyderabad,Gold,96,ORD000500,2024-05-14,1049.99,8,Wallet,11,No,PROD00500,Electronics,2235.29,4.6,In Stock,Email Marketing,10
+CUST00501,50,Female,Hyderabad,Silver,62,ORD000501,2024-05-15,672.44,9,Credit Card,37,No,PROD00501,Clothing,4200.37,4.8,In Stock,Google Ads,8
+CUST00502,60,Male,Delhi,Regular,13,ORD000502,2024-05-16,4792.26,4,Wallet,10,No,PROD00502,Accessories,3036.28,2.5,Out of Stock,Google Ads,6
+CUST00503,54,Male,Pune,Platinum,81,ORD000503,2024-05-17,3076.93,3,Net Banking,11,No,PROD00503,Accessories,15959.26,4.1,In Stock,Word of Mouth,10
+CUST00504,29,Other,Hyderabad,Silver,6,ORD000504,2024-05-18,3697.55,8,Credit Card,41,No,PROD00504,Electronics,1351.56,3.5,In Stock,Google Ads,7
+CUST00505,20,Male,Delhi,Regular,83,ORD000505,2024-05-19,1713.75,5,UPI,49,Yes,PROD00505,Accessories,13763.07,1.3,Out of Stock,Social Media,6
+CUST00506,18,Male,Hyderabad,Silver,77,ORD000506,2024-05-20,2087.11,2,Wallet,38,Yes,PROD00506,Groceries,7392.49,4.3,In Stock,Social Media,5
+CUST00507,50,Male,Chennai,Regular,60,ORD000507,2024-05-21,1337.24,9,UPI,6,No,PROD00507,Electronics,15140.25,3.7,In Stock,Email Marketing,5
+CUST00508,57,Female,Kolkata,Silver,90,ORD000508,2024-05-22,665.44,3,UPI,10,No,PROD00508,Electronics,19291.23,1.8,In Stock,Google Ads,3
+CUST00509,27,Female,Hyderabad,Regular,14,ORD000509,2024-05-23,1059.35,2,Credit Card,35,No,PROD00509,Electronics,2379.45,1.3,In Stock,Google Ads,7
+CUST00510,60,Male,Mumbai,Regular,95,ORD000510,2024-05-24,4028.07,1,Wallet,30,No,PROD00510,Clothing,6356.26,4.3,Out of Stock,Word of Mouth,10
+CUST00511,61,Male,Kolkata,Platinum,54,ORD000511,2024-05-25,3452.22,8,Net Banking,32,No,PROD00511,Accessories,16221.5,1.3,Out of Stock,Social Media,5
+CUST00512,46,Female,Kolkata,Silver,4,ORD000512,2024-05-26,2825.26,3,UPI,12,No,PROD00512,Clothing,5396.55,1.4,Out of Stock,Email Marketing,7
+CUST00513,30,Female,Hyderabad,Regular,39,ORD000513,2024-05-27,2480.43,7,Credit Card,17,No,PROD00513,Groceries,4380.9,2.7,Out of Stock,Social Media,2
+CUST00514,29,Male,Pune,Regular,72,ORD000514,2024-05-28,4627.68,1,Credit Card,40,No,PROD00514,Accessories,16525.02,1.5,In Stock,Google Ads,9
+CUST00515,48,Female,Bangalore,Gold,25,ORD000515,2024-05-29,549.13,1,Net Banking,23,No,PROD00515,Clothing,19742.94,4.7,Out of Stock,Google Ads,8
+CUST00516,63,Male,Pune,Regular,77,ORD000516,2024-05-30,1546.88,9,Credit Card,8,No,PROD00516,Electronics,11181.92,2.9,Out of Stock,Email Marketing,5
+CUST00517,19,Male,Hyderabad,Regular,32,ORD000517,2024-05-31,1879.7,8,UPI,30,No,PROD00517,Clothing,5633.17,3.3,In Stock,Google Ads,2
+CUST00518,52,Female,Kolkata,Regular,59,ORD000518,2024-06-01,3955.64,3,Credit Card,40,No,PROD00518,Electronics,8031.46,4.7,In Stock,Email Marketing,6
+CUST00519,40,Male,Mumbai,Regular,63,ORD000519,2024-06-02,4964.07,6,Wallet,9,No,PROD00519,Clothing,3485.59,3.1,In Stock,Email Marketing,8
+CUST00520,34,Female,Kolkata,Gold,38,ORD000520,2024-06-03,1355.22,3,Wallet,1,No,PROD00520,Clothing,15261.56,2.4,In Stock,Social Media,7
+CUST00521,43,Male,Pune,Silver,92,ORD000521,2024-06-04,4396.68,4,UPI,37,No,PROD00521,Clothing,15492.13,4.2,In Stock,Email Marketing,8
+CUST00522,25,Male,Mumbai,Regular,53,ORD000522,2024-06-05,4186.99,1,Wallet,14,Yes,PROD00522,Electronics,17514.91,2.8,Out of Stock,Google Ads,4
+CUST00523,46,Other,Delhi,Silver,94,ORD000523,2024-06-06,1278.36,5,Net Banking,2,No,PROD00523,Clothing,629.39,2.3,Out of Stock,Word of Mouth,3
+CUST00524,43,Male,Chennai,Regular,67,ORD000524,2024-06-07,2116.8,1,Credit Card,42,No,PROD00524,Accessories,11283.43,3.9,In Stock,Word of Mouth,7
+CUST00525,27,Female,Kolkata,Platinum,28,ORD000525,2024-06-08,2166.43,1,UPI,30,No,PROD00525,Accessories,4363.68,4.2,In Stock,Google Ads,2
+CUST00526,43,Male,Hyderabad,Platinum,3,ORD000526,2024-06-09,4895.46,7,Net Banking,5,No,PROD00526,Accessories,6883.57,4.2,Out of Stock,Word of Mouth,5
+CUST00527,51,Male,Delhi,Regular,98,ORD000527,2024-06-10,1068.28,6,Credit Card,2,No,PROD00527,Electronics,15720.62,4.9,In Stock,Word of Mouth,7
+CUST00528,58,Male,Chennai,Gold,80,ORD000528,2024-06-11,4035.96,2,Net Banking,10,No,PROD00528,Electronics,3921.47,4.1,In Stock,Email Marketing,1
+CUST00529,24,Female,Hyderabad,Silver,22,ORD000529,2024-06-12,1804.13,2,UPI,14,No,PROD00529,Accessories,12803.0,4.1,In Stock,Word of Mouth,4
+CUST00530,21,Male,Bangalore,Regular,96,ORD000530,2024-06-13,3708.18,7,UPI,44,Yes,PROD00530,Accessories,13125.87,4.4,Out of Stock,Word of Mouth,2
+CUST00531,62,Female,Hyderabad,Regular,38,ORD000531,2024-06-14,2216.05,1,Net Banking,27,No,PROD00531,Accessories,19086.47,1.0,Out of Stock,Word of Mouth,6
+CUST00532,28,Male,Mumbai,Regular,72,ORD000532,2024-06-15,2976.13,2,Credit Card,9,No,PROD00532,Groceries,15525.7,2.4,In Stock,Social Media,1
+CUST00533,46,Other,Mumbai,Silver,72,ORD000533,2024-06-16,4196.54,8,Wallet,37,No,PROD00533,Accessories,16092.34,4.0,In Stock,Google Ads,7
+CUST00534,53,Male,Bangalore,Platinum,62,ORD000534,2024-06-17,4059.99,6,Wallet,46,No,PROD00534,Clothing,10678.85,3.4,Out of Stock,Email Marketing,3
+CUST00535,42,Female,Delhi,Silver,57,ORD000535,2024-06-18,4358.83,2,Net Banking,49,No,PROD00535,Groceries,3816.94,1.7,In Stock,Word of Mouth,1
+CUST00536,38,Female,Chennai,Gold,6,ORD000536,2024-06-19,486.16,7,UPI,49,No,PROD00536,Groceries,8568.71,2.2,In Stock,Google Ads,8
+CUST00537,53,Female,Hyderabad,Silver,78,ORD000537,2024-06-20,3521.84,4,Credit Card,6,No,PROD00537,Electronics,11034.84,2.3,In Stock,Word of Mouth,7
+CUST00538,27,Female,Mumbai,Gold,32,ORD000538,2024-06-21,871.94,2,Credit Card,14,No,PROD00538,Clothing,13600.54,3.3,In Stock,Social Media,2
+CUST00539,54,Female,Delhi,Silver,99,ORD000539,2024-06-22,2195.93,6,UPI,17,No,PROD00539,Electronics,12193.41,4.3,In Stock,Social Media,7
+CUST00540,26,Female,Bangalore,Regular,10,ORD000540,2024-06-23,2833.22,9,Wallet,17,Yes,PROD00540,Electronics,7940.16,4.7,In Stock,Word of Mouth,3
+CUST00541,41,Male,Pune,Silver,3,ORD000541,2024-06-24,2133.15,9,Credit Card,40,No,PROD00541,Clothing,5379.73,4.0,Out of Stock,Word of Mouth,9
+CUST00542,52,Male,Kolkata,Gold,59,ORD000542,2024-06-25,2694.14,8,Net Banking,23,No,PROD00542,Electronics,3447.79,4.4,In Stock,Word of Mouth,8
+CUST00543,52,Female,Pune,Regular,76,ORD000543,2024-06-26,4983.33,3,Wallet,1,No,PROD00543,Clothing,13907.52,2.9,Out of Stock,Social Media,5
+CUST00544,53,Female,Pune,Gold,49,ORD000544,2024-06-27,849.04,3,Net Banking,39,Yes,PROD00544,Clothing,12943.43,2.6,Out of Stock,Social Media,7
+CUST00545,35,Female,Mumbai,Regular,59,ORD000545,2024-06-28,3442.19,2,Wallet,19,No,PROD00545,Electronics,13778.71,2.6,In Stock,Google Ads,3
+CUST00546,56,Female,Bangalore,Silver,31,ORD000546,2024-06-29,2100.8,5,UPI,33,Yes,PROD00546,Accessories,7513.3,3.5,In Stock,Email Marketing,1
+CUST00547,49,Male,Hyderabad,Gold,93,ORD000547,2024-06-30,838.45,4,Net Banking,42,Yes,PROD00547,Electronics,5321.92,1.5,In Stock,Email Marketing,1
+CUST00548,41,Male,Pune,Regular,69,ORD000548,2024-07-01,961.94,7,Net Banking,25,Yes,PROD00548,Groceries,15218.45,3.3,In Stock,Social Media,2
+CUST00549,40,Female,Pune,Regular,62,ORD000549,2024-07-02,4756.51,4,UPI,6,No,PROD00549,Electronics,15495.58,3.7,In Stock,Email Marketing,8
+CUST00550,49,Male,Chennai,Regular,52,ORD000550,2024-07-03,4422.09,9,Net Banking,37,Yes,PROD00550,Clothing,9166.77,2.8,In Stock,Word of Mouth,1
+CUST00551,54,Male,Mumbai,Gold,89,ORD000551,2024-07-04,4553.8,2,Wallet,29,No,PROD00551,Groceries,12276.89,4.8,In Stock,Google Ads,5
+CUST00552,29,Female,Mumbai,Regular,41,ORD000552,2024-07-05,4959.36,6,Credit Card,41,No,PROD00552,Clothing,7533.04,3.4,In Stock,Social Media,9
+CUST00553,30,Male,Hyderabad,Gold,31,ORD000553,2024-07-06,1199.91,7,Credit Card,4,No,PROD00553,Accessories,14068.75,1.9,Out of Stock,Social Media,9
+CUST00554,40,Female,Kolkata,Regular,85,ORD000554,2024-07-07,1906.11,4,UPI,10,No,PROD00554,Accessories,16730.86,2.9,In Stock,Email Marketing,2
+CUST00555,42,Male,Delhi,Platinum,84,ORD000555,2024-07-08,3412.25,6,Wallet,0,No,PROD00555,Groceries,13795.84,3.7,In Stock,Word of Mouth,7
+CUST00556,52,Female,Chennai,Platinum,22,ORD000556,2024-07-09,2522.25,7,Net Banking,33,No,PROD00556,Accessories,10300.39,2.3,In Stock,Google Ads,1
+CUST00557,58,Male,Mumbai,Regular,4,ORD000557,2024-07-10,2208.27,4,Net Banking,0,No,PROD00557,Accessories,9227.29,1.3,Out of Stock,Email Marketing,3
+CUST00558,47,Male,Chennai,Silver,13,ORD000558,2024-07-11,1917.49,8,Credit Card,18,No,PROD00558,Electronics,12882.16,3.3,In Stock,Social Media,6
+CUST00559,34,Male,Mumbai,Regular,45,ORD000559,2024-07-12,3050.15,9,Net Banking,1,No,PROD00559,Electronics,13628.24,4.8,In Stock,Social Media,9
+CUST00560,37,Male,Chennai,Silver,42,ORD000560,2024-07-13,2962.85,1,Credit Card,20,No,PROD00560,Accessories,11218.72,2.9,In Stock,Email Marketing,10
+CUST00561,42,Male,Bangalore,Regular,49,ORD000561,2024-07-14,975.0,7,UPI,19,No,PROD00561,Accessories,12536.35,4.6,In Stock,Word of Mouth,2
+CUST00562,39,Male,Pune,Regular,20,ORD000562,2024-07-15,2464.35,9,Net Banking,22,No,PROD00562,Electronics,2022.11,4.3,Out of Stock,Google Ads,7
+CUST00563,30,Female,Mumbai,Regular,77,ORD000563,2024-07-16,2856.66,5,Wallet,20,No,PROD00563,Accessories,19040.13,1.6,In Stock,Google Ads,4
+CUST00564,36,Male,Chennai,Regular,81,ORD000564,2024-07-17,2937.38,2,Net Banking,23,No,PROD00564,Accessories,15836.38,3.8,In Stock,Google Ads,2
+CUST00565,53,Female,Delhi,Regular,54,ORD000565,2024-07-18,1208.51,6,Credit Card,3,No,PROD00565,Clothing,7541.16,2.7,In Stock,Google Ads,3
+CUST00566,29,Female,Bangalore,Silver,36,ORD000566,2024-07-19,3762.9,7,UPI,11,No,PROD00566,Accessories,11299.97,2.0,Out of Stock,Word of Mouth,6
+CUST00567,58,Female,Bangalore,Platinum,97,ORD000567,2024-07-20,320.96,2,Credit Card,21,No,PROD00567,Groceries,1041.76,3.7,In Stock,Social Media,10
+CUST00568,36,Male,Delhi,Regular,1,ORD000568,2024-07-21,1903.19,2,Net Banking,19,No,PROD00568,Clothing,920.43,4.0,Out of Stock,Social Media,9
+CUST00569,29,Female,Chennai,Silver,15,ORD000569,2024-07-22,3945.02,1,Credit Card,17,No,PROD00569,Groceries,5090.89,1.7,In Stock,Google Ads,8
+CUST00570,26,Male,Hyderabad,Regular,77,ORD000570,2024-07-23,2906.69,4,Credit Card,0,No,PROD00570,Accessories,13825.06,4.7,In Stock,Google Ads,10
+CUST00571,24,Male,Delhi,Gold,17,ORD000571,2024-07-24,1453.58,7,UPI,29,No,PROD00571,Electronics,17057.74,4.0,In Stock,Google Ads,9
+CUST00572,45,Other,Chennai,Gold,24,ORD000572,2024-07-25,3535.77,9,Wallet,32,No,PROD00572,Clothing,11227.8,4.7,In Stock,Email Marketing,4
+CUST00573,31,Male,Delhi,Gold,58,ORD000573,2024-07-26,2923.48,3,Net Banking,23,No,PROD00573,Electronics,10689.44,2.3,In Stock,Email Marketing,4
+CUST00574,48,Female,Delhi,Platinum,72,ORD000574,2024-07-27,4021.97,7,UPI,13,No,PROD00574,Clothing,8105.96,4.8,Out of Stock,Social Media,9
+CUST00575,36,Female,Mumbai,Regular,91,ORD000575,2024-07-28,3728.12,7,Wallet,35,No,PROD00575,Electronics,3315.8,2.5,In Stock,Social Media,8
+CUST00576,64,Female,Chennai,Gold,23,ORD000576,2024-07-29,3128.52,7,Credit Card,4,No,PROD00576,Clothing,2455.25,1.2,Out of Stock,Google Ads,2
+CUST00577,33,Female,Hyderabad,Silver,46,ORD000577,2024-07-30,2543.25,2,Wallet,10,No,PROD00577,Clothing,15237.53,4.1,In Stock,Email Marketing,8
+CUST00578,22,Male,Pune,Regular,72,ORD000578,2024-07-31,839.27,6,Credit Card,23,No,PROD00578,Groceries,18557.32,3.8,In Stock,Word of Mouth,1
+CUST00579,52,Male,Mumbai,Platinum,8,ORD000579,2024-08-01,1454.4,2,Credit Card,30,No,PROD00579,Electronics,9219.84,3.4,Out of Stock,Email Marketing,9
+CUST00580,29,Female,Delhi,Regular,59,ORD000580,2024-08-02,2211.68,6,UPI,12,No,PROD00580,Groceries,13222.97,3.0,In Stock,Social Media,9
+CUST00581,42,Male,Pune,Silver,90,ORD000581,2024-08-03,3076.64,3,Credit Card,15,No,PROD00581,Groceries,18297.71,1.1,In Stock,Email Marketing,8
+CUST00582,38,Male,Kolkata,Regular,59,ORD000582,2024-08-04,2665.8,2,UPI,23,No,PROD00582,Electronics,1893.26,3.5,Out of Stock,Social Media,5
+CUST00583,53,Male,Pune,Regular,13,ORD000583,2024-08-05,1583.29,6,Wallet,12,No,PROD00583,Clothing,15432.58,2.7,In Stock,Google Ads,5
+CUST00584,40,Male,Delhi,Silver,39,ORD000584,2024-08-06,231.03,2,Wallet,23,No,PROD00584,Groceries,12374.66,3.2,In Stock,Word of Mouth,3
+CUST00585,33,Male,Delhi,Silver,28,ORD000585,2024-08-07,2581.95,5,Credit Card,25,No,PROD00585,Electronics,12012.88,2.7,Out of Stock,Google Ads,5
+CUST00586,56,Male,Chennai,Regular,89,ORD000586,2024-08-08,1571.0,2,UPI,1,No,PROD00586,Clothing,5921.55,4.9,In Stock,Google Ads,4
+CUST00587,62,Female,Chennai,Regular,61,ORD000587,2024-08-09,3726.12,3,Credit Card,15,No,PROD00587,Groceries,13709.48,3.4,Out of Stock,Word of Mouth,1
+CUST00588,59,Female,Mumbai,Gold,16,ORD000588,2024-08-10,314.94,3,UPI,37,No,PROD00588,Groceries,15916.48,4.0,In Stock,Word of Mouth,9
+CUST00589,56,Female,Hyderabad,Regular,2,ORD000589,2024-08-11,3007.17,6,UPI,45,No,PROD00589,Groceries,2345.88,4.7,In Stock,Word of Mouth,10
+CUST00590,31,Male,Mumbai,Regular,82,ORD000590,2024-08-12,4719.08,6,UPI,0,No,PROD00590,Clothing,10717.08,3.4,In Stock,Social Media,4
+CUST00591,48,Male,Bangalore,Gold,17,ORD000591,2024-08-13,1037.16,3,Wallet,48,No,PROD00591,Groceries,2115.18,1.0,In Stock,Google Ads,3
+CUST00592,22,Male,Delhi,Gold,30,ORD000592,2024-08-14,2463.92,3,UPI,10,No,PROD00592,Clothing,17464.22,1.1,In Stock,Social Media,6
+CUST00593,52,Female,Pune,Regular,13,ORD000593,2024-08-15,638.83,1,Wallet,34,No,PROD00593,Accessories,10201.97,3.8,Out of Stock,Word of Mouth,1
+CUST00594,40,Female,Kolkata,Silver,96,ORD000594,2024-08-16,3203.27,7,UPI,42,No,PROD00594,Groceries,16178.52,2.1,In Stock,Social Media,5
+CUST00595,46,Male,Delhi,Gold,93,ORD000595,2024-08-17,2842.55,8,Wallet,28,No,PROD00595,Accessories,7424.9,3.3,In Stock,Word of Mouth,7
+CUST00596,60,Female,Delhi,Gold,94,ORD000596,2024-08-18,2155.35,2,Net Banking,36,No,PROD00596,Electronics,2589.06,1.8,In Stock,Email Marketing,2
+CUST00597,28,Male,Mumbai,Silver,82,ORD000597,2024-08-19,2702.61,4,Wallet,16,No,PROD00597,Groceries,925.84,2.1,In Stock,Word of Mouth,10
+CUST00598,35,Female,Kolkata,Regular,13,ORD000598,2024-08-20,4503.56,7,Wallet,38,No,PROD00598,Electronics,5702.04,3.0,In Stock,Google Ads,9
+CUST00599,64,Female,Kolkata,Regular,43,ORD000599,2024-08-21,1142.21,8,Credit Card,41,No,PROD00599,Electronics,4960.25,4.9,In Stock,Google Ads,6
+CUST00600,29,Female,Kolkata,Regular,85,ORD000600,2024-08-22,308.31,1,UPI,27,Yes,PROD00600,Electronics,11251.0,3.5,In Stock,Google Ads,2
+CUST00601,26,Female,Mumbai,Silver,94,ORD000601,2024-08-23,4335.99,4,Net Banking,28,No,PROD00601,Accessories,532.6,4.7,In Stock,Social Media,8
+CUST00602,27,Female,Delhi,Regular,21,ORD000602,2024-08-24,2970.16,6,Credit Card,42,No,PROD00602,Clothing,10459.35,4.8,In Stock,Google Ads,8
+CUST00603,61,Male,Mumbai,Silver,55,ORD000603,2024-08-25,4475.16,3,UPI,2,Yes,PROD00603,Accessories,7896.26,1.8,In Stock,Word of Mouth,1
+CUST00604,34,Female,Chennai,Regular,81,ORD000604,2024-08-26,3065.34,5,Net Banking,9,No,PROD00604,Accessories,11584.73,2.2,In Stock,Email Marketing,1
+CUST00605,55,Male,Chennai,Regular,40,ORD000605,2024-08-27,4088.77,9,Net Banking,41,No,PROD00605,Electronics,14078.11,4.1,In Stock,Google Ads,1
+CUST00606,24,Female,Mumbai,Gold,83,ORD000606,2024-08-28,2262.43,3,Net Banking,13,No,PROD00606,Groceries,12718.43,4.5,In Stock,Social Media,4
+CUST00607,63,Female,Kolkata,Regular,15,ORD000607,2024-08-29,3799.33,5,UPI,11,No,PROD00607,Clothing,19694.42,3.1,Out of Stock,Email Marketing,4
+CUST00608,30,Female,Delhi,Regular,73,ORD000608,2024-08-30,4582.6,8,Net Banking,46,No,PROD00608,Electronics,2851.48,5.0,Out of Stock,Google Ads,8
+CUST00609,57,Male,Mumbai,Gold,52,ORD000609,2024-08-31,2946.19,6,Net Banking,41,No,PROD00609,Clothing,8651.77,1.0,In Stock,Google Ads,1
+CUST00610,59,Female,Mumbai,Regular,74,ORD000610,2024-09-01,1067.77,4,Credit Card,29,No,PROD00610,Accessories,8554.13,2.2,In Stock,Email Marketing,10
+CUST00611,26,Female,Mumbai,Silver,95,ORD000611,2024-09-02,1490.23,8,Wallet,31,No,PROD00611,Clothing,8399.36,3.5,Out of Stock,Google Ads,3
+CUST00612,44,Female,Bangalore,Silver,53,ORD000612,2024-09-03,1153.49,3,UPI,31,No,PROD00612,Clothing,13309.59,2.9,In Stock,Social Media,1
+CUST00613,19,Male,Chennai,Regular,87,ORD000613,2024-09-04,1384.91,3,Wallet,41,No,PROD00613,Groceries,9847.58,1.5,In Stock,Word of Mouth,9
+CUST00614,22,Male,Pune,Gold,52,ORD000614,2024-09-05,1670.79,4,Credit Card,31,No,PROD00614,Electronics,10396.91,2.5,In Stock,Word of Mouth,10
+CUST00615,46,Male,Kolkata,Silver,30,ORD000615,2024-09-06,2864.64,9,Wallet,25,No,PROD00615,Clothing,8703.88,1.1,In Stock,Email Marketing,9
+CUST00616,54,Male,Hyderabad,Regular,33,ORD000616,2024-09-07,3022.36,5,Net Banking,0,No,PROD00616,Clothing,19834.82,3.6,In Stock,Word of Mouth,7
+CUST00617,55,Female,Pune,Regular,57,ORD000617,2024-09-08,2247.2,8,Net Banking,41,Yes,PROD00617,Accessories,18558.47,4.6,In Stock,Google Ads,8
+CUST00618,36,Male,Kolkata,Regular,52,ORD000618,2024-09-09,3154.02,6,UPI,1,No,PROD00618,Accessories,6223.71,4.5,In Stock,Google Ads,1
+CUST00619,25,Other,Hyderabad,Gold,9,ORD000619,2024-09-10,591.56,3,UPI,16,No,PROD00619,Clothing,2320.72,3.8,In Stock,Social Media,5
+CUST00620,62,Male,Bangalore,Regular,54,ORD000620,2024-09-11,621.38,8,UPI,29,No,PROD00620,Electronics,16811.32,2.9,Out of Stock,Word of Mouth,2
+CUST00621,18,Male,Mumbai,Silver,1,ORD000621,2024-09-12,1024.78,9,Credit Card,38,No,PROD00621,Clothing,19943.69,3.0,In Stock,Email Marketing,1
+CUST00622,39,Female,Bangalore,Silver,44,ORD000622,2024-09-13,2686.77,8,UPI,6,No,PROD00622,Clothing,5922.92,1.5,In Stock,Google Ads,3
+CUST00623,34,Female,Bangalore,Silver,99,ORD000623,2024-09-14,1227.17,4,Credit Card,26,No,PROD00623,Groceries,7219.92,2.4,In Stock,Email Marketing,7
+CUST00624,24,Female,Pune,Regular,75,ORD000624,2024-09-15,1559.77,6,Net Banking,8,No,PROD00624,Electronics,18838.5,1.8,In Stock,Google Ads,1
+CUST00625,42,Female,Delhi,Regular,98,ORD000625,2024-09-16,2121.5,1,Wallet,21,No,PROD00625,Groceries,14251.48,4.3,In Stock,Google Ads,2
+CUST00626,62,Female,Pune,Silver,80,ORD000626,2024-09-17,4096.96,4,Net Banking,33,No,PROD00626,Electronics,5983.2,4.7,In Stock,Social Media,2
+CUST00627,21,Male,Chennai,Regular,9,ORD000627,2024-09-18,266.54,8,Net Banking,45,No,PROD00627,Electronics,11662.83,3.1,In Stock,Word of Mouth,4
+CUST00628,53,Other,Hyderabad,Regular,32,ORD000628,2024-09-19,3317.02,1,Net Banking,48,Yes,PROD00628,Electronics,18890.17,3.9,In Stock,Social Media,3
+CUST00629,23,Other,Mumbai,Regular,15,ORD000629,2024-09-20,3410.61,3,UPI,0,No,PROD00629,Groceries,16255.08,1.5,In Stock,Word of Mouth,3
+CUST00630,48,Female,Pune,Regular,12,ORD000630,2024-09-21,4033.55,1,UPI,8,No,PROD00630,Groceries,14862.47,3.4,In Stock,Email Marketing,10
+CUST00631,36,Male,Hyderabad,Gold,97,ORD000631,2024-09-22,4677.21,9,UPI,19,No,PROD00631,Groceries,14766.23,3.8,In Stock,Word of Mouth,5
+CUST00632,61,Female,Kolkata,Regular,78,ORD000632,2024-09-23,296.66,2,Wallet,18,No,PROD00632,Accessories,3642.6,2.8,In Stock,Email Marketing,3
+CUST00633,56,Male,Hyderabad,Regular,57,ORD000633,2024-09-24,938.16,9,UPI,35,No,PROD00633,Groceries,16511.16,2.0,In Stock,Google Ads,7
+CUST00634,44,Male,Kolkata,Regular,8,ORD000634,2024-09-25,4453.62,4,Credit Card,39,No,PROD00634,Accessories,5594.76,4.5,In Stock,Email Marketing,5
+CUST00635,27,Male,Pune,Silver,72,ORD000635,2024-09-26,2400.89,2,Net Banking,44,No,PROD00635,Accessories,18614.3,4.0,In Stock,Email Marketing,4
+CUST00636,43,Male,Chennai,Silver,27,ORD000636,2024-09-27,2910.04,4,Wallet,3,No,PROD00636,Accessories,7356.34,4.6,In Stock,Google Ads,3
+CUST00637,36,Female,Pune,Regular,62,ORD000637,2024-09-28,3382.53,6,Wallet,8,Yes,PROD00637,Clothing,17167.44,4.3,In Stock,Email Marketing,4
+CUST00638,56,Female,Kolkata,Silver,12,ORD000638,2024-09-29,3459.52,7,Wallet,40,No,PROD00638,Clothing,5398.05,5.0,In Stock,Email Marketing,2
+CUST00639,20,Female,Hyderabad,Silver,65,ORD000639,2024-09-30,4672.35,3,Wallet,21,No,PROD00639,Clothing,10339.09,1.8,Out of Stock,Google Ads,1
+CUST00640,62,Male,Hyderabad,Gold,42,ORD000640,2024-10-01,4985.36,3,Wallet,17,No,PROD00640,Accessories,2227.02,1.3,Out of Stock,Google Ads,3
+CUST00641,30,Male,Kolkata,Gold,62,ORD000641,2024-10-02,3656.76,8,Credit Card,11,No,PROD00641,Accessories,13236.37,2.3,In Stock,Google Ads,2
+CUST00642,45,Male,Bangalore,Regular,11,ORD000642,2024-10-03,1578.66,5,Net Banking,41,No,PROD00642,Electronics,16737.98,1.5,In Stock,Word of Mouth,1
+CUST00643,37,Other,Chennai,Regular,43,ORD000643,2024-10-04,4422.81,4,Wallet,42,No,PROD00643,Accessories,14397.1,3.1,In Stock,Google Ads,1
+CUST00644,45,Male,Delhi,Regular,95,ORD000644,2024-10-05,436.26,7,Net Banking,38,No,PROD00644,Clothing,10512.84,3.5,In Stock,Google Ads,2
+CUST00645,25,Female,Mumbai,Regular,17,ORD000645,2024-10-06,1309.19,7,UPI,8,No,PROD00645,Accessories,997.81,3.3,In Stock,Email Marketing,9
+CUST00646,58,Female,Hyderabad,Platinum,97,ORD000646,2024-10-07,4507.45,9,Wallet,5,No,PROD00646,Accessories,18675.48,2.0,In Stock,Social Media,5
+CUST00647,56,Male,Mumbai,Regular,32,ORD000647,2024-10-08,1429.72,9,Wallet,18,No,PROD00647,Electronics,14139.24,4.6,In Stock,Social Media,9
+CUST00648,18,Female,Delhi,Regular,93,ORD000648,2024-10-09,1259.13,5,Net Banking,47,No,PROD00648,Accessories,14942.7,1.1,In Stock,Word of Mouth,8
+CUST00649,20,Female,Pune,Silver,85,ORD000649,2024-10-10,863.0,8,Wallet,46,No,PROD00649,Groceries,15914.14,2.4,In Stock,Word of Mouth,6
+CUST00650,30,Female,Mumbai,Silver,85,ORD000650,2024-10-11,4323.74,1,Wallet,6,No,PROD00650,Electronics,14980.09,3.9,In Stock,Social Media,1
+CUST00651,45,Female,Delhi,Regular,40,ORD000651,2024-10-12,2600.28,9,Wallet,15,No,PROD00651,Accessories,8878.21,4.1,In Stock,Social Media,10
+CUST00652,42,Male,Kolkata,Regular,23,ORD000652,2024-10-13,3439.49,8,Credit Card,4,No,PROD00652,Accessories,14699.07,2.7,In Stock,Google Ads,5
+CUST00653,50,Male,Bangalore,Regular,56,ORD000653,2024-10-14,1347.52,6,Credit Card,15,No,PROD00653,Electronics,12538.03,1.1,In Stock,Email Marketing,1
+CUST00654,55,Female,Hyderabad,Silver,6,ORD000654,2024-10-15,3838.59,3,Wallet,0,No,PROD00654,Accessories,17094.93,3.5,In Stock,Google Ads,7
+CUST00655,23,Female,Delhi,Regular,86,ORD000655,2024-10-16,3848.03,3,Credit Card,36,No,PROD00655,Clothing,16068.95,1.3,In Stock,Word of Mouth,10
+CUST00656,61,Male,Mumbai,Regular,50,ORD000656,2024-10-17,1700.47,8,UPI,38,No,PROD00656,Groceries,923.35,1.4,In Stock,Social Media,8
+CUST00657,62,Female,Hyderabad,Silver,37,ORD000657,2024-10-18,2171.28,5,Wallet,18,No,PROD00657,Groceries,7639.85,3.6,In Stock,Word of Mouth,8
+CUST00658,49,Female,Bangalore,Regular,64,ORD000658,2024-10-19,1206.51,7,UPI,36,No,PROD00658,Clothing,790.85,2.2,In Stock,Google Ads,7
+CUST00659,62,Female,Kolkata,Silver,54,ORD000659,2024-10-20,4887.49,5,Net Banking,16,Yes,PROD00659,Accessories,2131.29,2.4,In Stock,Word of Mouth,2
+CUST00660,64,Male,Pune,Regular,72,ORD000660,2024-10-21,3298.89,8,UPI,25,No,PROD00660,Accessories,12068.07,2.9,In Stock,Word of Mouth,5
+CUST00661,38,Female,Hyderabad,Regular,49,ORD000661,2024-10-22,4685.81,4,Net Banking,21,No,PROD00661,Groceries,17489.05,4.9,In Stock,Email Marketing,4
+CUST00662,33,Female,Pune,Gold,99,ORD000662,2024-10-23,1656.25,2,Wallet,7,No,PROD00662,Accessories,2484.51,4.9,In Stock,Word of Mouth,5
+CUST00663,38,Male,Delhi,Silver,11,ORD000663,2024-10-24,3953.08,3,Net Banking,32,No,PROD00663,Groceries,9076.68,2.7,Out of Stock,Google Ads,10
+CUST00664,28,Male,Bangalore,Regular,88,ORD000664,2024-10-25,3876.12,8,Net Banking,1,No,PROD00664,Groceries,18226.49,2.1,In Stock,Email Marketing,9
+CUST00665,54,Other,Mumbai,Silver,49,ORD000665,2024-10-26,3519.95,7,UPI,29,No,PROD00665,Clothing,16304.59,2.2,In Stock,Word of Mouth,4
+CUST00666,53,Male,Bangalore,Silver,21,ORD000666,2024-10-27,4835.07,2,UPI,46,No,PROD00666,Groceries,10441.39,2.1,In Stock,Google Ads,8
+CUST00667,52,Female,Bangalore,Silver,66,ORD000667,2024-10-28,2089.07,6,UPI,19,No,PROD00667,Accessories,15454.27,3.1,Out of Stock,Social Media,8
+CUST00668,36,Female,Chennai,Regular,63,ORD000668,2024-10-29,827.44,9,Wallet,17,No,PROD00668,Accessories,10501.61,3.4,In Stock,Email Marketing,2
+CUST00669,37,Male,Bangalore,Platinum,83,ORD000669,2024-10-30,3424.2,4,Wallet,42,No,PROD00669,Electronics,3246.04,3.0,In Stock,Word of Mouth,6
+CUST00670,35,Female,Bangalore,Regular,28,ORD000670,2024-10-31,3700.69,9,UPI,9,No,PROD00670,Accessories,2582.25,2.6,In Stock,Word of Mouth,5
+CUST00671,64,Male,Hyderabad,Regular,17,ORD000671,2024-11-01,2960.29,2,Wallet,23,No,PROD00671,Electronics,3848.53,1.8,Out of Stock,Email Marketing,2
+CUST00672,58,Female,Mumbai,Regular,6,ORD000672,2024-11-02,1192.73,2,Wallet,3,No,PROD00672,Groceries,7083.35,2.9,In Stock,Google Ads,10
+CUST00673,31,Male,Hyderabad,Regular,19,ORD000673,2024-11-03,2621.39,9,Net Banking,36,No,PROD00673,Accessories,18617.53,2.4,In Stock,Word of Mouth,4
+CUST00674,32,Female,Hyderabad,Gold,56,ORD000674,2024-11-04,1698.51,7,Net Banking,3,No,PROD00674,Clothing,16013.6,3.2,In Stock,Google Ads,7
+CUST00675,48,Male,Delhi,Regular,28,ORD000675,2024-11-05,2251.84,7,UPI,12,No,PROD00675,Clothing,8712.75,3.7,In Stock,Email Marketing,1
+CUST00676,18,Male,Hyderabad,Regular,66,ORD000676,2024-11-06,3297.05,1,Wallet,24,No,PROD00676,Clothing,9912.23,3.5,Out of Stock,Word of Mouth,9
+CUST00677,20,Other,Chennai,Gold,38,ORD000677,2024-11-07,3777.03,6,Net Banking,12,No,PROD00677,Groceries,5385.63,2.8,In Stock,Social Media,10
+CUST00678,33,Male,Chennai,Regular,37,ORD000678,2024-11-08,1314.68,7,Credit Card,17,No,PROD00678,Groceries,14116.62,3.2,In Stock,Social Media,1
+CUST00679,40,Female,Pune,Regular,68,ORD000679,2024-11-09,2145.56,6,Wallet,23,No,PROD00679,Electronics,16075.04,2.1,Out of Stock,Social Media,5
+CUST00680,28,Male,Delhi,Regular,86,ORD000680,2024-11-10,1491.98,6,Credit Card,1,No,PROD00680,Clothing,4854.2,1.1,Out of Stock,Email Marketing,7
+CUST00681,29,Female,Pune,Regular,90,ORD000681,2024-11-11,1153.43,2,UPI,47,No,PROD00681,Electronics,932.25,3.5,In Stock,Word of Mouth,8
+CUST00682,27,Male,Pune,Regular,49,ORD000682,2024-11-12,3960.26,6,Wallet,32,Yes,PROD00682,Electronics,12515.39,2.0,In Stock,Email Marketing,2
+CUST00683,49,Other,Kolkata,Silver,43,ORD000683,2024-11-13,4564.41,4,UPI,18,No,PROD00683,Accessories,11293.99,3.7,Out of Stock,Word of Mouth,4
+CUST00684,33,Male,Mumbai,Regular,36,ORD000684,2024-11-14,1977.11,9,UPI,8,Yes,PROD00684,Accessories,8102.41,4.0,In Stock,Social Media,2
+CUST00685,25,Male,Mumbai,Regular,58,ORD000685,2024-11-15,3806.14,1,UPI,27,No,PROD00685,Clothing,12913.49,4.7,Out of Stock,Social Media,4
+CUST00686,55,Male,Hyderabad,Silver,13,ORD000686,2024-11-16,4505.58,8,UPI,34,No,PROD00686,Groceries,11057.2,4.8,Out of Stock,Google Ads,6
+CUST00687,29,Male,Hyderabad,Silver,52,ORD000687,2024-11-17,4261.4,5,UPI,38,No,PROD00687,Accessories,5086.57,1.0,In Stock,Email Marketing,6
+CUST00688,41,Female,Kolkata,Regular,58,ORD000688,2024-11-18,1077.5,1,Wallet,9,No,PROD00688,Groceries,8014.81,5.0,Out of Stock,Email Marketing,2
+CUST00689,45,Male,Hyderabad,Silver,32,ORD000689,2024-11-19,4790.2,4,Credit Card,0,Yes,PROD00689,Electronics,8619.46,3.7,In Stock,Google Ads,4
+CUST00690,25,Female,Mumbai,Regular,81,ORD000690,2024-11-20,2008.05,1,Wallet,41,No,PROD00690,Electronics,17616.94,3.6,In Stock,Social Media,4
+CUST00691,45,Male,Pune,Regular,100,ORD000691,2024-11-21,1828.36,6,Wallet,20,No,PROD00691,Electronics,19221.99,1.1,In Stock,Social Media,1
+CUST00692,53,Male,Bangalore,Silver,60,ORD000692,2024-11-22,499.67,2,Wallet,8,No,PROD00692,Electronics,17870.73,4.4,Out of Stock,Email Marketing,2
+CUST00693,43,Female,Chennai,Regular,83,ORD000693,2024-11-23,2533.63,5,Net Banking,46,No,PROD00693,Clothing,14411.64,1.6,In Stock,Word of Mouth,3
+CUST00694,25,Female,Bangalore,Gold,58,ORD000694,2024-11-24,723.27,7,Net Banking,14,Yes,PROD00694,Electronics,11741.36,4.3,In Stock,Social Media,5
+CUST00695,45,Male,Bangalore,Regular,99,ORD000695,2024-11-25,1392.99,2,Wallet,34,No,PROD00695,Accessories,13816.31,1.1,Out of Stock,Google Ads,8
+CUST00696,45,Male,Mumbai,Silver,56,ORD000696,2024-11-26,1721.32,6,Credit Card,4,Yes,PROD00696,Electronics,18788.27,3.6,In Stock,Google Ads,6
+CUST00697,54,Male,Bangalore,Regular,28,ORD000697,2024-11-27,4082.37,6,Wallet,40,No,PROD00697,Groceries,5074.97,2.7,In Stock,Google Ads,3
+CUST00698,58,Female,Kolkata,Silver,1,ORD000698,2024-11-28,4402.35,5,UPI,21,Yes,PROD00698,Accessories,10748.9,1.8,Out of Stock,Email Marketing,6
+CUST00699,53,Female,Delhi,Silver,42,ORD000699,2024-11-29,1651.84,5,Net Banking,40,No,PROD00699,Groceries,13823.2,1.4,In Stock,Email Marketing,7
+CUST00700,44,Male,Hyderabad,Gold,82,ORD000700,2024-11-30,4321.75,3,Net Banking,22,No,PROD00700,Groceries,13617.02,2.8,Out of Stock,Email Marketing,6
+CUST00701,34,Female,Delhi,Regular,48,ORD000701,2024-12-01,4314.71,2,Wallet,6,No,PROD00701,Clothing,5120.35,1.5,Out of Stock,Email Marketing,10
+CUST00702,26,Female,Pune,Silver,40,ORD000702,2024-12-02,3870.32,7,Wallet,22,No,PROD00702,Clothing,11775.96,2.9,In Stock,Google Ads,6
+CUST00703,50,Female,Chennai,Silver,97,ORD000703,2024-12-03,904.14,1,Credit Card,43,No,PROD00703,Groceries,15938.67,3.5,In Stock,Google Ads,1
+CUST00704,37,Female,Hyderabad,Silver,63,ORD000704,2024-12-04,3513.55,6,Credit Card,24,Yes,PROD00704,Groceries,9554.07,4.3,In Stock,Email Marketing,3
+CUST00705,30,Male,Bangalore,Silver,76,ORD000705,2024-12-05,4736.12,6,UPI,26,Yes,PROD00705,Electronics,15886.63,3.7,In Stock,Email Marketing,7
+CUST00706,45,Male,Chennai,Silver,72,ORD000706,2024-12-06,3476.19,3,Wallet,40,No,PROD00706,Accessories,7261.66,1.3,In Stock,Google Ads,4
+CUST00707,46,Male,Hyderabad,Regular,88,ORD000707,2024-12-07,1791.76,2,Wallet,5,No,PROD00707,Electronics,18781.33,2.2,In Stock,Email Marketing,4
+CUST00708,30,Male,Kolkata,Regular,80,ORD000708,2024-12-08,2602.78,2,Wallet,33,No,PROD00708,Clothing,10725.18,2.2,In Stock,Email Marketing,7
+CUST00709,63,Female,Kolkata,Regular,4,ORD000709,2024-12-09,3299.48,9,Net Banking,8,Yes,PROD00709,Clothing,11959.36,4.7,In Stock,Email Marketing,9
+CUST00710,52,Female,Kolkata,Regular,38,ORD000710,2024-12-10,2650.74,5,UPI,48,No,PROD00710,Electronics,724.1,4.5,In Stock,Email Marketing,2
+CUST00711,23,Male,Kolkata,Platinum,27,ORD000711,2024-12-11,775.77,7,Credit Card,32,No,PROD00711,Accessories,3488.36,2.5,In Stock,Social Media,9
+CUST00712,35,Male,Bangalore,Silver,9,ORD000712,2024-12-12,1697.91,5,Net Banking,5,No,PROD00712,Groceries,12695.38,1.3,In Stock,Email Marketing,3
+CUST00713,22,Male,Delhi,Platinum,16,ORD000713,2024-12-13,4051.5,7,Net Banking,36,No,PROD00713,Electronics,8455.42,4.6,In Stock,Google Ads,6
+CUST00714,64,Female,Hyderabad,Regular,56,ORD000714,2024-12-14,4334.81,4,Net Banking,30,Yes,PROD00714,Clothing,10212.46,4.6,In Stock,Google Ads,4
+CUST00715,42,Male,Bangalore,Gold,76,ORD000715,2024-12-15,859.04,8,Net Banking,33,No,PROD00715,Accessories,1353.13,4.4,In Stock,Google Ads,1
+CUST00716,19,Female,Kolkata,Gold,31,ORD000716,2024-12-16,4771.46,7,UPI,40,No,PROD00716,Clothing,16699.29,4.4,In Stock,Google Ads,9
+CUST00717,27,Male,Pune,Silver,88,ORD000717,2024-12-17,1778.35,5,Wallet,28,No,PROD00717,Accessories,15711.66,2.9,Out of Stock,Email Marketing,6
+CUST00718,47,Male,Delhi,Silver,14,ORD000718,2024-12-18,3379.11,6,Credit Card,13,Yes,PROD00718,Accessories,3788.54,1.7,In Stock,Social Media,8
+CUST00719,62,Other,Pune,Regular,25,ORD000719,2024-12-19,3808.76,5,Credit Card,35,No,PROD00719,Accessories,12723.15,2.9,In Stock,Word of Mouth,2
+CUST00720,22,Other,Chennai,Gold,34,ORD000720,2024-12-20,4097.34,7,Net Banking,35,No,PROD00720,Electronics,16384.47,3.0,In Stock,Word of Mouth,7
+CUST00721,50,Male,Pune,Silver,67,ORD000721,2024-12-21,4739.6,2,Net Banking,14,No,PROD00721,Electronics,12853.0,3.0,In Stock,Word of Mouth,6
+CUST00722,18,Female,Chennai,Regular,24,ORD000722,2024-12-22,1702.01,5,UPI,7,No,PROD00722,Electronics,6276.92,3.2,In Stock,Word of Mouth,2
+CUST00723,35,Female,Chennai,Regular,73,ORD000723,2024-12-23,4320.83,3,Net Banking,25,No,PROD00723,Accessories,13156.61,2.0,In Stock,Google Ads,2
+CUST00724,49,Female,Kolkata,Gold,26,ORD000724,2024-12-24,832.1,9,Credit Card,35,Yes,PROD00724,Accessories,4288.19,2.5,In Stock,Email Marketing,4
+CUST00725,64,Male,Chennai,Gold,20,ORD000725,2024-12-25,3584.2,6,Credit Card,47,No,PROD00725,Clothing,6433.27,2.7,In Stock,Email Marketing,4
+CUST00726,28,Female,Mumbai,Platinum,64,ORD000726,2024-12-26,3761.49,3,Wallet,20,No,PROD00726,Groceries,4877.39,1.5,Out of Stock,Word of Mouth,3
+CUST00727,38,Female,Hyderabad,Silver,10,ORD000727,2024-12-27,3453.07,7,Wallet,27,No,PROD00727,Electronics,11182.81,2.8,In Stock,Word of Mouth,8
+CUST00728,43,Female,Hyderabad,Regular,83,ORD000728,2024-12-28,1411.11,4,Credit Card,3,No,PROD00728,Accessories,2253.71,4.2,In Stock,Social Media,7
+CUST00729,42,Male,Kolkata,Regular,67,ORD000729,2024-12-29,4390.61,3,Credit Card,15,No,PROD00729,Clothing,18672.88,4.3,Out of Stock,Social Media,2
+CUST00730,39,Male,Mumbai,Regular,24,ORD000730,2024-12-30,1010.52,8,UPI,21,No,PROD00730,Clothing,6736.9,2.6,In Stock,Social Media,3
+CUST00731,44,Male,Pune,Regular,5,ORD000731,2024-12-31,457.45,4,UPI,11,No,PROD00731,Clothing,4457.51,3.1,In Stock,Google Ads,10
+CUST00732,30,Female,Bangalore,Regular,67,ORD000732,2025-01-01,3643.83,1,Credit Card,15,No,PROD00732,Electronics,9981.34,1.1,In Stock,Email Marketing,9
+CUST00733,50,Male,Pune,Regular,58,ORD000733,2025-01-02,2482.28,6,Net Banking,39,Yes,PROD00733,Electronics,5612.26,3.7,In Stock,Google Ads,5
+CUST00734,51,Female,Bangalore,Regular,27,ORD000734,2025-01-03,4275.67,1,Wallet,37,No,PROD00734,Groceries,10744.59,2.6,In Stock,Google Ads,2
+CUST00735,58,Other,Chennai,Gold,80,ORD000735,2025-01-04,2040.31,5,Credit Card,41,No,PROD00735,Clothing,7035.33,2.8,In Stock,Email Marketing,3
+CUST00736,52,Male,Delhi,Regular,15,ORD000736,2025-01-05,1007.74,7,Net Banking,36,No,PROD00736,Electronics,2728.13,4.5,In Stock,Social Media,8
+CUST00737,18,Female,Bangalore,Gold,35,ORD000737,2025-01-06,4214.92,6,Credit Card,28,No,PROD00737,Clothing,5391.32,2.8,In Stock,Email Marketing,4
+CUST00738,38,Male,Delhi,Silver,76,ORD000738,2025-01-07,2834.77,2,Wallet,17,No,PROD00738,Accessories,8824.95,1.1,In Stock,Word of Mouth,2
+CUST00739,23,Female,Hyderabad,Regular,53,ORD000739,2025-01-08,1108.14,4,Wallet,9,No,PROD00739,Clothing,702.84,1.9,In Stock,Social Media,2
+CUST00740,45,Male,Delhi,Regular,44,ORD000740,2025-01-09,3657.84,2,UPI,41,No,PROD00740,Groceries,15435.79,2.9,In Stock,Email Marketing,6
+CUST00741,34,Female,Hyderabad,Regular,26,ORD000741,2025-01-10,2653.35,1,UPI,38,No,PROD00741,Electronics,12474.31,2.7,In Stock,Google Ads,8
+CUST00742,22,Female,Mumbai,Regular,47,ORD000742,2025-01-11,3100.7,3,UPI,17,No,PROD00742,Accessories,12067.06,4.4,In Stock,Email Marketing,7
+CUST00743,48,Female,Mumbai,Silver,34,ORD000743,2025-01-12,2412.31,3,UPI,0,No,PROD00743,Electronics,10966.39,3.2,In Stock,Social Media,4
+CUST00744,22,Female,Kolkata,Regular,87,ORD000744,2025-01-13,4177.8,7,Wallet,38,No,PROD00744,Accessories,11847.23,3.8,In Stock,Word of Mouth,2
+CUST00745,55,Female,Kolkata,Regular,95,ORD000745,2025-01-14,4181.9,1,Net Banking,20,No,PROD00745,Clothing,18699.57,2.9,In Stock,Google Ads,9
+CUST00746,20,Female,Chennai,Regular,50,ORD000746,2025-01-15,3605.07,9,Net Banking,0,No,PROD00746,Clothing,270.53,2.8,In Stock,Word of Mouth,4
+CUST00747,40,Female,Bangalore,Platinum,84,ORD000747,2025-01-16,705.93,6,Net Banking,14,No,PROD00747,Groceries,1051.21,2.8,In Stock,Word of Mouth,9
+CUST00748,54,Female,Chennai,Silver,12,ORD000748,2025-01-17,4226.5,4,Credit Card,3,No,PROD00748,Groceries,3910.72,2.6,In Stock,Google Ads,5
+CUST00749,54,Male,Hyderabad,Silver,87,ORD000749,2025-01-18,3420.86,3,UPI,19,No,PROD00749,Accessories,3429.3,3.2,In Stock,Email Marketing,7
+CUST00750,27,Female,Chennai,Regular,4,ORD000750,2025-01-19,3545.72,3,UPI,9,No,PROD00750,Groceries,3705.77,2.0,In Stock,Email Marketing,5
+CUST00751,27,Female,Delhi,Silver,87,ORD000751,2025-01-20,1942.32,2,Wallet,22,No,PROD00751,Groceries,13471.68,4.6,In Stock,Word of Mouth,2
+CUST00752,36,Female,Hyderabad,Silver,48,ORD000752,2025-01-21,4420.54,2,Wallet,40,No,PROD00752,Groceries,9243.72,2.3,In Stock,Email Marketing,6
+CUST00753,34,Male,Kolkata,Silver,55,ORD000753,2025-01-22,3681.78,5,Credit Card,33,No,PROD00753,Groceries,19836.4,1.6,In Stock,Social Media,7
+CUST00754,38,Female,Mumbai,Platinum,1,ORD000754,2025-01-23,740.43,9,Credit Card,45,No,PROD00754,Clothing,4615.03,1.4,In Stock,Word of Mouth,6
+CUST00755,31,Male,Kolkata,Regular,89,ORD000755,2025-01-24,2157.33,2,Net Banking,47,No,PROD00755,Groceries,6285.52,1.1,Out of Stock,Word of Mouth,3
+CUST00756,26,Female,Bangalore,Gold,66,ORD000756,2025-01-25,4454.63,2,Wallet,32,No,PROD00756,Clothing,19686.39,2.7,In Stock,Word of Mouth,10
+CUST00757,63,Male,Hyderabad,Gold,30,ORD000757,2025-01-26,426.54,6,UPI,33,No,PROD00757,Clothing,16651.99,1.8,In Stock,Social Media,8
+CUST00758,18,Female,Hyderabad,Regular,3,ORD000758,2025-01-27,4814.8,2,Net Banking,38,No,PROD00758,Electronics,9449.0,1.1,Out of Stock,Word of Mouth,3
+CUST00759,62,Other,Delhi,Regular,21,ORD000759,2025-01-28,3459.98,4,UPI,9,Yes,PROD00759,Clothing,11136.48,3.1,In Stock,Email Marketing,5
+CUST00760,30,Male,Bangalore,Platinum,89,ORD000760,2025-01-29,3230.6,6,Net Banking,19,No,PROD00760,Clothing,16879.24,3.7,In Stock,Email Marketing,9
+CUST00761,21,Other,Mumbai,Regular,84,ORD000761,2025-01-30,1498.68,5,UPI,0,No,PROD00761,Groceries,9671.51,1.3,In Stock,Email Marketing,5
+CUST00762,18,Male,Pune,Silver,49,ORD000762,2025-01-31,1394.2,1,Credit Card,12,Yes,PROD00762,Clothing,4199.87,2.8,In Stock,Email Marketing,7
+CUST00763,57,Female,Hyderabad,Platinum,86,ORD000763,2025-02-01,4721.88,6,Net Banking,0,No,PROD00763,Accessories,16586.05,4.0,In Stock,Word of Mouth,7
+CUST00764,49,Female,Hyderabad,Silver,85,ORD000764,2025-02-02,1631.71,1,UPI,4,No,PROD00764,Groceries,10801.67,4.9,In Stock,Social Media,5
+CUST00765,51,Female,Delhi,Regular,62,ORD000765,2025-02-03,3922.43,3,UPI,15,No,PROD00765,Groceries,3145.55,3.7,In Stock,Google Ads,2
+CUST00766,45,Female,Chennai,Silver,97,ORD000766,2025-02-04,2086.98,5,Wallet,14,No,PROD00766,Groceries,10161.16,2.0,In Stock,Email Marketing,5
+CUST00767,48,Female,Mumbai,Regular,38,ORD000767,2025-02-05,868.42,5,Net Banking,48,No,PROD00767,Electronics,8322.75,3.9,In Stock,Google Ads,7
+CUST00768,25,Male,Kolkata,Silver,15,ORD000768,2025-02-06,251.43,6,UPI,27,Yes,PROD00768,Groceries,17549.17,3.4,In Stock,Google Ads,7
+CUST00769,56,Male,Bangalore,Regular,52,ORD000769,2025-02-07,2812.44,8,Wallet,30,Yes,PROD00769,Clothing,2608.5,1.8,Out of Stock,Word of Mouth,4
+CUST00770,43,Female,Hyderabad,Silver,79,ORD000770,2025-02-08,4883.74,5,UPI,22,No,PROD00770,Accessories,17516.68,4.4,In Stock,Email Marketing,1
+CUST00771,51,Female,Hyderabad,Silver,46,ORD000771,2025-02-09,1971.85,1,Net Banking,47,No,PROD00771,Groceries,10293.0,2.7,Out of Stock,Email Marketing,6
+CUST00772,20,Female,Kolkata,Silver,25,ORD000772,2025-02-10,1914.52,5,Credit Card,44,No,PROD00772,Groceries,8146.85,4.8,In Stock,Email Marketing,3
+CUST00773,29,Female,Mumbai,Silver,21,ORD000773,2025-02-11,1851.64,3,Net Banking,42,No,PROD00773,Accessories,3323.15,3.9,In Stock,Google Ads,5
+CUST00774,18,Male,Chennai,Silver,88,ORD000774,2025-02-12,2698.61,4,Net Banking,16,Yes,PROD00774,Groceries,14046.28,3.6,In Stock,Email Marketing,4
+CUST00775,61,Female,Hyderabad,Silver,5,ORD000775,2025-02-13,2315.19,8,UPI,48,No,PROD00775,Electronics,18543.45,3.9,In Stock,Email Marketing,2
+CUST00776,22,Male,Mumbai,Regular,70,ORD000776,2025-02-14,4423.59,7,UPI,33,Yes,PROD00776,Clothing,7570.01,2.9,Out of Stock,Social Media,7
+CUST00777,47,Female,Kolkata,Silver,47,ORD000777,2025-02-15,2626.5,5,Net Banking,12,Yes,PROD00777,Accessories,4907.54,3.0,Out of Stock,Word of Mouth,5
+CUST00778,47,Male,Delhi,Regular,87,ORD000778,2025-02-16,2637.24,2,Wallet,13,No,PROD00778,Accessories,11141.85,4.4,In Stock,Email Marketing,7
+CUST00779,34,Male,Chennai,Gold,68,ORD000779,2025-02-17,864.18,6,Wallet,10,No,PROD00779,Electronics,15944.1,3.7,In Stock,Email Marketing,9
+CUST00780,64,Male,Bangalore,Regular,91,ORD000780,2025-02-18,4917.15,6,Wallet,27,No,PROD00780,Clothing,174.98,4.6,In Stock,Word of Mouth,4
+CUST00781,40,Male,Hyderabad,Regular,18,ORD000781,2025-02-19,1399.87,6,UPI,41,No,PROD00781,Electronics,12664.41,4.6,Out of Stock,Word of Mouth,5
+CUST00782,32,Female,Mumbai,Silver,21,ORD000782,2025-02-20,552.15,9,UPI,31,Yes,PROD00782,Clothing,11970.67,4.9,In Stock,Google Ads,9
+CUST00783,54,Male,Delhi,Regular,92,ORD000783,2025-02-21,3383.1,8,Net Banking,34,Yes,PROD00783,Electronics,6431.23,3.8,In Stock,Google Ads,10
+CUST00784,38,Male,Bangalore,Regular,99,ORD000784,2025-02-22,3057.76,8,Credit Card,30,No,PROD00784,Groceries,9083.32,3.0,In Stock,Google Ads,4
+CUST00785,31,Male,Pune,Silver,86,ORD000785,2025-02-23,2192.7,1,UPI,16,Yes,PROD00785,Electronics,5014.57,1.7,In Stock,Word of Mouth,5
+CUST00786,19,Male,Mumbai,Silver,23,ORD000786,2025-02-24,2226.52,5,Net Banking,46,No,PROD00786,Accessories,15818.73,3.8,Out of Stock,Social Media,5
+CUST00787,28,Male,Mumbai,Silver,64,ORD000787,2025-02-25,3968.31,7,Net Banking,8,Yes,PROD00787,Accessories,12727.25,2.2,In Stock,Email Marketing,8
+CUST00788,56,Male,Bangalore,Regular,67,ORD000788,2025-02-26,1139.42,6,Credit Card,9,No,PROD00788,Accessories,10700.96,2.1,In Stock,Word of Mouth,4
+CUST00789,55,Female,Delhi,Silver,40,ORD000789,2025-02-27,4137.22,5,Wallet,7,No,PROD00789,Electronics,7911.27,2.0,In Stock,Social Media,4
+CUST00790,51,Female,Pune,Regular,10,ORD000790,2025-02-28,3313.99,8,Net Banking,20,Yes,PROD00790,Accessories,5898.55,4.5,In Stock,Word of Mouth,7
+CUST00791,55,Female,Kolkata,Silver,89,ORD000791,2025-03-01,2211.05,3,Net Banking,12,No,PROD00791,Accessories,16472.46,4.5,In Stock,Social Media,5
+CUST00792,51,Male,Delhi,Silver,52,ORD000792,2025-03-02,2398.54,6,Net Banking,49,No,PROD00792,Groceries,9083.01,3.5,In Stock,Word of Mouth,6
+CUST00793,35,Male,Chennai,Silver,72,ORD000793,2025-03-03,1431.91,5,Wallet,4,Yes,PROD00793,Groceries,10078.8,2.9,In Stock,Word of Mouth,6
+CUST00794,47,Female,Hyderabad,Regular,75,ORD000794,2025-03-04,3810.15,8,Wallet,5,No,PROD00794,Clothing,10464.49,3.7,Out of Stock,Social Media,6
+CUST00795,32,Female,Bangalore,Regular,61,ORD000795,2025-03-05,2661.8,4,Credit Card,29,No,PROD00795,Clothing,9022.5,3.4,In Stock,Social Media,10
+CUST00796,44,Male,Kolkata,Regular,64,ORD000796,2025-03-06,1740.1,8,UPI,30,No,PROD00796,Clothing,5196.16,2.7,In Stock,Social Media,5
+CUST00797,51,Male,Pune,Regular,5,ORD000797,2025-03-07,3061.04,2,Wallet,16,No,PROD00797,Electronics,2494.77,2.5,In Stock,Social Media,5
+CUST00798,55,Male,Bangalore,Regular,53,ORD000798,2025-03-08,4979.53,9,UPI,10,No,PROD00798,Clothing,2060.89,2.5,In Stock,Social Media,9
+CUST00799,50,Male,Bangalore,Silver,55,ORD000799,2025-03-09,2289.26,9,UPI,19,No,PROD00799,Electronics,15173.5,3.4,In Stock,Social Media,8
+CUST00800,41,Male,Delhi,Regular,37,ORD000800,2025-03-10,4619.32,6,Wallet,47,No,PROD00800,Electronics,4548.2,3.6,Out of Stock,Social Media,4
+CUST00801,32,Female,Hyderabad,Gold,56,ORD000801,2025-03-11,1856.08,4,Net Banking,8,No,PROD00801,Clothing,1207.89,2.8,In Stock,Social Media,7
+CUST00802,47,Female,Chennai,Regular,59,ORD000802,2025-03-12,462.72,4,Credit Card,1,No,PROD00802,Clothing,15970.6,4.9,In Stock,Word of Mouth,8
+CUST00803,59,Female,Mumbai,Silver,93,ORD000803,2025-03-13,1180.36,6,UPI,36,No,PROD00803,Electronics,3165.83,1.3,In Stock,Social Media,9
+CUST00804,34,Female,Mumbai,Silver,69,ORD000804,2025-03-14,2209.74,5,Net Banking,0,No,PROD00804,Groceries,12540.41,2.4,In Stock,Social Media,5
+CUST00805,22,Female,Bangalore,Regular,73,ORD000805,2025-03-15,1254.25,6,Wallet,3,No,PROD00805,Accessories,6839.0,2.7,In Stock,Word of Mouth,3
+CUST00806,46,Female,Hyderabad,Regular,59,ORD000806,2025-03-16,201.09,7,UPI,35,No,PROD00806,Accessories,2616.96,1.1,In Stock,Word of Mouth,4
+CUST00807,21,Female,Pune,Silver,2,ORD000807,2025-03-17,4592.01,7,UPI,24,No,PROD00807,Accessories,8348.17,2.5,In Stock,Google Ads,10
+CUST00808,27,Male,Pune,Regular,65,ORD000808,2025-03-18,4250.62,9,UPI,2,No,PROD00808,Groceries,394.7,2.1,In Stock,Google Ads,6
+CUST00809,34,Male,Kolkata,Gold,60,ORD000809,2025-03-19,3763.0,8,Net Banking,8,Yes,PROD00809,Electronics,16836.8,3.0,In Stock,Social Media,10
+CUST00810,27,Male,Delhi,Silver,51,ORD000810,2025-03-20,1005.51,6,Net Banking,21,No,PROD00810,Clothing,10318.61,2.3,In Stock,Social Media,5
+CUST00811,34,Female,Hyderabad,Gold,30,ORD000811,2025-03-21,777.75,6,Net Banking,22,No,PROD00811,Electronics,2869.28,3.9,In Stock,Google Ads,9
+CUST00812,37,Female,Hyderabad,Regular,11,ORD000812,2025-03-22,524.5,5,UPI,11,No,PROD00812,Electronics,4815.91,3.0,In Stock,Google Ads,3
+CUST00813,41,Male,Delhi,Silver,92,ORD000813,2025-03-23,3675.34,1,UPI,9,No,PROD00813,Clothing,9014.71,1.5,In Stock,Email Marketing,2
+CUST00814,22,Female,Pune,Silver,76,ORD000814,2025-03-24,4658.28,9,Credit Card,33,Yes,PROD00814,Groceries,3858.5,4.0,Out of Stock,Email Marketing,6
+CUST00815,51,Male,Pune,Silver,39,ORD000815,2025-03-25,2266.57,9,Credit Card,42,Yes,PROD00815,Accessories,5445.12,1.4,In Stock,Social Media,7
+CUST00816,23,Female,Pune,Regular,90,ORD000816,2025-03-26,771.88,9,Net Banking,9,No,PROD00816,Accessories,10734.27,4.4,In Stock,Email Marketing,5
+CUST00817,19,Male,Bangalore,Silver,77,ORD000817,2025-03-27,2659.49,8,Net Banking,29,Yes,PROD00817,Electronics,16668.92,4.7,In Stock,Google Ads,1
+CUST00818,30,Male,Hyderabad,Regular,72,ORD000818,2025-03-28,1874.39,3,Wallet,21,No,PROD00818,Groceries,8096.61,2.3,Out of Stock,Social Media,3
+CUST00819,60,Female,Mumbai,Silver,63,ORD000819,2025-03-29,1999.16,1,Net Banking,5,No,PROD00819,Accessories,14367.81,4.7,Out of Stock,Word of Mouth,3
+CUST00820,60,Male,Delhi,Regular,64,ORD000820,2025-03-30,3182.39,8,Credit Card,49,No,PROD00820,Groceries,17546.02,4.2,In Stock,Word of Mouth,4
+CUST00821,28,Male,Pune,Gold,61,ORD000821,2025-03-31,3649.85,7,Credit Card,1,No,PROD00821,Clothing,4404.39,4.7,In Stock,Google Ads,10
+CUST00822,64,Male,Kolkata,Regular,54,ORD000822,2025-04-01,730.9,5,Credit Card,29,No,PROD00822,Electronics,16163.12,3.7,Out of Stock,Email Marketing,6
+CUST00823,40,Female,Pune,Gold,92,ORD000823,2025-04-02,370.83,7,UPI,1,No,PROD00823,Electronics,15172.3,1.9,In Stock,Word of Mouth,5
+CUST00824,33,Female,Pune,Gold,94,ORD000824,2025-04-03,4972.79,4,UPI,31,No,PROD00824,Groceries,7203.05,4.6,In Stock,Email Marketing,1
+CUST00825,48,Male,Chennai,Gold,73,ORD000825,2025-04-04,1317.1,9,Net Banking,41,No,PROD00825,Accessories,19791.45,1.7,Out of Stock,Word of Mouth,6
+CUST00826,28,Female,Bangalore,Silver,95,ORD000826,2025-04-05,458.39,2,Wallet,15,No,PROD00826,Groceries,5325.19,1.9,In Stock,Email Marketing,9
+CUST00827,33,Female,Delhi,Regular,58,ORD000827,2025-04-06,1111.4,9,Wallet,11,Yes,PROD00827,Clothing,5170.58,2.1,In Stock,Word of Mouth,1
+CUST00828,25,Male,Chennai,Platinum,85,ORD000828,2025-04-07,387.0,9,Wallet,0,Yes,PROD00828,Accessories,15467.96,2.2,Out of Stock,Word of Mouth,8
+CUST00829,21,Male,Chennai,Regular,56,ORD000829,2025-04-08,2080.69,5,UPI,7,No,PROD00829,Accessories,8749.68,3.1,In Stock,Social Media,8
+CUST00830,57,Male,Kolkata,Silver,34,ORD000830,2025-04-09,4051.53,1,Credit Card,47,No,PROD00830,Groceries,6682.82,3.9,In Stock,Social Media,3
+CUST00831,21,Male,Hyderabad,Silver,31,ORD000831,2025-04-10,1837.97,7,Credit Card,49,No,PROD00831,Clothing,3655.39,4.7,In Stock,Google Ads,9
+CUST00832,42,Female,Kolkata,Silver,52,ORD000832,2025-04-11,2332.08,4,UPI,12,No,PROD00832,Accessories,15330.12,1.4,In Stock,Word of Mouth,8
+CUST00833,20,Male,Hyderabad,Regular,89,ORD000833,2025-04-12,3442.82,9,Wallet,14,No,PROD00833,Electronics,15747.8,4.8,In Stock,Email Marketing,3
+CUST00834,49,Female,Hyderabad,Silver,76,ORD000834,2025-04-13,2642.69,6,Wallet,43,No,PROD00834,Clothing,11374.62,4.7,In Stock,Word of Mouth,10
+CUST00835,20,Female,Delhi,Gold,1,ORD000835,2025-04-14,4334.94,3,Net Banking,7,No,PROD00835,Accessories,19150.54,1.2,In Stock,Email Marketing,5
+CUST00836,44,Male,Pune,Regular,55,ORD000836,2025-04-15,4356.97,6,Net Banking,9,No,PROD00836,Groceries,6431.45,2.4,Out of Stock,Email Marketing,3
+CUST00837,46,Female,Delhi,Gold,22,ORD000837,2025-04-16,247.57,6,Wallet,45,No,PROD00837,Accessories,4470.42,4.3,In Stock,Word of Mouth,5
+CUST00838,49,Male,Bangalore,Regular,40,ORD000838,2025-04-17,3934.62,5,UPI,4,No,PROD00838,Electronics,13581.59,3.4,In Stock,Email Marketing,9
+CUST00839,36,Other,Hyderabad,Regular,1,ORD000839,2025-04-18,2411.52,2,Wallet,49,No,PROD00839,Clothing,15192.33,4.1,In Stock,Google Ads,4
+CUST00840,38,Female,Chennai,Regular,65,ORD000840,2025-04-19,4946.43,2,Net Banking,18,No,PROD00840,Accessories,4575.63,3.9,In Stock,Social Media,6
+CUST00841,22,Female,Pune,Regular,63,ORD000841,2025-04-20,2519.51,7,Wallet,46,No,PROD00841,Electronics,1624.55,3.0,In Stock,Email Marketing,3
+CUST00842,35,Female,Mumbai,Gold,54,ORD000842,2025-04-21,4937.1,2,UPI,37,No,PROD00842,Accessories,16229.28,1.2,Out of Stock,Word of Mouth,3
+CUST00843,45,Male,Bangalore,Regular,42,ORD000843,2025-04-22,3821.93,6,Credit Card,10,No,PROD00843,Accessories,19532.39,3.3,In Stock,Social Media,5
+CUST00844,59,Female,Delhi,Regular,21,ORD000844,2025-04-23,1393.3,5,UPI,42,No,PROD00844,Clothing,12928.98,1.2,In Stock,Google Ads,8
+CUST00845,39,Female,Kolkata,Regular,79,ORD000845,2025-04-24,2784.3,4,UPI,19,No,PROD00845,Groceries,5629.55,3.4,In Stock,Email Marketing,8
+CUST00846,38,Female,Bangalore,Silver,81,ORD000846,2025-04-25,4962.25,7,Net Banking,19,No,PROD00846,Groceries,19933.78,4.2,In Stock,Email Marketing,3
+CUST00847,23,Female,Bangalore,Silver,22,ORD000847,2025-04-26,4316.15,8,UPI,20,No,PROD00847,Electronics,17876.01,3.3,In Stock,Social Media,8
+CUST00848,18,Female,Pune,Regular,38,ORD000848,2025-04-27,667.36,4,UPI,17,No,PROD00848,Electronics,10316.27,5.0,In Stock,Email Marketing,8
+CUST00849,22,Male,Bangalore,Regular,99,ORD000849,2025-04-28,3590.59,1,Net Banking,49,No,PROD00849,Electronics,16523.89,2.8,In Stock,Word of Mouth,3
+CUST00850,58,Male,Bangalore,Gold,80,ORD000850,2025-04-29,1858.78,1,Net Banking,9,No,PROD00850,Clothing,16334.83,4.0,Out of Stock,Social Media,10
+CUST00851,29,Female,Mumbai,Regular,8,ORD000851,2025-04-30,233.51,1,Credit Card,33,No,PROD00851,Groceries,18702.5,3.7,In Stock,Social Media,10
+CUST00852,43,Male,Kolkata,Regular,62,ORD000852,2025-05-01,2136.71,1,Wallet,25,No,PROD00852,Electronics,16834.38,5.0,In Stock,Email Marketing,2
+CUST00853,63,Female,Kolkata,Regular,47,ORD000853,2025-05-02,1326.82,5,UPI,29,No,PROD00853,Electronics,12909.22,3.9,In Stock,Google Ads,10
+CUST00854,51,Female,Kolkata,Silver,17,ORD000854,2025-05-03,4130.57,4,Net Banking,8,No,PROD00854,Accessories,12225.14,1.7,In Stock,Google Ads,2
+CUST00855,31,Male,Hyderabad,Regular,17,ORD000855,2025-05-04,1819.19,9,Credit Card,45,No,PROD00855,Accessories,9400.41,4.8,In Stock,Google Ads,9
+CUST00856,43,Male,Chennai,Silver,90,ORD000856,2025-05-05,4172.11,3,Wallet,30,No,PROD00856,Electronics,12567.06,3.7,In Stock,Google Ads,7
+CUST00857,62,Female,Kolkata,Regular,13,ORD000857,2025-05-06,202.87,7,Net Banking,41,No,PROD00857,Accessories,15924.81,1.2,In Stock,Social Media,6
+CUST00858,44,Male,Bangalore,Platinum,17,ORD000858,2025-05-07,1677.53,8,Wallet,3,No,PROD00858,Accessories,19383.85,3.6,Out of Stock,Social Media,7
+CUST00859,26,Female,Bangalore,Regular,38,ORD000859,2025-05-08,1357.59,6,Wallet,5,No,PROD00859,Accessories,9399.02,4.5,In Stock,Email Marketing,8
+CUST00860,43,Male,Kolkata,Silver,81,ORD000860,2025-05-09,1321.12,1,UPI,13,No,PROD00860,Clothing,11515.7,3.3,In Stock,Google Ads,1
+CUST00861,64,Female,Pune,Regular,78,ORD000861,2025-05-10,527.3,8,UPI,3,No,PROD00861,Electronics,8951.63,2.4,Out of Stock,Google Ads,8
+CUST00862,39,Male,Kolkata,Regular,45,ORD000862,2025-05-11,1098.2,3,Net Banking,25,No,PROD00862,Electronics,13402.92,4.3,In Stock,Email Marketing,3
+CUST00863,64,Female,Bangalore,Silver,6,ORD000863,2025-05-12,2866.64,8,Wallet,46,Yes,PROD00863,Accessories,12635.42,4.1,In Stock,Email Marketing,3
+CUST00864,47,Male,Hyderabad,Regular,35,ORD000864,2025-05-13,1598.53,4,Net Banking,47,No,PROD00864,Clothing,454.89,3.2,Out of Stock,Email Marketing,6
+CUST00865,60,Female,Delhi,Gold,14,ORD000865,2025-05-14,2203.49,8,Net Banking,38,No,PROD00865,Accessories,10869.12,1.6,In Stock,Word of Mouth,4
+CUST00866,34,Male,Delhi,Gold,72,ORD000866,2025-05-15,2008.96,1,Wallet,16,No,PROD00866,Clothing,1860.89,2.0,In Stock,Email Marketing,4
+CUST00867,43,Female,Kolkata,Gold,61,ORD000867,2025-05-16,4404.34,3,Net Banking,18,No,PROD00867,Electronics,625.03,4.0,In Stock,Email Marketing,4
+CUST00868,53,Female,Mumbai,Regular,15,ORD000868,2025-05-17,4545.44,6,Wallet,48,No,PROD00868,Accessories,15844.82,4.2,In Stock,Word of Mouth,10
+CUST00869,18,Male,Kolkata,Silver,54,ORD000869,2025-05-18,2566.19,9,Wallet,5,No,PROD00869,Electronics,5247.13,2.1,In Stock,Google Ads,9
+CUST00870,25,Male,Pune,Regular,27,ORD000870,2025-05-19,1784.75,2,Wallet,28,No,PROD00870,Clothing,6879.04,2.5,In Stock,Social Media,8
+CUST00871,52,Male,Kolkata,Gold,13,ORD000871,2025-05-20,712.64,1,Wallet,10,No,PROD00871,Groceries,1375.28,1.3,In Stock,Google Ads,3
+CUST00872,32,Female,Delhi,Silver,31,ORD000872,2025-05-21,4776.33,3,Credit Card,15,No,PROD00872,Clothing,3672.06,3.9,In Stock,Social Media,1
+CUST00873,64,Female,Bangalore,Gold,35,ORD000873,2025-05-22,489.09,4,Wallet,29,No,PROD00873,Groceries,15335.54,1.0,In Stock,Social Media,1
+CUST00874,39,Female,Kolkata,Regular,60,ORD000874,2025-05-23,1628.72,5,UPI,24,No,PROD00874,Electronics,9921.26,1.2,Out of Stock,Email Marketing,1
+CUST00875,31,Male,Bangalore,Silver,6,ORD000875,2025-05-24,1630.72,3,UPI,39,No,PROD00875,Electronics,17625.3,1.0,Out of Stock,Email Marketing,4
+CUST00876,43,Male,Bangalore,Regular,69,ORD000876,2025-05-25,1737.93,2,UPI,10,No,PROD00876,Accessories,8005.12,3.6,In Stock,Word of Mouth,6
+CUST00877,45,Female,Mumbai,Silver,86,ORD000877,2025-05-26,988.58,2,Wallet,6,No,PROD00877,Groceries,5447.14,2.7,Out of Stock,Google Ads,4
+CUST00878,40,Female,Bangalore,Regular,58,ORD000878,2025-05-27,3959.17,7,UPI,25,No,PROD00878,Clothing,7017.24,2.2,In Stock,Google Ads,3
+CUST00879,31,Other,Delhi,Silver,49,ORD000879,2025-05-28,787.99,9,Credit Card,21,No,PROD00879,Electronics,14284.16,4.7,In Stock,Social Media,8
+CUST00880,41,Male,Hyderabad,Silver,23,ORD000880,2025-05-29,3247.55,2,Net Banking,24,No,PROD00880,Groceries,11144.61,1.8,In Stock,Email Marketing,8
+CUST00881,19,Female,Hyderabad,Silver,89,ORD000881,2025-05-30,794.46,7,Wallet,18,No,PROD00881,Clothing,18093.41,2.6,In Stock,Email Marketing,6
+CUST00882,62,Male,Chennai,Regular,34,ORD000882,2025-05-31,538.57,7,UPI,30,No,PROD00882,Groceries,12083.16,4.8,Out of Stock,Google Ads,9
+CUST00883,43,Male,Pune,Silver,26,ORD000883,2025-06-01,4565.26,7,Credit Card,25,No,PROD00883,Clothing,9911.06,2.7,In Stock,Word of Mouth,10
+CUST00884,31,Female,Kolkata,Regular,47,ORD000884,2025-06-02,1112.62,3,Net Banking,41,No,PROD00884,Clothing,15736.48,3.2,In Stock,Email Marketing,1
+CUST00885,24,Female,Pune,Regular,5,ORD000885,2025-06-03,4142.0,7,Credit Card,40,No,PROD00885,Clothing,18955.92,1.3,In Stock,Word of Mouth,8
+CUST00886,20,Other,Delhi,Regular,90,ORD000886,2025-06-04,2814.23,1,UPI,35,Yes,PROD00886,Clothing,7181.33,4.2,In Stock,Google Ads,6
+CUST00887,64,Male,Bangalore,Regular,20,ORD000887,2025-06-05,573.71,1,Credit Card,22,No,PROD00887,Groceries,5072.54,2.7,In Stock,Google Ads,1
+CUST00888,40,Male,Hyderabad,Regular,6,ORD000888,2025-06-06,4786.15,5,Net Banking,46,No,PROD00888,Groceries,12362.73,4.2,Out of Stock,Word of Mouth,4
+CUST00889,63,Female,Pune,Silver,70,ORD000889,2025-06-07,1385.41,2,UPI,12,No,PROD00889,Accessories,10027.57,2.0,In Stock,Email Marketing,5
+CUST00890,60,Female,Delhi,Regular,59,ORD000890,2025-06-08,4326.3,9,Net Banking,24,No,PROD00890,Groceries,19784.79,2.7,In Stock,Google Ads,7
+CUST00891,64,Male,Hyderabad,Regular,64,ORD000891,2025-06-09,1010.29,7,Credit Card,1,No,PROD00891,Groceries,9301.0,4.1,In Stock,Social Media,8
+CUST00892,62,Male,Bangalore,Gold,18,ORD000892,2025-06-10,4298.93,4,Wallet,1,No,PROD00892,Accessories,1579.2,4.9,In Stock,Google Ads,9
+CUST00893,35,Male,Pune,Regular,4,ORD000893,2025-06-11,263.5,4,Wallet,15,No,PROD00893,Groceries,19549.64,1.2,In Stock,Email Marketing,6
+CUST00894,55,Female,Hyderabad,Silver,17,ORD000894,2025-06-12,2656.55,2,Wallet,8,No,PROD00894,Clothing,16887.38,4.2,In Stock,Social Media,10
+CUST00895,52,Male,Kolkata,Silver,14,ORD000895,2025-06-13,3893.32,5,Wallet,27,No,PROD00895,Electronics,3647.18,2.2,In Stock,Google Ads,9
+CUST00896,32,Male,Kolkata,Gold,78,ORD000896,2025-06-14,4687.02,4,Net Banking,12,No,PROD00896,Electronics,18101.64,3.2,In Stock,Email Marketing,4
+CUST00897,42,Male,Chennai,Silver,13,ORD000897,2025-06-15,4564.17,1,Wallet,34,No,PROD00897,Accessories,6879.27,2.2,Out of Stock,Email Marketing,8
+CUST00898,54,Male,Chennai,Silver,7,ORD000898,2025-06-16,4134.2,8,Net Banking,40,Yes,PROD00898,Groceries,7604.53,3.5,In Stock,Google Ads,3
+CUST00899,45,Male,Hyderabad,Gold,44,ORD000899,2025-06-17,4463.32,3,UPI,12,No,PROD00899,Groceries,18137.19,2.4,In Stock,Email Marketing,4
+CUST00900,27,Female,Delhi,Regular,15,ORD000900,2025-06-18,1156.25,6,Wallet,30,Yes,PROD00900,Accessories,10649.3,2.3,Out of Stock,Word of Mouth,10
+CUST00901,56,Male,Kolkata,Gold,19,ORD000901,2025-06-19,1564.08,4,Net Banking,20,No,PROD00901,Electronics,2841.48,1.2,In Stock,Social Media,4
+CUST00902,34,Female,Delhi,Regular,63,ORD000902,2025-06-20,1587.05,9,Wallet,31,No,PROD00902,Clothing,7444.22,1.6,In Stock,Word of Mouth,6
+CUST00903,56,Male,Delhi,Gold,35,ORD000903,2025-06-21,2009.86,7,Wallet,33,No,PROD00903,Groceries,14469.74,4.7,In Stock,Google Ads,9
+CUST00904,39,Female,Hyderabad,Regular,81,ORD000904,2025-06-22,2087.94,9,Wallet,7,No,PROD00904,Accessories,3566.27,5.0,In Stock,Word of Mouth,6
+CUST00905,43,Female,Delhi,Silver,35,ORD000905,2025-06-23,2813.87,3,Net Banking,40,No,PROD00905,Clothing,11845.6,4.1,In Stock,Google Ads,1
+CUST00906,61,Female,Kolkata,Regular,19,ORD000906,2025-06-24,967.42,1,Credit Card,47,No,PROD00906,Accessories,13935.96,2.1,In Stock,Google Ads,5
+CUST00907,42,Female,Bangalore,Silver,20,ORD000907,2025-06-25,3517.98,5,Wallet,1,No,PROD00907,Accessories,6942.69,2.6,Out of Stock,Email Marketing,9
+CUST00908,34,Male,Chennai,Regular,100,ORD000908,2025-06-26,1004.32,3,Wallet,37,No,PROD00908,Accessories,13908.23,4.0,Out of Stock,Email Marketing,5
+CUST00909,30,Male,Bangalore,Gold,35,ORD000909,2025-06-27,1689.48,6,UPI,31,No,PROD00909,Electronics,17695.73,4.9,In Stock,Google Ads,6
+CUST00910,37,Female,Delhi,Gold,32,ORD000910,2025-06-28,2616.06,8,Credit Card,39,Yes,PROD00910,Electronics,9495.12,2.8,In Stock,Social Media,3
+CUST00911,42,Other,Bangalore,Regular,48,ORD000911,2025-06-29,4022.91,4,Net Banking,27,No,PROD00911,Accessories,7719.9,4.3,Out of Stock,Social Media,8
+CUST00912,21,Female,Kolkata,Gold,44,ORD000912,2025-06-30,3749.45,5,UPI,36,No,PROD00912,Groceries,5098.05,4.9,In Stock,Social Media,10
+CUST00913,27,Female,Kolkata,Silver,24,ORD000913,2025-07-01,3298.56,5,Wallet,40,No,PROD00913,Clothing,12123.69,4.5,In Stock,Word of Mouth,4
+CUST00914,20,Female,Delhi,Silver,61,ORD000914,2025-07-02,947.71,4,UPI,0,No,PROD00914,Groceries,17609.06,1.9,In Stock,Google Ads,4
+CUST00915,58,Male,Hyderabad,Regular,17,ORD000915,2025-07-03,2825.82,4,UPI,40,Yes,PROD00915,Electronics,6560.76,1.0,Out of Stock,Email Marketing,5
+CUST00916,62,Male,Bangalore,Regular,71,ORD000916,2025-07-04,619.74,4,Wallet,9,No,PROD00916,Clothing,7985.09,3.0,In Stock,Word of Mouth,10
+CUST00917,35,Female,Hyderabad,Regular,50,ORD000917,2025-07-05,2011.34,4,Credit Card,3,Yes,PROD00917,Accessories,8191.85,3.1,In Stock,Word of Mouth,9
+CUST00918,64,Female,Hyderabad,Regular,65,ORD000918,2025-07-06,2184.88,4,Credit Card,34,No,PROD00918,Groceries,11260.17,1.8,In Stock,Email Marketing,8
+CUST00919,53,Male,Mumbai,Gold,99,ORD000919,2025-07-07,391.09,5,UPI,9,No,PROD00919,Groceries,4645.34,2.1,Out of Stock,Google Ads,7
+CUST00920,64,Female,Delhi,Regular,32,ORD000920,2025-07-08,1515.14,2,Wallet,46,No,PROD00920,Accessories,16462.0,4.1,In Stock,Word of Mouth,5
+CUST00921,39,Male,Chennai,Gold,36,ORD000921,2025-07-09,4787.12,2,Net Banking,10,No,PROD00921,Groceries,5982.49,2.9,In Stock,Google Ads,9
+CUST00922,51,Female,Kolkata,Regular,13,ORD000922,2025-07-10,4777.44,9,UPI,13,Yes,PROD00922,Electronics,14136.72,2.3,In Stock,Google Ads,9
+CUST00923,64,Male,Kolkata,Silver,70,ORD000923,2025-07-11,1891.17,2,Net Banking,37,No,PROD00923,Accessories,10312.99,3.5,In Stock,Google Ads,10
+CUST00924,25,Male,Delhi,Silver,58,ORD000924,2025-07-12,406.88,6,UPI,11,No,PROD00924,Groceries,11759.36,3.6,In Stock,Email Marketing,10
+CUST00925,57,Female,Pune,Gold,14,ORD000925,2025-07-13,1059.66,2,UPI,44,No,PROD00925,Accessories,3674.21,4.1,Out of Stock,Google Ads,2
+CUST00926,61,Male,Pune,Regular,37,ORD000926,2025-07-14,2082.65,5,Wallet,16,No,PROD00926,Clothing,14726.96,1.6,In Stock,Word of Mouth,4
+CUST00927,36,Female,Pune,Regular,79,ORD000927,2025-07-15,4749.34,4,Wallet,15,No,PROD00927,Accessories,3853.55,4.0,In Stock,Email Marketing,8
+CUST00928,59,Female,Chennai,Regular,68,ORD000928,2025-07-16,877.76,7,Net Banking,34,No,PROD00928,Groceries,2358.13,3.4,In Stock,Email Marketing,1
+CUST00929,58,Female,Kolkata,Regular,40,ORD000929,2025-07-17,3864.88,7,Net Banking,1,Yes,PROD00929,Electronics,10978.92,1.2,In Stock,Word of Mouth,5
+CUST00930,54,Male,Delhi,Regular,59,ORD000930,2025-07-18,721.68,6,Credit Card,10,No,PROD00930,Accessories,14215.01,4.1,In Stock,Email Marketing,8
+CUST00931,23,Male,Kolkata,Regular,80,ORD000931,2025-07-19,4910.04,5,Wallet,40,No,PROD00931,Accessories,1095.71,2.5,In Stock,Word of Mouth,2
+CUST00932,43,Male,Hyderabad,Regular,92,ORD000932,2025-07-20,2031.76,1,UPI,2,No,PROD00932,Groceries,1480.97,2.3,Out of Stock,Social Media,2
+CUST00933,51,Other,Bangalore,Silver,16,ORD000933,2025-07-21,3921.13,3,UPI,28,No,PROD00933,Electronics,16073.32,2.8,In Stock,Word of Mouth,8
+CUST00934,62,Female,Bangalore,Regular,62,ORD000934,2025-07-22,1844.44,9,Credit Card,17,No,PROD00934,Electronics,16199.75,2.4,In Stock,Email Marketing,10
+CUST00935,23,Female,Kolkata,Regular,4,ORD000935,2025-07-23,3212.81,1,Wallet,19,No,PROD00935,Clothing,4981.56,2.4,In Stock,Word of Mouth,9
+CUST00936,54,Female,Mumbai,Regular,45,ORD000936,2025-07-24,1121.68,5,UPI,46,No,PROD00936,Clothing,12343.04,4.2,In Stock,Social Media,7
+CUST00937,50,Female,Chennai,Silver,90,ORD000937,2025-07-25,900.9,2,Credit Card,13,No,PROD00937,Groceries,8919.28,1.5,In Stock,Google Ads,8
+CUST00938,39,Female,Pune,Gold,28,ORD000938,2025-07-26,4702.71,4,Credit Card,33,No,PROD00938,Electronics,12690.65,4.9,In Stock,Google Ads,5
+CUST00939,38,Male,Chennai,Silver,96,ORD000939,2025-07-27,4604.71,1,UPI,48,No,PROD00939,Electronics,17271.3,3.2,In Stock,Google Ads,1
+CUST00940,23,Female,Chennai,Silver,66,ORD000940,2025-07-28,4459.85,3,UPI,30,No,PROD00940,Clothing,1689.14,1.7,In Stock,Email Marketing,4
+CUST00941,23,Male,Hyderabad,Regular,31,ORD000941,2025-07-29,3202.08,7,Net Banking,39,No,PROD00941,Clothing,15581.89,1.5,In Stock,Social Media,2
+CUST00942,21,Female,Chennai,Silver,3,ORD000942,2025-07-30,4079.69,3,Wallet,41,No,PROD00942,Groceries,9911.28,3.4,In Stock,Word of Mouth,3
+CUST00943,47,Female,Bangalore,Regular,8,ORD000943,2025-07-31,531.38,4,Net Banking,17,Yes,PROD00943,Electronics,11326.13,3.5,In Stock,Word of Mouth,3
+CUST00944,28,Female,Hyderabad,Regular,24,ORD000944,2025-08-01,1806.99,2,Credit Card,29,No,PROD00944,Accessories,13113.23,1.2,Out of Stock,Word of Mouth,9
+CUST00945,47,Male,Delhi,Silver,15,ORD000945,2025-08-02,1705.77,3,UPI,24,No,PROD00945,Clothing,18460.2,2.0,In Stock,Word of Mouth,10
+CUST00946,48,Male,Chennai,Gold,43,ORD000946,2025-08-03,3251.1,9,Net Banking,18,No,PROD00946,Groceries,1228.73,4.2,Out of Stock,Email Marketing,4
+CUST00947,41,Male,Chennai,Regular,31,ORD000947,2025-08-04,1908.6,3,Credit Card,7,No,PROD00947,Electronics,686.58,1.2,In Stock,Email Marketing,2
+CUST00948,26,Male,Delhi,Silver,73,ORD000948,2025-08-05,912.83,5,Wallet,27,No,PROD00948,Electronics,3647.41,4.4,In Stock,Social Media,3
+CUST00949,20,Male,Chennai,Silver,45,ORD000949,2025-08-06,3063.04,2,UPI,7,Yes,PROD00949,Clothing,19730.31,3.6,In Stock,Word of Mouth,3
+CUST00950,48,Female,Delhi,Regular,66,ORD000950,2025-08-07,4109.04,4,Net Banking,30,No,PROD00950,Groceries,14330.02,2.7,In Stock,Google Ads,7
+CUST00951,57,Female,Hyderabad,Regular,8,ORD000951,2025-08-08,2034.19,7,Wallet,2,No,PROD00951,Accessories,12331.36,2.4,In Stock,Email Marketing,8
+CUST00952,54,Male,Bangalore,Regular,71,ORD000952,2025-08-09,834.89,7,Net Banking,2,No,PROD00952,Clothing,1036.08,1.1,In Stock,Social Media,6
+CUST00953,53,Male,Delhi,Regular,57,ORD000953,2025-08-10,1144.1,3,Credit Card,43,No,PROD00953,Groceries,17594.29,4.3,In Stock,Social Media,4
+CUST00954,41,Male,Mumbai,Regular,80,ORD000954,2025-08-11,1339.92,5,Wallet,21,No,PROD00954,Electronics,16273.86,1.6,In Stock,Email Marketing,6
+CUST00955,48,Female,Delhi,Regular,99,ORD000955,2025-08-12,1639.51,1,Net Banking,16,No,PROD00955,Accessories,13329.52,2.2,In Stock,Google Ads,1
+CUST00956,23,Female,Chennai,Regular,30,ORD000956,2025-08-13,3285.42,1,Wallet,35,No,PROD00956,Groceries,6848.7,3.3,Out of Stock,Google Ads,10
+CUST00957,19,Female,Pune,Silver,74,ORD000957,2025-08-14,3084.54,5,Credit Card,16,No,PROD00957,Accessories,1503.05,2.0,In Stock,Word of Mouth,8
+CUST00958,37,Female,Pune,Silver,18,ORD000958,2025-08-15,3541.18,9,Wallet,13,No,PROD00958,Groceries,11642.77,3.0,In Stock,Email Marketing,1
+CUST00959,45,Other,Hyderabad,Platinum,69,ORD000959,2025-08-16,1940.01,1,Net Banking,8,No,PROD00959,Groceries,14421.92,4.2,In Stock,Google Ads,5
+CUST00960,28,Female,Kolkata,Regular,93,ORD000960,2025-08-17,4155.19,1,Credit Card,29,Yes,PROD00960,Groceries,1975.38,2.9,Out of Stock,Email Marketing,2
+CUST00961,21,Male,Hyderabad,Silver,39,ORD000961,2025-08-18,1179.62,4,UPI,20,No,PROD00961,Groceries,12711.98,4.8,In Stock,Social Media,6
+CUST00962,32,Female,Kolkata,Gold,60,ORD000962,2025-08-19,2451.4,4,Net Banking,11,No,PROD00962,Accessories,5798.68,4.4,In Stock,Social Media,9
+CUST00963,23,Male,Pune,Silver,98,ORD000963,2025-08-20,4044.51,2,Net Banking,36,No,PROD00963,Clothing,15308.46,2.3,In Stock,Social Media,5
+CUST00964,47,Female,Pune,Regular,43,ORD000964,2025-08-21,1064.76,9,Credit Card,31,No,PROD00964,Accessories,10838.36,2.6,In Stock,Email Marketing,4
+CUST00965,55,Male,Delhi,Silver,45,ORD000965,2025-08-22,727.34,9,Credit Card,10,No,PROD00965,Groceries,2667.83,2.7,In Stock,Word of Mouth,2
+CUST00966,19,Female,Bangalore,Regular,23,ORD000966,2025-08-23,4441.68,2,UPI,19,No,PROD00966,Accessories,10577.74,3.5,In Stock,Word of Mouth,3
+CUST00967,32,Female,Mumbai,Regular,69,ORD000967,2025-08-24,1846.06,9,Net Banking,34,No,PROD00967,Accessories,7975.16,2.1,Out of Stock,Google Ads,6
+CUST00968,28,Female,Hyderabad,Silver,94,ORD000968,2025-08-25,3482.58,6,Credit Card,46,No,PROD00968,Accessories,3689.08,4.9,Out of Stock,Email Marketing,8
+CUST00969,25,Female,Chennai,Silver,6,ORD000969,2025-08-26,321.67,8,UPI,45,No,PROD00969,Groceries,16846.16,3.4,In Stock,Word of Mouth,8
+CUST00970,43,Male,Kolkata,Regular,56,ORD000970,2025-08-27,3512.23,4,UPI,10,No,PROD00970,Accessories,319.47,2.6,Out of Stock,Email Marketing,5
+CUST00971,62,Male,Chennai,Gold,4,ORD000971,2025-08-28,1717.29,2,Credit Card,7,No,PROD00971,Electronics,6311.35,3.6,In Stock,Word of Mouth,5
+CUST00972,61,Male,Bangalore,Silver,93,ORD000972,2025-08-29,467.56,2,Net Banking,3,Yes,PROD00972,Groceries,350.64,2.6,Out of Stock,Social Media,10
+CUST00973,22,Male,Kolkata,Regular,23,ORD000973,2025-08-30,3127.1,9,Wallet,26,No,PROD00973,Accessories,2010.54,4.3,In Stock,Social Media,3
+CUST00974,23,Female,Hyderabad,Gold,6,ORD000974,2025-08-31,1355.86,1,Wallet,43,No,PROD00974,Electronics,6012.21,3.3,In Stock,Google Ads,7
+CUST00975,43,Male,Delhi,Regular,32,ORD000975,2025-09-01,2056.67,7,UPI,39,No,PROD00975,Accessories,1180.0,1.2,Out of Stock,Social Media,6
+CUST00976,21,Other,Chennai,Platinum,18,ORD000976,2025-09-02,586.79,3,Wallet,37,Yes,PROD00976,Clothing,11972.95,1.7,Out of Stock,Word of Mouth,1
+CUST00977,36,Female,Bangalore,Silver,15,ORD000977,2025-09-03,906.38,3,Wallet,46,No,PROD00977,Accessories,1828.57,4.5,In Stock,Google Ads,4
+CUST00978,37,Female,Hyderabad,Regular,40,ORD000978,2025-09-04,1630.29,2,Credit Card,29,No,PROD00978,Accessories,14064.1,3.3,In Stock,Google Ads,6
+CUST00979,50,Male,Pune,Silver,96,ORD000979,2025-09-05,630.85,6,UPI,43,No,PROD00979,Clothing,1147.58,4.8,In Stock,Social Media,6
+CUST00980,37,Female,Pune,Silver,73,ORD000980,2025-09-06,4571.97,2,Net Banking,47,No,PROD00980,Groceries,1280.25,1.3,Out of Stock,Email Marketing,3
+CUST00981,29,Female,Hyderabad,Silver,74,ORD000981,2025-09-07,229.03,4,UPI,47,No,PROD00981,Clothing,6175.99,2.2,In Stock,Social Media,6
+CUST00982,64,Female,Hyderabad,Platinum,84,ORD000982,2025-09-08,2522.53,9,Credit Card,26,No,PROD00982,Groceries,17941.77,1.8,In Stock,Social Media,10
+CUST00983,18,Female,Hyderabad,Silver,6,ORD000983,2025-09-09,791.59,9,Wallet,20,No,PROD00983,Clothing,12863.73,3.2,In Stock,Google Ads,6
+CUST00984,43,Female,Kolkata,Silver,63,ORD000984,2025-09-10,1676.86,6,Net Banking,19,No,PROD00984,Accessories,15425.61,2.5,In Stock,Social Media,9
+CUST00985,31,Male,Hyderabad,Gold,67,ORD000985,2025-09-11,4645.09,4,UPI,3,No,PROD00985,Accessories,2916.89,1.6,In Stock,Word of Mouth,9
+CUST00986,55,Female,Chennai,Silver,11,ORD000986,2025-09-12,976.13,7,Wallet,10,No,PROD00986,Groceries,16699.1,3.6,In Stock,Google Ads,2
+CUST00987,54,Male,Bangalore,Regular,43,ORD000987,2025-09-13,4836.0,1,UPI,12,Yes,PROD00987,Groceries,262.11,3.1,In Stock,Social Media,4
+CUST00988,28,Male,Kolkata,Gold,17,ORD000988,2025-09-14,1187.81,4,Net Banking,8,No,PROD00988,Electronics,4339.84,2.1,In Stock,Email Marketing,9
+CUST00989,53,Male,Hyderabad,Regular,96,ORD000989,2025-09-15,3759.52,5,UPI,3,No,PROD00989,Electronics,12360.24,2.9,In Stock,Word of Mouth,4
+CUST00990,30,Male,Mumbai,Silver,4,ORD000990,2025-09-16,2824.05,8,UPI,11,Yes,PROD00990,Accessories,7567.4,4.0,In Stock,Email Marketing,8
+CUST00991,60,Male,Mumbai,Gold,63,ORD000991,2025-09-17,4445.5,2,UPI,8,No,PROD00991,Accessories,19685.45,1.8,In Stock,Word of Mouth,10
+CUST00992,20,Male,Bangalore,Silver,68,ORD000992,2025-09-18,2859.17,5,Wallet,12,No,PROD00992,Electronics,703.75,2.2,In Stock,Email Marketing,3
+CUST00993,50,Other,Pune,Silver,81,ORD000993,2025-09-19,2765.88,6,Net Banking,47,No,PROD00993,Electronics,19972.1,2.4,In Stock,Social Media,3
+CUST00994,23,Female,Delhi,Silver,41,ORD000994,2025-09-20,1138.2,5,Net Banking,25,Yes,PROD00994,Groceries,12510.19,4.0,In Stock,Word of Mouth,9
+CUST00995,27,Other,Delhi,Regular,83,ORD000995,2025-09-21,997.9,9,Wallet,37,No,PROD00995,Clothing,11218.27,4.4,In Stock,Google Ads,10
+CUST00996,22,Male,Pune,Gold,5,ORD000996,2025-09-22,4599.15,1,Wallet,41,Yes,PROD00996,Groceries,1284.3,2.5,In Stock,Google Ads,8
+CUST00997,40,Male,Kolkata,Regular,32,ORD000997,2025-09-23,1773.62,3,Wallet,12,Yes,PROD00997,Electronics,5539.24,2.2,In Stock,Email Marketing,1
+CUST00998,27,Female,Kolkata,Regular,86,ORD000998,2025-09-24,1985.99,2,Credit Card,38,No,PROD00998,Accessories,18500.79,4.6,In Stock,Email Marketing,10
+CUST00999,61,Male,Kolkata,Regular,70,ORD000999,2025-09-25,3847.15,3,UPI,27,No,PROD00999,Electronics,7149.5,5.0,Out of Stock,Email Marketing,2
+CUST01000,19,Male,Delhi,Silver,35,ORD001000,2025-09-26,1826.35,9,UPI,18,No,PROD01000,Accessories,13266.9,3.7,In Stock,Word of Mouth,3
