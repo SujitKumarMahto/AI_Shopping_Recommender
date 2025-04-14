@@ -25,7 +25,7 @@ Simulated user shopping habits dataset used to build and test models.
 Achieved highest accuracy with Random Forest (~94%) after hyperparameter tuning. Visual results and model comparisons included in the paper.
 
 ## 📁 Files in this Repo
-- `shopping_recommender.ipynb` – Notebook for model training and evaluation
+- `# train_model.py – Notebook for model training and evaluation
 - `shopping_data.csv` – Sample dataset
 - `Research_Paper_AI_Shopping.pdf` – IEEE-style formatted research paper
 - `README.md` – Project summary
